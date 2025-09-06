@@ -7,14 +7,14 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://bdfdaccf.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://d6794497.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
 - **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
 ### Currently Completed Features
-- ✅ **Hero banner featuring "Adoration of the Trinity"** - Majestic artwork welcomes visitors
+- ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
 - ✅ Interactive saints gallery with 10 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
