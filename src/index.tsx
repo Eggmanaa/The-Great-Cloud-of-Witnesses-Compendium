@@ -1,16 +1,11 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
-import { serveStatic } from 'hono/cloudflare-workers'
 import { getSaintsSortedByDate } from './data/saints'
 
 const app = new Hono()
 
 // Enable CORS for API routes
 app.use('/api/*', cors())
-
-// Serve static files from public directory
-app.use('/static/*', serveStatic({ root: './public' }))
-app.use('/favicon.ico', serveStatic({ root: './public' }))
 
 // API route to get all saints
 app.get('/api/saints', (c) => {
@@ -34,9 +29,6 @@ app.get('/api/saints/:id', (c) => {
   return c.json(saint);
 });
 
-// Serve the main HTML file for the root route
-app.get('/', serveStatic({ path: './public/index.html', root: '.' }))
-
 // Health check endpoint
 app.get('/api/health', (c) => {
   return c.json({ 
@@ -45,5 +37,8 @@ app.get('/api/health', (c) => {
     timestamp: new Date().toISOString()
   });
 });
+
+// Note: Static files (HTML, JS, CSS) are served directly by Cloudflare Pages
+// The root route "/" and "/static/*" are handled by the files in the public/ directory
 
 export default app

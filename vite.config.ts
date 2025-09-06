@@ -10,5 +10,13 @@ export default defineConfig({
       adapter,
       entry: 'src/index.tsx'
     })
-  ]
+  ],
+  build: {
+    outDir: 'dist',
+    // Copy public files to dist
+    rollupOptions: {
+      input: []
+    }
+  },
+  publicDir: 'public'
 })
