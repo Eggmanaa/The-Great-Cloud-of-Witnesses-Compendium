@@ -40,21 +40,29 @@ function createSaintCard(saint) {
     
     card.innerHTML = `
         <div class="relative">
-            <!-- Portrait Container -->
-            <div class="aspect-[3/4] overflow-hidden bg-gray-800 relative">
+            <!-- Portrait Container - Changed to show full image -->
+            <div class="bg-gray-800 relative">
                 <img src="${saint.imageUrl}" 
                      alt="${saint.name}" 
-                     class="saint-portrait w-full h-full transform group-hover:scale-110 transition-transform duration-700"
+                     class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
                      loading="lazy"
+                     style="max-height: 500px; object-fit: contain; object-position: center;"
                      onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 500%22%3E%3Crect fill=%22%232a2a4e%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%22200%22 y=%22250%22 font-family=%22Arial%22 font-size=%2224%22 fill=%22%236a6a8a%22 text-anchor=%22middle%22%3EImage Loading...%3C/text%3E%3C/svg%3E'">
                 
-                <!-- Overlay gradient -->
-                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent opacity-60"></div>
+                <!-- Subtle overlay gradient at bottom only -->
+                <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black via-black/50 to-transparent opacity-70"></div>
                 
                 <!-- Feast Day Badge -->
                 <div class="absolute top-2 right-2 bg-black bg-opacity-70 px-2 py-1 rounded">
                     <p class="text-xs text-yellow-400 sans-text">
                         <i class="fas fa-calendar-alt mr-1"></i>${saint.feastDay}
+                    </p>
+                </div>
+                
+                <!-- Click to View Full Image Indicator -->
+                <div class="absolute top-2 left-2 bg-black bg-opacity-70 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                    <p class="text-xs text-yellow-400 sans-text">
+                        <i class="fas fa-expand mr-1"></i>Click to view
                     </p>
                 </div>
             </div>
@@ -116,29 +124,31 @@ function openModal(saint) {
     modalContent.innerHTML = `
         <!-- Close Button -->
         <button onclick="closeModal()" 
-                class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-10">
-            <i class="fas fa-times text-2xl"></i>
+                class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-10 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-times text-xl"></i>
         </button>
         
-        <!-- Modal Header with Image -->
-        <div class="relative">
-            <!-- Full Image Container -->
-            <div class="h-96 overflow-hidden bg-gray-800 cursor-pointer" onclick="showFullImage('${saint.imageUrl}', '${saint.name}')">
+        <!-- Modal Header with Full Image Display -->
+        <div class="relative bg-gray-800">
+            <!-- Full Image Container - Shows entire image -->
+            <div class="cursor-pointer relative group" onclick="showFullImage('${saint.imageUrl}', '${saint.name}')">
                 <img src="${saint.imageUrl}" 
                      alt="${saint.name}" 
-                     class="w-full h-full object-cover object-top">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent"></div>
+                     class="w-full h-auto mx-auto"
+                     style="max-height: 70vh; object-fit: contain;">
                 
-                <!-- Click to Expand Indicator -->
-                <div class="absolute top-4 left-4 bg-black bg-opacity-70 px-3 py-2 rounded">
-                    <p class="text-xs text-yellow-400 sans-text">
-                        <i class="fas fa-expand mr-1"></i>Click image to view full size
-                    </p>
+                <!-- Hover overlay with expand message -->
+                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                    <div class="bg-black bg-opacity-80 px-4 py-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-yellow-400 sans-text text-sm">
+                            <i class="fas fa-expand mr-2"></i>Click for full screen view
+                        </p>
+                    </div>
                 </div>
             </div>
             
-            <!-- Saint Name Overlay -->
-            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-gray-900">
+            <!-- Saint Information Bar -->
+            <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6">
                 <p class="text-sm text-yellow-400 sans-text uppercase tracking-wider mb-2">
                     ${saint.title}
                 </p>
@@ -224,24 +234,56 @@ function closeModal() {
 
 // Show full size image
 function showFullImage(imageUrl, altText) {
-    // Create fullscreen image overlay
+    // Create fullscreen image overlay with better styling
     const overlay = document.createElement('div');
-    overlay.className = 'fixed inset-0 z-[60] bg-black bg-opacity-95 flex items-center justify-center p-4';
-    overlay.onclick = () => overlay.remove();
+    overlay.className = 'fixed inset-0 z-[60] bg-black bg-opacity-95 flex items-center justify-center cursor-zoom-out';
+    overlay.onclick = (e) => {
+        if (e.target === overlay) {
+            overlay.remove();
+        }
+    };
     
     overlay.innerHTML = `
-        <div class="relative max-w-full max-h-full">
+        <div class="relative w-full h-full flex items-center justify-center p-4">
+            <!-- Full screen image -->
             <img src="${imageUrl}" 
                  alt="${altText}" 
-                 class="max-w-full max-h-full object-contain">
+                 class="max-w-full max-h-full object-contain cursor-default"
+                 onclick="event.stopPropagation()">
+            
+            <!-- Close button -->
             <button onclick="this.parentElement.parentElement.remove()" 
-                    class="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition-colors">
-                <i class="fas fa-times"></i>
+                    class="absolute top-4 right-4 text-white bg-black bg-opacity-70 rounded-full w-12 h-12 flex items-center justify-center hover:bg-opacity-90 transition-all hover:scale-110">
+                <i class="fas fa-times text-xl"></i>
             </button>
+            
+            <!-- Image title -->
+            <div class="absolute bottom-4 left-4 right-4 text-center">
+                <p class="text-white text-lg serif-text bg-black bg-opacity-70 px-4 py-2 rounded-lg inline-block">
+                    ${altText}
+                </p>
+            </div>
+            
+            <!-- Instructions -->
+            <div class="absolute top-4 left-4">
+                <p class="text-gray-400 text-sm sans-text bg-black bg-opacity-70 px-3 py-2 rounded">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Click outside image or press ESC to close
+                </p>
+            </div>
         </div>
     `;
     
     document.body.appendChild(overlay);
+    
+    // Add ESC key listener for this overlay
+    const escListener = (e) => {
+        if (e.key === 'Escape') {
+            overlay.remove();
+            document.removeEventListener('keydown', escListener);
+        }
+    };
+    document.addEventListener('keydown', escListener);
 }
 
 // Update saints count

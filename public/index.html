@@ -107,8 +107,17 @@
 
         /* Portrait image styling */
         .saint-portrait {
-            object-fit: cover;
-            object-position: top center;
+            object-fit: contain;
+            object-position: center;
+        }
+        
+        /* Full image container */
+        .image-container {
+            background: #1e1e3f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
         }
 
         /* Ornamental borders */
@@ -129,6 +138,24 @@
         .modal-content::-webkit-scrollbar-thumb {
             background: #BF953F;
             border-radius: 4px;
+        }
+        
+        /* Cursor styles for images */
+        .cursor-zoom-in {
+            cursor: zoom-in;
+        }
+        
+        .cursor-zoom-out {
+            cursor: zoom-out;
+        }
+        
+        /* Image hover effects */
+        .image-hover-zoom {
+            transition: transform 0.3s ease;
+        }
+        
+        .image-hover-zoom:hover {
+            transform: scale(1.02);
         }
     </style>
 </head>
