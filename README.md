@@ -3,27 +3,27 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 10 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 20 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://ea62fa0c.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://949fb7e2.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://949fb7e2.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 10 pivotal Catholic figures
+- ✅ Interactive saints gallery with 20 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
 - ✅ Full biography modal with expanded information
 - ✅ **Full uncropped artwork in modal** - Complete saint portraits visible when clicked
 - ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
-- ✅ Chronologically sorted saints (from St. Agnes 304 AD to St. Carlo Acutis 2006)
+- ✅ Chronologically sorted saints (from St. Gabriel the Archangel to St. Maximilian Kolbe 1941)
 - ✅ **Updated St. Agnes portrait** - New classical artwork representation
 - ✅ Miracles and signs section for each saint
 - ✅ Elegant typography with serif and sans-serif combinations
@@ -41,24 +41,38 @@
 - `/api/health` - Health check endpoint
 - `/api/saints` - Get all saints data (JSON)
 - `/api/saints/:id` - Get specific saint by ID
-  - Available IDs: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
+  - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
+  - New Saints: `st-augustine-hippo`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-catherine-siena-mystic`, `st-joan-arc`, `st-ignatius-loyola-founder`, `st-teresa-avila-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured
+## Saints Featured (Chronologically Ordered)
 
-1. **St. Agnes** (c. 291-304) - Virgin-Martyr of the Early Church
-2. **St. Francis of Assisi** (1181-1226) - Founder of Franciscan Order, Stigmatist
+### Original Collection
+1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
+2. **St. Agnes** (c. 291-304) - Virgin-Martyr of the Early Church
 3. **St. Anthony of Padua** (1195-1231) - Doctor of the Church, Wonder-Worker
-4. **St. Catherine of Siena** (1347-1380) - Doctor of the Church, Mystic
-5. **St. Ignatius of Loyola** (1491-1556) - Founder of the Jesuits
-6. **Our Lady of Guadalupe** (1531) - Marian Apparition, Patroness of Americas
-7. **St. Teresa of Ávila** (1515-1582) - Carmelite Reformer, Doctor of the Church
-8. **St. Padre Pio** (1887-1968) - Stigmatist, Mystic Confessor
-9. **St. Gabriel the Archangel** - Divine Messenger
+4. **St. Francis of Assisi** (1181-1226) - Founder of Franciscan Order, Stigmatist
+5. **St. Catherine of Siena** (1347-1380) - Doctor of the Church, Mystic
+6. **St. Ignatius of Loyola** (1491-1556) - Founder of the Jesuits
+7. **Our Lady of Guadalupe** (1531) - Marian Apparition, Patroness of Americas
+8. **St. Teresa of Ávila** (1515-1582) - Carmelite Reformer, Doctor of the Church
+9. **St. Padre Pio** (1887-1968) - Stigmatist, Mystic Confessor
 10. **St. Carlo Acutis** (1991-2006) - First Millennial Saint, Cyber-Apostle
+
+### New Additions from "The Great Cloud of Witnesses" Document
+11. **St. Augustine of Hippo** (354-430) - Doctor of Grace, Theologian and Philosopher
+12. **St. Patrick** (c. 385-461) - Apostle of Ireland, Missionary Bishop
+13. **St. Hildegard von Bingen** (1098-1179) - Mystic, Composer, Natural Scientist
+14. **St. Thomas Aquinas** (c. 1225-1274) - Angelic Doctor, Scholastic Theologian
+15. **St. Catherine of Siena** (1347-1380) - Mystic, Stigmatist, Papal Advisor
+16. **St. Joan of Arc** (c. 1412-1431) - Maid of Orléans, Military Leader, Martyr
+17. **St. Ignatius of Loyola** (1491-1556) - Founder of Jesuits, Spiritual Exercises
+18. **St. Teresa of Ávila** (1515-1582) - Carmelite Reformer, Mystical Theologian
+19. **St. Thérèse of Lisieux** (1873-1897) - Little Flower, Little Way Spirituality
+20. **St. Maximilian Kolbe** (1894-1941) - Martyr of Charity, Auschwitz Hero
 
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
