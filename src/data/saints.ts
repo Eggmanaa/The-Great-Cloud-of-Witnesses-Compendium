@@ -637,6 +637,290 @@ John was also a gifted writer and publisher, producing educational and spiritual
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/05d385b7933554838318c44b996e3e89",
     orderByDate: 1888
+  },
+  {
+    id: "st-josephine-bakhita",
+    name: "St. Josephine Bakhita",
+    title: "Our Mother Moretta, Slave of Christ",
+    knownFor: "From Slavery to Sainthood, Religious Sister",
+    feastDay: "February 8",
+    lifespan: "c. 1869-1947",
+    patronOf: "Sudan, Victims of Human Trafficking, Slavery Survivors",
+    shortBio: "A Sudanese-Italian Canossian religious sister who was enslaved as a child but found freedom and faith in Italy. Her remarkable journey from brutal captivity to religious consecration made her a powerful witness to God's transforming love.",
+    fullBio: `Born in Darfur, Sudan, around 1869, Bakhita (meaning "fortunate") was given this name by her captors after being kidnapped at age seven. She forgot her birth name due to the trauma. Over the next twelve years, she was bought and sold multiple times, experiencing brutal treatment that left her with 114 scars from torture.
+
+In 1883, she was purchased by the Italian consul Callisto Legnani, who treated her kindly. When he returned to Italy in 1885, she insisted on going with him. She was given to the Michieli family and became nanny to their daughter. When the family moved to Sudan, Bakhita and the child were left with the Canossian Sisters in Venice.
+
+It was with the sisters that Bakhita first learned about God. She later wrote, "Seeing the sun, the moon and the stars, I said to myself: Who could be the Master of these beautiful things? And I felt a great desire to see him, to know him and to pay him homage."
+
+On January 9, 1890, she was baptized and confirmed, taking the name Josephine. When the Michieli family returned to claim her, she refused to leave. The case went to court, which ruled that since slavery was illegal in Italy, she had always been free. She chose to remain with the Canossian Sisters and received the religious habit in 1896.
+
+For the next 42 years, she worked as a cook, sacristan, and portress at the convent in Schio. She was known for her gentleness, charismatic voice, and constant smile. Her holiness and story spread, and she became known as "Madre Moretta" (our Black Mother).
+
+During World War II, the people of Schio credited her prayers for protecting the town from bombing. She died on February 8, 1947, with her last words being "Our Lady! Our Lady!" She was canonized by Pope John Paul II in 2000, becoming the first person from Sudan to be canonized.`,
+    miracles: [
+      "Protected the town of Schio from bombing during WWII through her prayers",
+      "Miraculous healing of Eva da Costa in Brazil from diabetic ulcers",
+      "Healing of a woman with knee arthrosis after praying for Bakhita's intercession",
+      "Numerous conversions through her gentle witness and story",
+      "Prophetic knowledge of people's spiritual needs"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/088e5ae7dcb8367a0ede197310b218f3",
+    orderByDate: 1947
+  },
+  {
+    id: "st-benedict-nursia",
+    name: "St. Benedict of Nursia",
+    title: "Father of Western Monasticism",
+    knownFor: "Founder of Benedictine Order, Rule of St. Benedict",
+    feastDay: "July 11",
+    lifespan: "c. 480-547",
+    patronOf: "Europe, Monks, Students, Farmers, Engineers",
+    shortBio: "The founder of Western monasticism who established the Benedictine Order and wrote the Rule of St. Benedict. His balanced approach to religious life through prayer and work ('Ora et Labora') shaped European civilization.",
+    fullBio: `Born in Nursia (modern Norcia) around 480 AD into a noble Roman family, Benedict was sent to Rome for his education. Disgusted by the vice and corruption he witnessed in the city, he fled to the mountains of Subiaco around 500 AD, where he lived as a hermit in a cave for three years.
+
+His holiness attracted disciples, and he established twelve monasteries in the Subiaco area, each with twelve monks. Around 529, he moved to Monte Cassino, where he founded the famous monastery that would become the motherhouse of the Benedictine Order.
+
+At Monte Cassino, Benedict wrote his Rule, a guide for monastic life that balanced prayer, work, and study. The Rule emphasized moderation, community life, obedience, and stability. Its wisdom and practicality made it the standard for Western monasticism. The motto "Ora et Labora" (Pray and Work) summarized the Benedictine approach.
+
+Benedict's Rule provided for a self-sufficient community with designated times for prayer (the Divine Office), manual labor, and sacred reading (Lectio Divina). This structure preserved classical learning through the Dark Ages, as Benedictine monasteries became centers of education, agriculture, and hospitality.
+
+Benedict performed numerous miracles during his lifetime, including raising the dead and multiplying food. He had the gift of prophecy and could read hearts. His sister, St. Scholastica, also founded a religious community nearby.
+
+He died on March 21, 547, standing in prayer in the chapel, supported by his monks. He was buried beside his sister Scholastica. His influence on Western civilization is immeasurable, as Benedictine monasteries preserved classical knowledge, developed agriculture, and evangelized Europe.`,
+    miracles: [
+      "Caused water to flow from a rock through prayer",
+      "Raised a young monk from the dead",
+      "Multiplied bread during a famine",
+      "Read the thoughts and sins of his monks",
+      "Prophesied his own death and future events",
+      "Made a broken sieve whole through prayer"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/da4cf32336217b555a24f662c21cd7e0",
+    orderByDate: 547
+  },
+  {
+    id: "st-josemaria-escriva",
+    name: "St. Josemaría Escrivá",
+    title: "Founder of Opus Dei",
+    knownFor: "Universal Call to Holiness, Sanctification of Work",
+    feastDay: "June 26",
+    lifespan: "1902-1975",
+    patronOf: "Opus Dei Members, Workers, Diabetics",
+    shortBio: "A Spanish priest who founded Opus Dei, teaching that all people are called to holiness through their ordinary work and daily life. His message of finding God in everyday activities revolutionized lay spirituality.",
+    fullBio: `Born in Barbastro, Spain, on January 9, 1902, Josemaría Escrivá experienced early hardship when his family's textile business failed. The death of three younger sisters deepened his spiritual sensitivity. Seeing footprints of a barefoot Carmelite in the snow, he felt called to the priesthood.
+
+Ordained in 1925, he served in rural parishes and pursued doctoral studies in Madrid. On October 2, 1928, during a retreat, he received a divine inspiration to found Opus Dei (Work of God), an organization dedicated to helping lay people seek holiness through their ordinary work and daily duties.
+
+The Spanish Civil War (1936-1939) brought persecution and danger. Escrivá had to flee Madrid, crossing the Pyrenees on foot to escape to the Nationalist zone. After the war, he worked tirelessly to spread Opus Dei throughout Spain and eventually worldwide.
+
+In 1946, he moved to Rome to seek papal approval for Opus Dei. He spent the rest of his life there, guiding the organization's growth and writing extensively. His main work, "The Way," contains 999 points of spiritual advice and has been translated into dozens of languages.
+
+Escrivá's central message was the universal call to holiness - that sanctity is not reserved for priests and religious but is accessible to all through the faithful performance of daily work and duties. He taught that professional work, when done well and offered to God, becomes a path to holiness.
+
+He emphasized the importance of: spiritual childhood, devotion to Mary and Joseph, daily mental prayer, frequent confession and communion, and unity with the Pope. His approach combined traditional Catholic spirituality with a modern understanding of the lay apostolate.
+
+He died suddenly on June 26, 1975, after looking at an image of Our Lady of Guadalupe. Opus Dei had spread to six continents with over 60,000 members. He was canonized by Pope John Paul II in 2002.`,
+    miracles: [
+      "Miraculous cure of Dr. Manuel Nevado Rey from radiodermatitis",
+      "Healing of a Chilean girl from a malignant tumor",
+      "Numerous spiritual conversions through his intercession",
+      "Bilocation reported by witnesses",
+      "Prophetic knowledge of future events",
+      "Multiplication of food during times of scarcity"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c52ecc7808981132f85d46d58217a114",
+    orderByDate: 1975
+  },
+  {
+    id: "st-michael-archangel",
+    name: "St. Michael the Archangel",
+    title: "Prince of the Heavenly Host",
+    knownFor: "Defender Against Evil, Leader of God's Army",
+    feastDay: "September 29",
+    lifespan: "N/A (Angelic Being)",
+    patronOf: "Police Officers, Soldiers, Paratroopers, Grocers, The Sick",
+    shortBio: "The warrior archangel who leads God's army against Satan. His name means 'Who is like God?' and he is invoked for protection against evil and as the guardian of the Church.",
+    fullBio: `St. Michael the Archangel is one of the three archangels mentioned by name in Scripture (along with Gabriel and Raphael). His name in Hebrew, "Mi-ka-El," means "Who is like God?" - a battle cry against the pride of Satan who sought to be like the Most High.
+
+In the Book of Revelation, Michael is depicted as the leader of God's army in the war in heaven: "And there was war in heaven. Michael and his angels fought against the dragon, and the dragon and his angels fought back. But he was not strong enough, and they lost their place in heaven" (Revelation 12:7-8).
+
+Michael appears several times in Scripture. In the Book of Daniel, he is called "one of the chief princes" and "the great prince who protects your people." In the Letter of Jude, he is shown disputing with the devil over the body of Moses, demonstrating his role as defender against evil.
+
+Church tradition assigns Michael four primary offices:
+1. To fight against Satan and the forces of evil
+2. To rescue the souls of the faithful from the power of the enemy at the hour of death
+3. To be the champion of God's people, both the Jews in the Old Testament and Christians in the New
+4. To bring souls to judgment and weigh them on his scales
+
+Throughout history, Michael has been invoked in times of danger. The famous prayer to St. Michael was composed by Pope Leo XIII after a vision of the spiritual battle between good and evil. Many churches and shrines are dedicated to him, including Mont-Saint-Michel in France and the Castel Sant'Angelo in Rome.
+
+The Archangel Michael is often depicted in art as a warrior in armor, wielding a sword or spear, standing over or fighting a dragon or Satan. Sometimes he holds scales, representing his role in the particular judgment of souls. His appearance to various saints and at apparition sites like Garabandal demonstrates his continued role as protector of the Church.`,
+    miracles: [
+      "Cast Satan and rebellious angels out of heaven",
+      "Appeared to stop a plague in Rome (590 AD) at Castel Sant'Angelo",
+      "Apparitions at Monte Gargano, Italy (490 AD)",
+      "Appeared to Joan of Arc, guiding her mission",
+      "Protected the Church through various interventions throughout history",
+      "Numerous healings and deliverances through his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/bafeffb5ed09489bccbfef5798bf4ce3",
+    orderByDate: 0 // Angelic being, no earthly date
+  },
+  {
+    id: "st-junipero-serra",
+    name: "St. Junípero Serra",
+    title: "Apostle of California",
+    knownFor: "Founder of California Missions, Evangelizer",
+    feastDay: "July 1",
+    lifespan: "1713-1784",
+    patronOf: "California, Hispanic Americans, Religious Vocations",
+    shortBio: "A Spanish Franciscan friar who founded nine of the 21 California missions, bringing Christianity and European civilization to the region. Despite physical limitations, he walked thousands of miles evangelizing.",
+    fullBio: `Born Miguel José Serra in Petra, Mallorca, Spain, on November 24, 1713, he was the son of humble farmers. Despite his family's poverty, his intellectual gifts were recognized, and he was able to study at the Franciscan university in Palma.
+
+Joining the Franciscans at 16, he took the name Junípero after St. Juniper, a companion of St. Francis. Ordained in 1737, he became a renowned preacher and professor of philosophy. However, he felt called to missionary work and in 1749, at age 35, left his prestigious position to evangelize in the New World.
+
+After a difficult voyage, he arrived in Mexico and worked among the indigenous peoples of the Sierra Gorda region for nine years. In 1767, when the Jesuits were expelled from Spanish territories, Serra was chosen to take over the missions of Baja California.
+
+In 1769, at age 56, he joined the Portolá expedition to Alta California. Despite a chronic leg infection that caused him constant pain, he walked thousands of miles establishing missions. He founded Mission San Diego de Alcalá (1769), the first of nine missions he would personally establish along the California coast.
+
+Serra's missionary method combined evangelization with practical education. The missions taught agriculture, crafts, and European customs alongside Christianity. He fought to protect indigenous peoples from military abuse, often conflicting with Spanish soldiers and governors.
+
+He developed a close relationship with the Native Americans, learning their languages and defending their rights. He obtained special faculties from the Pope to confirm converts, becoming the first priest in the Americas with this privilege.
+
+Serra's missions formed the foundation of many major California cities, including San Diego, San Francisco, and Santa Clara. He baptized over 6,000 Native Americans and confirmed 5,000.
+
+He died at Mission San Carlos Borromeo in Carmel on August 28, 1784, and was canonized by Pope Francis in 2015, despite controversy over the impact of colonization on indigenous peoples.`,
+    miracles: [
+      "Miraculous healing of his leg infection allowing him to continue walking",
+      "Multiplication of food supplies at the missions during shortages",
+      "Healing of a Native American child from serious illness",
+      "Numerous conversions through his preaching and example",
+      "Protection of missions from attacks through his prayers",
+      "Posthumous healings through his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/0f37beff6bcff25f16b6164e780f6407",
+    orderByDate: 1784
+  },
+  {
+    id: "st-joseph-carpenter",
+    name: "St. Joseph",
+    title: "Foster Father of Jesus, Spouse of Mary",
+    knownFor: "Protector of the Holy Family, Model of Workers",
+    feastDay: "March 19 (St. Joseph) and May 1 (St. Joseph the Worker)",
+    lifespan: "1st century BC - 1st century AD",
+    patronOf: "Universal Church, Fathers, Workers, Carpenters, Dying",
+    shortBio: "The foster father of Jesus and spouse of the Virgin Mary. A righteous man who protected and provided for the Holy Family, he is the model of humble service and obedient faith.",
+    fullBio: `St. Joseph, though mentioned sparingly in Scripture, plays a crucial role in salvation history as the foster father of Jesus Christ and the spouse of the Blessed Virgin Mary. He was of the royal lineage of David, fulfilling the messianic prophecies that the Christ would come from David's line.
+
+The Gospels describe Joseph as a "just man" (Matthew 1:19), indicating his faithfulness to God's law and his compassionate character. When he discovered Mary was pregnant before their marriage was consummated, he planned to divorce her quietly to avoid public shame, showing his merciful nature.
+
+His life was marked by divine interventions through dreams. An angel appeared to him in a dream to reveal that Mary's child was conceived by the Holy Spirit and that he should take her as his wife. He obeyed immediately, demonstrating perfect faith and obedience to God's will.
+
+Joseph protected the Holy Family during their flight to Egypt to escape Herod's massacre of infants, staying there until another angelic dream told him it was safe to return. He settled in Nazareth, where he worked as a carpenter (or more broadly, a craftsman), teaching Jesus his trade.
+
+The last mention of Joseph in Scripture is when Jesus was twelve years old at the Temple. Church tradition holds that Joseph died before Jesus began his public ministry, in the arms of Jesus and Mary - making him the patron of a happy death.
+
+Joseph's silence in Scripture - not a single word of his is recorded - speaks to his humility and action-oriented faith. He is the model of masculine virtue: protective, providing, and self-sacrificing. His manual labor sanctified work itself, showing that holiness can be achieved through ordinary daily tasks.
+
+Pope Pius IX declared him Patron of the Universal Church in 1870, and Pope Francis added his name to the Eucharistic Prayers. In 2020, Pope Francis declared a Year of St. Joseph, highlighting his importance for our times.`,
+    miracles: [
+      "Received divine messages through angelic dreams",
+      "Protected the Christ Child from Herod's persecution",
+      "Numerous miraculous interventions for those who invoke his aid",
+      "Special assistance to the dying who call upon him",
+      "Providential help in finding employment and housing",
+      "Protection of families and the Church through his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/5788b1c4e024c7086c233cea8ec1823c",
+    orderByDate: 30 // Approximate death date
+  },
+  {
+    id: "st-john-paul-ii",
+    name: "St. John Paul II",
+    title: "Pope, The Great",
+    knownFor: "First Polish Pope, World Youth Day, Fall of Communism",
+    feastDay: "October 22",
+    lifespan: "1920-2005",
+    patronOf: "World Youth Day, Young Catholics, Families",
+    shortBio: "The first Polish pope who helped end Communist rule in Europe, revolutionized the papacy through his travels, and connected with youth worldwide. His motto 'Be not afraid!' inspired millions.",
+    fullBio: `Born Karol Józef Wojtyła on May 18, 1920, in Wadowice, Poland, he experienced profound loss early in life. His mother died when he was eight, his older brother when he was twelve, and his father when he was twenty. These experiences deepened his faith and reliance on the Blessed Virgin Mary.
+
+During the Nazi occupation of Poland, he worked in a quarry and chemical factory while secretly studying for the priesthood in an underground seminary. He was ordained in 1946 and sent to Rome for doctoral studies. He earned doctorates in theology and philosophy, becoming a professor and eventually Archbishop of Kraków.
+
+Elected Pope on October 16, 1978, at age 58, he was the first non-Italian pope in 455 years and the youngest in 132 years. He chose the name John Paul II to honor his predecessors.
+
+His 27-year pontificate was marked by:
+
+- Extensive Travel: He visited 129 countries, more than all previous popes combined, earning him the title "Pilgrim Pope."
+
+- Youth Ministry: He established World Youth Day in 1985, drawing millions of young people to the faith.
+
+- Role in Ending Communism: His support for Poland's Solidarity movement and his moral authority helped bring about the fall of the Iron Curtain.
+
+- Theological Contributions: He wrote 14 encyclicals, including "Evangelium Vitae" (Gospel of Life) and developed the Theology of the Body.
+
+- Ecumenical and Interfaith Outreach: He was the first pope to visit a synagogue and a mosque, and he made historic apologies for Church failures.
+
+- Marian Devotion: His motto "Totus Tuus" (Totally Yours) expressed his dedication to Mary. He credited her with saving his life during the 1981 assassination attempt.
+
+On May 13, 1981, he was shot in St. Peter's Square but survived, later forgiving and visiting his would-be assassin in prison. He saw Mary's hand in his survival, placing the bullet in the crown of Our Lady of Fatima.
+
+His final years were marked by Parkinson's disease, which he bore with remarkable courage, showing the dignity of suffering. He died on April 2, 2005, and was canonized by Pope Francis in 2014.`,
+    miracles: [
+      "Miraculous survival of assassination attempt in 1981",
+      "Healing of Sister Marie Simon-Pierre from Parkinson's disease",
+      "Healing of Floribeth Mora Diaz from brain aneurysm",
+      "Numerous conversions through his witness and teaching",
+      "Inspired the fall of Communism in Eastern Europe",
+      "Countless testimonies of graces received through his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/d64f932dcd1a5201b686401b4d2a52fe",
+    orderByDate: 2005
+  },
+  {
+    id: "st-raphael-archangel",
+    name: "St. Raphael the Archangel",
+    title: "Medicine of God, Divine Healer",
+    knownFor: "Healer, Guide, Patron of Travelers",
+    feastDay: "September 29",
+    lifespan: "N/A (Angelic Being)",
+    patronOf: "Travelers, Blind, Nurses, Physicians, Medical Workers, Happy Meetings",
+    shortBio: "One of the three archangels named in Scripture, Raphael's name means 'God heals.' He is known for his role in the Book of Tobit as a healer and guide, and is invoked for physical and spiritual healing.",
+    fullBio: `St. Raphael is one of the three archangels specifically named in Sacred Scripture, along with Michael and Gabriel. His name in Hebrew means "God heals" or "Medicine of God," reflecting his special role as the angel of healing and wholeness.
+
+Raphael's most extensive appearance in Scripture is in the Book of Tobit, where he takes human form as "Azarias" to accompany young Tobias on a dangerous journey. Throughout this journey, Raphael:
+
+- Protects Tobias from harm during his travels
+- Teaches him how to use fish parts to create medicine that heals his father Tobit's blindness
+- Helps him safely retrieve his family's money
+- Arranges his marriage to Sarah, after freeing her from a demon that had killed her seven previous husbands
+- Reveals his true identity only at the end, saying "I am Raphael, one of the seven angels who stand before the Lord"
+
+In the Gospel of John, tradition identifies Raphael as the angel who stirred the waters at the Pool of Bethesda, where the sick would gather hoping for healing. This connection reinforces his role as the angel of healing.
+
+Church tradition also associates Raphael with:
+
+- The angel who healed Abraham after his circumcision
+- The angel who gave Noah the knowledge of medicine after the flood
+- One of the three angels who visited Abraham (along with Michael and Gabriel)
+- The guardian of the Tree of Life in Eden
+
+As patron of travelers, Raphael is invoked for protection during journeys, both physical and spiritual. His guidance of Tobias serves as the model for how he accompanies all who call upon him, leading them safely through life's challenges.
+
+In art, Raphael is typically depicted as a young man in traveler's clothes, often carrying a staff and a fish (referencing the Book of Tobit). Sometimes he holds a small container of medicine or is shown with Tobias. His youthful appearance emphasizes his role as a friendly companion and guide.
+
+Devotion to St. Raphael encourages trust in God's healing power and providence, reminding us that we are never alone on our journey through life.`,
+    miracles: [
+      "Healed Tobit's blindness through the fish remedy",
+      "Freed Sarah from demonic oppression",
+      "Protected Tobias throughout his dangerous journey",
+      "Stirred the healing waters at the Pool of Bethesda (tradition)",
+      "Numerous healings through his intercession",
+      "Guides souls safely through life's journey"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/aab30d84f6ac50d9864c5b14dcee9eaf",
+    orderByDate: 0 // Angelic being, no earthly date
   }
 ];
 
