@@ -6,10 +6,10 @@
 - **Features**: Interactive gallery of 10 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
-- **Development**: https://3000-iqqjcnv874dkq8bk1sz5v-6532622b.e2b.dev
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Deployment Preview**: https://04f94bf4.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://d43641c7.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
+- **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
