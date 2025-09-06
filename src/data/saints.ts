@@ -687,7 +687,7 @@ Anne and Joachim represent all who endure long periods of trial and unanswered p
       "Numerous miracles reported at St. Anne shrines worldwide",
       "Ongoing intercession for childless couples and families"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/088e5ae7dcb8367a0ede197310b218f3",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/190e43f9bba8a532ab5baec0ec1a55d6",
     orderByDate: 40
   },
   {
@@ -771,7 +771,7 @@ Entering the Canossian Sisters in 1896, she lived quietly for 42 years as cook, 
       "Numerous conversions inspired by her witness",
       "Ongoing intercession for trafficking victims and oppressed peoples"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/4b7b98c6bbe691612d9ca5778be91b06",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/088e5ae7dcb8367a0ede197310b218f3",
     orderByDate: 1947
   },
   {
@@ -863,6 +863,35 @@ As the defender of God's people and the Church, St. Michael continues his battle
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/bafeffb5ed09489bccbfef5798bf4ce3",
     orderByDate: 2
+  },
+  {
+    id: "st-juan-diego",
+    name: "St. Juan Diego",
+    title: "Visionary of Guadalupe, Indigenous Saint",
+    knownFor: "Recipient of Our Lady of Guadalupe Apparitions",
+    feastDay: "December 9",
+    lifespan: "1474-1548",
+    patronOf: "Indigenous Peoples of the Americas",
+    shortBio: "An Aztec convert to Christianity who received apparitions of the Virgin Mary as Our Lady of Guadalupe, leading to the miraculous image on his tilma and the conversion of millions.",
+    fullBio: `Born Cuauhtlatoatzin ("The Eagle Who Speaks") in Cuautitlán, Mexico, Juan Diego was a member of the Chichimeca people. He lived a simple life as a farmer and weaver, married but without children. After the Spanish conquest of Mexico, he and his wife converted to Christianity around 1524, taking the names Juan Diego and María Lucía.
+
+After his wife's death in 1529, Juan Diego moved to live with his uncle Juan Bernardino near Tepeyac Hill. On December 9, 1531, while walking to Mass, he encountered a beautiful lady surrounded by light on Tepeyac Hill. She identified herself as the Virgin Mary and asked him to request that the bishop build a church on the site.
+
+Bishop Juan de Zumárraga was skeptical and requested a sign. On December 12, the Virgin sent Juan Diego to gather roses from the barren hilltop - Castilian roses that didn't grow in Mexico. When Juan Diego opened his tilma (cloak) before the bishop to show the roses, the miraculous image of Our Lady of Guadalupe appeared imprinted on the fabric.
+
+The bishop immediately believed and built the requested church. Juan Diego spent the remaining 17 years of his life as guardian of the chapel and the miraculous image, sharing his story with the millions of pilgrims who came to see it. He lived in a small hermitage attached to the chapel, dedicating himself to prayer and evangelization.
+
+Juan Diego's humble obedience and the miraculous tilma led to the conversion of nearly nine million indigenous people within seven years. He represents the bridging of cultures and the universality of God's love for all peoples.`,
+    miracles: [
+      "Witnessed multiple apparitions of the Virgin Mary",
+      "Miraculous roses bloomed on barren Tepeyac Hill in December",
+      "The image of Our Lady miraculously appeared on his tilma",
+      "His tilma has survived nearly 500 years despite fragile cactus fiber material",
+      "Healing of his uncle Juan Bernardino by the Virgin Mary",
+      "Catalyst for the conversion of millions of indigenous people"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/4b7b98c6bbe691612d9ca5778be91b06",
+    orderByDate: 1548
   }
 ];
 
