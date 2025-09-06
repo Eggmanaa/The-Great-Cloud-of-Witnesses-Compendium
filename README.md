@@ -3,7 +3,7 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 23 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 31 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
@@ -16,7 +16,7 @@
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 23 pivotal Catholic figures
+- ✅ Interactive saints gallery with 31 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -49,7 +49,7 @@
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured (Chronologically Ordered)
+## Saints Featured (Chronologically Ordered) - 31 Total Saints
 
 ### Original Collection
 1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
