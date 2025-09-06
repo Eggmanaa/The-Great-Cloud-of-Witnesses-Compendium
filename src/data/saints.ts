@@ -637,6 +637,232 @@ John was also a gifted writer and publisher, producing educational and spiritual
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/05d385b7933554838318c44b996e3e89",
     orderByDate: 1888
+  },
+  {
+    id: "st-joseph",
+    name: "St. Joseph",
+    title: "Foster Father of Jesus, The Just Man",
+    knownFor: "Silent Guardian of the Holy Family, Patron of Workers",
+    feastDay: "March 19, May 1",
+    lifespan: "1st Century BC/AD",
+    patronOf: "Universal Church, Fathers, Workers, Happy Death",
+    shortBio: "The husband of Mary and foster father of Jesus, known for his silent obedience to God's will. A carpenter by trade, he protected and provided for the Holy Family with unwavering faith.",
+    fullBio: `St. Joseph, descendant of King David, was a humble carpenter in Nazareth who was betrothed to the Virgin Mary. When he discovered Mary was pregnant, being a just man, he planned to divorce her quietly rather than expose her to shame. An angel appeared to him in a dream, revealing that the child was conceived by the Holy Spirit and commanding him to take Mary as his wife.
+
+Joseph's life was marked by perfect obedience to God's will through angelic messages in dreams. He led the pregnant Mary to Bethlehem for the census, witnessed Jesus' birth in humble circumstances, and fled with his family to Egypt when warned of Herod's murderous intent. After Herod's death, he returned to Nazareth where he raised Jesus, teaching him his trade and instructing him in the faith.
+
+Though no words of Joseph are recorded in Scripture, his actions speak volumes about his character. He was a man of profound faith who embraced his role as protector and provider for the Son of God. His virtues of humility, obedience, and silent service make him a model for all Christians, especially fathers and workers.
+
+Joseph is believed to have died before Jesus began his public ministry, having the privilege of dying in the presence of Jesus and Mary - hence his patronage of a happy death.`,
+    miracles: [
+      "Received divine revelations through angelic dreams",
+      "Protected the Holy Family through divine guidance",
+      "His intercession is considered extraordinarily powerful",
+      "Saints Teresa of Ávila and Padre Pio attested to efficacy of prayers to him",
+      "Countless answered prayers through his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/5788b1c4e024c7086c233cea8ec1823c",
+    orderByDate: 50
+  },
+  {
+    id: "st-anne-joachim",
+    name: "Sts. Anne and Joachim",
+    title: "Parents of the Blessed Virgin Mary",
+    knownFor: "Grandparents of Jesus, Models of Faith and Perseverance",
+    feastDay: "July 26",
+    lifespan: "1st Century BC",
+    patronOf: "Grandparents, Mothers, Childless Couples",
+    shortBio: "The parents of the Virgin Mary, whose long years of childlessness ended with the miraculous conception of Mary after persistent prayer and faith.",
+    fullBio: `Saints Anne and Joachim were devout Jews living in Palestine during the first century BC. According to tradition preserved in the Protoevangelium of James, they were righteous and charitable members of their community, but suffered the deep sorrow of childlessness after twenty years of marriage - a condition often viewed as divine disfavor in their culture.
+
+Their story centers on their unwavering faith despite this trial. When Joachim's temple offering was rejected due to his childlessness, he retreated to the desert for forty days of fasting and prayer. During this time, angels appeared to both Anne in her garden and Joachim in the wilderness, announcing that they would conceive a daughter to be named Mary.
+
+The couple's joyful reunion at the Golden Gate of Jerusalem is traditionally viewed as the moment of Mary's Immaculate Conception. True to their vow, they brought three-year-old Mary to the Temple to dedicate her to God's service, demonstrating complete surrender of their long-awaited child to divine providence.
+
+Anne and Joachim represent all who endure long periods of trial and unanswered prayer, showing that God's timing is perfect. Their home was the first school of the Virgin Mary, where she learned the faith and virtues that prepared her to become the Mother of God.`,
+    miracles: [
+      "Miraculous conception of Mary in their old age",
+      "Simultaneous angelic announcements to both spouses",
+      "Their meeting at the Golden Gate associated with Mary's conception",
+      "Numerous miracles reported at St. Anne shrines worldwide",
+      "Ongoing intercession for childless couples and families"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/088e5ae7dcb8367a0ede197310b218f3",
+    orderByDate: 40
+  },
+  {
+    id: "st-john-paul-ii",
+    name: "St. John Paul II",
+    title: "The Pilgrim Pope, Apostle of New Evangelization",
+    knownFor: "Most Traveled Pope, Fall of Communism, Theology of the Body",
+    feastDay: "October 22",
+    lifespan: "1920-2005",
+    patronOf: "World Youth Day, Families, Youth",
+    shortBio: "A Polish pope who played a pivotal role in the fall of communism, traveled to 129 countries, and inspired millions with his message of human dignity and hope.",
+    fullBio: `Born Karol Józef Wojtyła in Wadowice, Poland, the future Pope John Paul II experienced profound suffering early in life, losing his mother at nine, brother at twelve, and father at twenty. His youth unfolded under brutal Nazi and Soviet occupations, experiences that forged his deep empathy for human suffering and unshakeable faith in human dignity.
+
+During World War II, he worked in a limestone quarry while secretly studying for the priesthood in an underground seminary. Ordained in 1946, he rose through Church ranks to become Archbishop of Krakow in 1964 and cardinal in 1967. On October 16, 1978, he was elected Pope - the first non-Italian in 455 years.
+
+His pontificate transformed the papacy and the world. As 'the Pilgrim Pope,' he made 104 international trips to 129 countries, bringing the Gospel to every corner of the globe. His 1979 visit to Poland sparked the Solidarity movement and catalyzed communism's peaceful collapse across Eastern Europe.
+
+John Paul II survived an assassination attempt in 1981, which he attributed to Our Lady of Fatima's intercession. His later forgiveness of his attacker exemplified his message of mercy. He established World Youth Day in 1985, creating a global movement that continues to inspire young Catholics worldwide.
+
+His intellectual legacy includes 14 encyclicals and the revolutionary 'Theology of the Body,' transforming Catholic teaching on human sexuality and marriage. His long public battle with Parkinson's disease became a powerful witness to the dignity of suffering and life until natural death.`,
+    miracles: [
+      "Healing of Sister Marie Simon-Pierre from Parkinson's disease",
+      "Healing of Floribeth Mora Díaz from terminal brain aneurysm",
+      "Survived assassination attempt attributed to Our Lady of Fatima",
+      "Instrumental role in peaceful fall of communism",
+      "Inspired countless conversions and vocations worldwide"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/d64f932dcd1a5201b686401b4d2a52fe",
+    orderByDate: 2005
+  },
+  {
+    id: "st-josemaria-escriva",
+    name: "St. Josemaria Escriva",
+    title: "Founder of Opus Dei, Apostle of Ordinary Life",
+    knownFor: "Universal Call to Holiness, Sanctification of Work",
+    feastDay: "June 26",
+    lifespan: "1902-1975",
+    patronOf: "Those with Diabetes, Ordinary Life, Lay Apostolate",
+    shortBio: "A Spanish priest who founded Opus Dei and taught that all people are called to holiness through their ordinary work and daily responsibilities.",
+    fullBio: `Born Josemaría Escrivá y Albás in Barbastro, Spain, to a family that fell from prosperity to poverty, Josemaria experienced early hardship including the deaths of three sisters. His vocation was sparked as a teenager when he saw footprints of a barefoot Carmelite friar in the snow, prompting him to ask what God wanted of him.
+
+Ordained a priest in 1925, he moved to Madrid where his life changed dramatically on October 2, 1928. During a spiritual retreat, he received a divine illumination in which he 'saw' Opus Dei ('Work of God') - a new path within the Church enabling ordinary men and women to seek sanctity without leaving their place in the world.
+
+Escriva's revolutionary message was that the factory, office, home, and field are 'altars' where lay people can offer their daily work as sacrifice to God. This teaching on the universal call to holiness preceded the Second Vatican Council by decades but became central to conciliar teaching.
+
+During the Spanish Civil War, he was forced into hiding and made a dangerous escape across the Pyrenees. After the war, Opus Dei expanded rapidly. In 1946, he moved to Rome seeking papal approval, which was granted in stages, culminating in Opus Dei's establishment as a personal prelature in 1982.
+
+His spiritual classic 'The Way' has sold millions of copies worldwide, guiding countless people in integrating faith with everyday life. His teaching emphasizes that holiness is not reserved for clergy and religious but is the calling of every Christian.`,
+    miracles: [
+      "Divine illumination founding Opus Dei in 1928",
+      "Healing of Carmelite nun from terminal cancer (beatification)",
+      "Healing of Dr. Manuel Nevado Rey from radiodermatitis (canonization)",
+      "Rapid global spread of Opus Dei and lay spirituality movement",
+      "Countless conversions through his writings and teaching"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c52ecc7808981132f85d46d58217a114",
+    orderByDate: 1975
+  },
+  {
+    id: "st-josephine-bakhita",
+    name: "St. Josephine Bakhita",
+    title: "The Universal Sister, Former Slave",
+    knownFor: "Triumph Over Slavery, Witness to Forgiveness",
+    feastDay: "February 8",
+    lifespan: "c. 1869-1947",
+    patronOf: "Sudan, Human Trafficking Survivors, Oppressed People",
+    shortBio: "Kidnapped as a child and sold into slavery, she found freedom and faith in Italy, becoming a Canossian sister known for her joy and capacity for forgiveness.",
+    fullBio: `Born around 1869 in the village of Olgossa in Sudan's Darfur region, she was a member of the Daju people whose uncle was a tribal chief. Her childhood was violently shattered when Arab slave traders kidnapped her at age seven. The trauma was so severe she forgot her birth name; her captors called her 'Bakhita,' meaning 'fortunate' or 'lucky' in Arabic.
+
+For over a decade, she was bought and sold at least five times in the slave markets of El Obeid and Khartoum, subjected to horrific abuse and humiliation. One owner, a Turkish general, had her ritually scarred with 114 cuts filled with salt, leaving permanent scars across her body.
+
+In 1883, Italian consul Callisto Legnani bought her, treating her with unprecedented kindness. When he returned to Italy, Bakhita begged to accompany him. In Venice, she served the Michieli family as a nanny but was left in the care of Canossian Sisters when the family traveled.
+
+With the sisters, Bakhita first encountered Christianity and felt profound attraction to the faith. When her mistress returned to reclaim her, Bakhita refused to leave. Italian authorities declared her legally free since slavery had been outlawed in Sudan before her birth. On January 9, 1890, she was baptized as Josephine Margaret Fortunata.
+
+Entering the Canossian Sisters in 1896, she lived quietly for 42 years as cook, seamstress, and doorkeeper in Schio, Northern Italy. Known for her radiant smile and gentleness, locals called her 'Madre Moretta' (our Black Mother). Her extraordinary capacity for forgiveness and witness to Christian hope made her beloved. She often said she would thank her kidnappers for bringing her to know Jesus.`,
+    miracles: [
+      "Her entire life transformation from traumatized slave to joyful religious",
+      "Extraordinary capacity for forgiveness of her tormentors",
+      "Legal freedom obtained through divine providence",
+      "Numerous conversions inspired by her witness",
+      "Ongoing intercession for trafficking victims and oppressed peoples"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/4b7b98c6bbe691612d9ca5778be91b06",
+    orderByDate: 1947
+  },
+  {
+    id: "st-junipero-serra",
+    name: "St. Junípero Serra",
+    title: "Apostle of California, Missionary",
+    knownFor: "Founder of California Missions, Evangelization of Native Americans",
+    feastDay: "July 1 (USA), August 28",
+    lifespan: "1713-1784",
+    patronOf: "California, Vocations, Hispanic Americans",
+    shortBio: "A Spanish Franciscan who founded the first nine California missions, evangelizing Native Americans despite personal suffering and chronic illness.",
+    fullBio: `Born Miguel José Serra on the Spanish island of Majorca to a farming family, he joined the Franciscans at 17, taking the name Junípero after a companion of St. Francis. Intellectually gifted, he earned a doctorate in theology and became a philosophy professor.
+
+Despite a promising academic career, Serra felt called to missionary work in the New World. In 1749, he sailed to Mexico, where an infected insect bite left him with a chronic leg ulcer that plagued him for life. He spent 18 years as a missionary among the Pame Indians in the Sierra Gorda region, learning their language, teaching agriculture, and defending their rights.
+
+In 1767, when Jesuits were expelled from Spanish territories, Serra was appointed president of former Jesuit missions in Baja California. Two years later, he volunteered for the expedition to colonize and evangelize Alta (Upper) California to counter Russian expansion from the north.
+
+Despite his painful leg condition requiring him to be carried on stretchers, Serra embarked on the arduous journey north. On July 1, 1769, he founded Mission San Diego de Alcalá, the first California mission. Over 15 years, he established eight more missions, traveling thousands of miles by foot and mule despite constant pain.
+
+Serra's motto was 'Always forward, never back.' His work was characterized by immense zeal and personal austerity. He baptized over 6,000 Native Americans and confirmed 5,000. While he defended Native American rights against military abuses and created a 'Bill of Rights' for them, his methods and the mission system itself remain controversial for their impact on indigenous cultures.
+
+He died at Mission San Carlos Borromeo in Carmel in 1784, having laid the foundation for California's development and the spread of Christianity on the Pacific Coast.`,
+    miracles: [
+      "Medically inexplicable healing of nun from lupus (1960) for beatification",
+      "Survived dangerous missionary journeys despite chronic illness",
+      "Rapid establishment of mission system across California",
+      "Thousands of conversions and baptisms among Native Americans",
+      "Enduring legacy of faith and culture in California"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/0f37beff6bcff25f16b6164e780f6407",
+    orderByDate: 1784
+  },
+  {
+    id: "st-raphael-archangel",
+    name: "St. Raphael the Archangel",
+    title: "Divine Healer, God's Medicine",
+    knownFor: "Companion of Tobias, Divine Physician, Guardian of Travelers",
+    feastDay: "September 29",
+    lifespan: "N/A (Angelic Being)",
+    patronOf: "Travelers, Blind, Medical Workers, Happy Meetings, Young People",
+    shortBio: "One of the three archangels named in Scripture, Raphael is God's healing angel who guided young Tobias on his journey and healed his father's blindness.",
+    fullBio: `St. Raphael is one of the three archangels specifically named in Sacred Scripture (along with Michael and Gabriel). His name means 'God heals' or 'God's medicine,' reflecting his primary role as the divine physician and healer sent by God to assist humanity.
+
+Raphael's most significant biblical appearance is in the Book of Tobit, where he disguises himself as a human companion named Azarias to guide young Tobias on a dangerous journey. Throughout their travels, Raphael protects Tobias from harm, helps him catch a fish whose organs would later heal his father's blindness, and guides him to his future bride Sarah, freeing her from a demon that had killed her seven previous husbands.
+
+When Raphael finally reveals his true identity, he explains that he was sent by God because of the prayers and good deeds of Tobit and Sarah. He had been presenting their prayers before God's throne and had come to heal Tobit's blindness and deliver Sarah from the demon.
+
+In Christian tradition, Raphael is invoked as the patron of travelers, having safely guided Tobias on his journey. He is also the patron of medical workers, the blind, and those seeking healing. His intercession is sought for happy meetings, as he brought Tobias and Sarah together in marriage.
+
+Raphael represents God's providential care for His people, showing how angels are sent to assist us in our earthly journeys. His healing ministry continues today as Christians invoke his intercession for physical, emotional, and spiritual healing. He reminds us that God's mercy and healing power are always available to those who seek Him with faith.`,
+    miracles: [
+      "Healed Tobit's blindness using fish gall",
+      "Protected Tobias throughout his dangerous journey",
+      "Freed Sarah from the demon Asmodeus",
+      "Guided Tobias to his future bride",
+      "Ongoing intercession for healing and safe travels",
+      "Countless healing miracles attributed to his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/aab30d84f6ac50d9864c5b14dcee9eaf",
+    orderByDate: 1
+  },
+  {
+    id: "st-michael-archangel",
+    name: "St. Michael the Archangel",
+    title: "Prince of the Heavenly Host, Defeater of Satan",
+    knownFor: "Warrior Angel, Protector, Leader of God's Army",
+    feastDay: "September 29",
+    lifespan: "N/A (Angelic Being)",
+    patronOf: "Soldiers, Police, Paramedics, Grocers, Germany, Protector of Church",
+    shortBio: "The mighty archangel who leads God's army against Satan, protects the Church, and will weigh souls at the Final Judgment.",
+    fullBio: `St. Michael the Archangel is the most powerful of all angels and serves as the commander of God's heavenly army. His name means 'Who is like God?' - the battle cry he proclaimed when he defeated Satan and cast him from heaven. Throughout Scripture and Christian tradition, Michael appears as God's mighty warrior and protector of His people.
+
+In the Old Testament, Michael is described in the Book of Daniel as 'the great prince who protects your people' and as one who stands guard over the nation of Israel. In the New Testament, the Letter of Jude mentions Michael disputing with the devil over the body of Moses, while the Book of Revelation describes his cosmic battle with the dragon (Satan), whom he defeats and casts down from heaven.
+
+Christian tradition assigns Michael several crucial roles: he is the protector of the Church, the conductor of souls at death, and the one who will weigh souls on the scales of justice at the Final Judgment. Medieval and Renaissance art commonly depicts him with scales, a sword, and armor, standing triumphant over a defeated devil.
+
+Devotion to St. Michael has been strong throughout Church history. Pope Leo XIII, after reportedly having a vision of Satan's assault on the Church, composed the famous Prayer to St. Michael, which was recited after every Low Mass until the 1960s. Many churches, especially those built on high places, are dedicated to St. Michael.
+
+St. Michael is invoked for protection against evil, both spiritual and physical. He is the patron of soldiers, police officers, paramedics, and all who risk their lives to protect others. In times of spiritual warfare, temptation, or danger, Christians call upon St. Michael to defend them with his mighty sword and shield of faith.
+
+As the defender of God's people and the Church, St. Michael continues his battle against the forces of darkness, reminding us that ultimate victory belongs to God and that we have a powerful advocate in our spiritual struggles.`,
+    miracles: [
+      "Led the heavenly army in defeating Satan and fallen angels",
+      "Protects souls from demonic attacks and temptation",
+      "Appears to defend the Church in times of crisis",
+      "Conducts souls to judgment at the moment of death",
+      "Countless interventions protecting people from evil",
+      "Will lead the final battle against evil at the end of times"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/bafeffb5ed09489bccbfef5798bf4ce3",
+    orderByDate: 2
   }
 ];
 
