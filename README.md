@@ -7,7 +7,7 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://1076f4e9.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://ea62fa0c.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
 - **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
