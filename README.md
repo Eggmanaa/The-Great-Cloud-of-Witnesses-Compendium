@@ -3,20 +3,20 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 20 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 23 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://6e188726.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://d66f88ff.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://6e188726.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://d66f88ff.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 20 pivotal Catholic figures
+- ✅ Interactive saints gallery with 23 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -43,6 +43,7 @@
 - `/api/saints/:id` - Get specific saint by ID
   - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
   - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
+  - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
@@ -73,6 +74,11 @@
 18. **St. John of the Cross** (1542-1591) - Mystic of the Dark Night, Carmelite Reformer
 19. **St. Thérèse of Lisieux** (1873-1897) - Little Flower, Little Way Spirituality
 20. **St. Maximilian Kolbe** (1894-1941) - Martyr of Charity, Auschwitz Hero
+
+### Additional Saints Added
+21. **St. Cecilia** (c. 200-230) - Virgin and Martyr, Patron of Musicians
+22. **St. Vincent de Paul** (1581-1660) - Apostle of Charity, Father of the Poor
+23. **St. John Bosco** (1815-1888) - Don Bosco, Father and Teacher of Youth
 
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
