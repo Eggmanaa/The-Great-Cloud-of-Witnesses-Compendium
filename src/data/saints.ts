@@ -351,7 +351,7 @@ Hildegard was a true polymath whose integrated worldview saw no division between
       "Numerous healings reported at her tomb",
       "Her body remained incorrupt for centuries"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/cfb8e2599fe07a2cdd7a9ac297251d1f",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/4d0338933992558c191f5a4d884ac516",
     orderByDate: 1179
   },
   {
@@ -381,31 +381,30 @@ His method was revolutionary: he fairly presented opposing viewpoints before off
     orderByDate: 1274
   },
   {
-    id: "st-catherine-siena-mystic",
-    name: "St. Catherine of Siena",
-    title: "Doctor of the Church, Mystic and Diplomat",
-    knownFor: "Mystic, Stigmatist, Papal Advisor, Church Reformer",
-    feastDay: "April 29",
-    lifespan: "1347-1380",
-    patronOf: "Europe, Italy, Nurses, Fire Prevention, Politicians",
-    shortBio: "A Dominican tertiary who experienced profound mystical visions and convinced Pope Gregory XI to return the papacy from Avignon to Rome, ending the 'Babylonian Captivity.'",
-    fullBio: `Born the 24th of 25 children to a middle-class wool dyer in Siena, Catherine experienced her first vision of Christ at age six. She consecrated her virginity to Christ at seven and later joined the Dominican Third Order (Mantellate) at sixteen, living an austere life of prayer and penance in her family home.
+    id: "st-monica-mother",
+    name: "St. Monica",
+    title: "Mother of St. Augustine, Patron of Mothers",
+    knownFor: "Persistent Prayer, Mother of Augustine, Patience",
+    feastDay: "August 27",
+    lifespan: "c. 331-387",
+    patronOf: "Mothers, Married Women, Difficult Marriages, Abuse Victims",
+    shortBio: "The mother of St. Augustine whose persistent prayers and tears over 30 years led to her son's dramatic conversion. A model of patience and faith for Christian mothers.",
+    fullBio: `Born in North Africa to a Christian family, Monica was given in marriage to Patricius, a pagan man of violent temper. Despite his infidelity and harsh treatment, she won him over through her gentle patience and prayer, leading to his conversion and baptism shortly before his death.
 
-After three years of seclusion, Christ commanded her to enter public life. She began ministering to the sick and poor, attracting a diverse group of followers called her "bella brigata" (beautiful brigade). Despite being illiterate, she became a powerful spiritual director and political advisor, dictating hundreds of letters to popes, kings, and nobles.
+Monica's greatest trial was her brilliant son Augustine, who abandoned Christianity for Manichaeism and lived a dissolute life. For over 17 years, she followed him with her prayers and tears - from North Africa to Rome to Milan. When Augustine tried to escape her influence by sailing to Rome, she arrived at the port too late, spending the night in prayer at a nearby chapel.
 
-Catherine's most significant political achievement was convincing Pope Gregory XI to return the papacy from Avignon to Rome in 1377, ending nearly 70 years of "Babylonian Captivity." She fearlessly traveled to Avignon and through passionate letters and personal appeals, persuaded the wavering pontiff to restore the papal seat to Rome.
+Her persistence was legendary. When a bishop grew weary of her constant pleas to debate her son and convert him, he famously told her, "Go your way; as sure as you live, it is impossible that the son of such tears should perish." Her prayers were answered in 387 when Augustine was baptized by St. Ambrose in Milan.
 
-Her mystical life was extraordinary—she received invisible stigmata in 1375, experienced mystical marriage to Christ, and had her heart replaced by Christ's in a vision. Her theological masterpiece, The Dialogue, reveals profound insights into the spiritual life and God's mercy. She died in Rome at age 33, exhausted by her penances and efforts for Church unity.`,
+Monica died later that year at Ostia while preparing to return to Africa with Augustine. She told him, "Nothing is far from God, and I do not fear that He will not know where to find me at the resurrection." Her feast day is celebrated the day before Augustine's, honoring the mother whose faith made possible one of Christianity's greatest theologians.`,
     miracles: [
-      "Received invisible stigmata visible only to herself",
-      "Experienced mystical marriage to Christ with invisible ring",
-      "Heart mystically replaced with Christ's heart",
-      "Multiplied food during times of famine",
-      "Converted hardened criminals through conversation",
-      "Levitated during intense prayer"
+      "Converted her violent pagan husband through patient prayer",
+      "Her 30 years of tears and prayers led to Augustine's conversion",
+      "Received a vision promising Augustine's eventual conversion",
+      "Prophesied her own death at Ostia",
+      "Countless conversions inspired by her example of maternal persistence"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/e64abde14b3451293db32ef11c6086ce",
-    orderByDate: 1380
+    orderByDate: 387
   },
   {
     id: "st-joan-arc",
@@ -430,61 +429,66 @@ Captured by Burgundian allies of the English in 1430, Joan was sold to the Engli
       "Inspired French troops to impossible victories",
       "Her ashes were thrown into the Seine but reportedly would not sink"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/05d385b7933554838318c44b996e3e89",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/266aff4969e512854a8bf5600f02cba9",
     orderByDate: 1431
   },
   {
-    id: "st-ignatius-loyola-founder",
-    name: "St. Ignatius of Loyola",
-    title: "Founder of the Society of Jesus",
-    knownFor: "Spiritual Exercises, Jesuit Order, Counter-Reformation",
-    feastDay: "July 31",
-    lifespan: "1491-1556",
-    patronOf: "Soldiers, Spiritual Retreats, Jesuits, Education",
-    shortBio: "A Spanish soldier whose conversion after a battle wound led him to found the Society of Jesus. His Spiritual Exercises revolutionized Catholic spirituality and retreat work.",
-    fullBio: `Born Íñigo López de Loyola to Basque nobility, Ignatius initially pursued military glory and courtly life. His transformation began in 1521 when a cannonball shattered his leg at the Battle of Pamplona. During his long convalescence, the only books available were lives of Christ and the saints, which gradually converted his heart from worldly to spiritual ambitions.
+    id: "st-francis-xavier-missionary",
+    name: "St. Francis Xavier",
+    title: "Apostle of the Indies and Japan",
+    knownFor: "Great Missionary, Co-founder of Jesuits, Far East Evangelist",
+    feastDay: "December 3",
+    lifespan: "1506-1552",
+    patronOf: "Missions, Missionaries, India, Japan, China, East Indies",
+    shortBio: "A Spanish Jesuit missionary who evangelized vast territories in Asia, baptizing hundreds of thousands. One of the greatest Christian missionaries after St. Paul.",
+    fullBio: `Born Francisco de Jasso y Azpilicueta in the Kingdom of Navarre, Francis Xavier met Ignatius of Loyola while studying at the University of Paris. Initially resistant to Ignatius's spiritual influence, he was gradually won over by the famous question, "What does it profit a man to gain the whole world and lose his soul?"
 
-After recovery, Ignatius spent a year in prayer and penance at Manresa, where he experienced profound mystical insights that became the foundation of his Spiritual Exercises. These experiences taught him to discern God's will through attention to interior movements of consolation and desolation.
+Francis became one of the founding members of the Society of Jesus in 1540. When King John III of Portugal requested missionaries for the Portuguese colonies in the East, Francis volunteered and set sail for India in 1541, never to return to Europe.
 
-He studied theology in Paris, where he gathered his first companions, including St. Francis Xavier. Together they formed the Society of Jesus, approved by Pope Paul III in 1540. The Jesuits became known for their rigorous education, missionary zeal, and defense of papal authority during the Counter-Reformation.
+His missionary journeys were extraordinary in scope and success. He worked among the pearl fishers of southern India, where he baptized entire villages. He traveled to Ceylon (Sri Lanka), Malacca, the Molucca Islands (Spice Islands), and in 1549 became the first Christian missionary to Japan, where he spent over two years establishing the foundation of Japanese Christianity.
 
-As Superior General, Ignatius directed the rapidly expanding order from Rome, sending missionaries to India, Japan, Brazil, and other parts of the world. The Jesuits established schools and colleges worldwide, developing an educational system that emphasized both intellectual excellence and character formation. Ignatius spent his final years refining the Jesuit constitutions and directing the order's global mission until his death in 1556.`,
+Francis adapted his methods to local cultures, learning languages and customs. He translated Christian prayers and doctrine into local languages and trained native clergy. His letters describe baptizing so many people that his arms ached from the repetitive motion. He is credited with over 300,000 baptisms during his missionary career.
+
+Francis died in 1552 on Shangchuan Island off the coast of China, within sight of his goal to evangelize the Chinese Empire. His body was found incorrupt when exhumed months later, and miracles were reported at his tomb.`,
     miracles: [
-      "Experienced profound visions of the Trinity at La Storta",
-      "Levitated during Mass celebrations",
-      "Healed numerous people through prayer and blessing",
-      "Multiplied bread for the poor in Rome",
-      "Appeared to Jesuit missionaries in visions after death"
+      "Raised the dead on multiple occasions during his missions",
+      "Spoke in tongues, understood by people of different languages",
+      "Calmed storms at sea through prayer",
+      "His crucifix fell into the sea and was returned by a crab",
+      "Body remained incorrupt after death",
+      "Miraculous healings at his tomb and through his relics"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/ba26a5b8318d5d23993bb55edb9ee901",
-    orderByDate: 1556
+    orderByDate: 1552
   },
   {
-    id: "st-teresa-avila-mystic",
-    name: "St. Teresa of Ávila",
-    title: "Doctor of the Church, Carmelite Reformer",
-    knownFor: "Mystical Theology, Interior Castle, Carmelite Reform",
-    feastDay: "October 15",
-    lifespan: "1515-1582",
-    patronOf: "Spain, Headache Sufferers, Those in Religious Life",
-    shortBio: "A Spanish Carmelite nun who reformed her order and wrote masterpieces of mystical theology. The first woman declared a Doctor of the Church.",
-    fullBio: `Born Teresa Sánchez de Cepeda y Ahumada to a noble Castilian family, she entered the Carmelite Monastery of the Incarnation in Ávila at age 20. For nearly two decades, she struggled with illness and tepid spiritual practice in a relaxed monastic environment that allowed extensive social interaction.
+    id: "st-john-cross-mystic",
+    name: "St. John of the Cross",
+    title: "Doctor of the Church, Mystic of the Dark Night",
+    knownFor: "Dark Night of the Soul, Carmelite Reformer, Mystical Poetry",
+    feastDay: "December 14",
+    lifespan: "1542-1591",
+    patronOf: "Mystics, Contemplatives, Spanish Poets, Carmelites",
+    shortBio: "A Spanish Carmelite friar and mystic who collaborated with St. Teresa of Ávila in reforming the Carmelite Order. His spiritual writings on the 'Dark Night of the Soul' are classics of mystical theology.",
+    fullBio: `Born Juan de Yepes y Álvarez in Fontiveros, Castile, John experienced poverty from childhood after his father died young. He worked in a hospital while studying with the Jesuits, then joined the Carmelites in 1563, taking the name John of St. Matthias.
 
-At age 39, Teresa experienced a profound conversion while praying before an image of the wounded Christ. This marked the beginning of increasingly intense mystical experiences, including visions, locutions, and levitations. Her most famous vision, the Transverberation, involved an angel piercing her heart with a golden spear, leaving her inflamed with divine love.
+After ordination in 1567, John met St. Teresa of Ávila, who convinced him to join her reform of the Carmelite Order rather than become a Carthusian hermit. He became the first friar of the Discalced Carmelites, taking the name John of the Cross, and established the first reformed monastery for men.
 
-Recognizing the need for reform, Teresa founded the first Discalced (barefoot) Carmelite convent of St. Joseph in Ávila in 1562, returning to the primitive rule of poverty, enclosure, and contemplation. Despite fierce opposition from civil and religious authorities, she established 17 reformed convents throughout Spain, traveling constantly despite poor health.
+The reform movement faced fierce opposition from the unreformed Carmelites. In 1577, John was kidnapped and imprisoned in Toledo for nine months in a tiny cell where he could barely stand. During this brutal captivity, he composed some of his greatest mystical poetry, including verses of his masterwork "The Dark Night of the Soul."
 
-Teresa collaborated with St. John of the Cross to reform the male branch of Carmelites. Her spiritual writings, particularly "The Interior Castle" and "The Way of Perfection," are masterpieces of mystical literature that describe the soul's journey to God through seven mansions, providing practical guidance for contemplative prayer. She was declared the first female Doctor of the Church in 1970.`,
+After his escape, John continued the reform work, founding monasteries and serving as spiritual director. His major works - "The Ascent of Mount Carmel," "The Dark Night of the Soul," "The Spiritual Canticle," and "The Living Flame of Love" - describe the soul's journey to union with God through purification and love.
+
+John's doctrine of the "dark night" describes the passive purifications God works in the soul, where apparent spiritual dryness actually leads to deeper union with the Divine. He died in 1591 and was declared a Doctor of the Church in 1926.`,
     miracles: [
-      "Experienced the Transverberation - angel piercing her heart with divine love",
-      "Frequent levitations during prayer witnessed by many",
-      "Experienced mystical marriage to Christ",
-      "Bilocated to help distant convents in need",
-      "Her body remains incorrupt after death",
-      "Sweet fragrance emanates from her relics"
+      "Composed mystical poetry during imprisonment through divine inspiration",
+      "Experienced profound mystical unions described in his writings",
+      "Prophetic visions about the future of the Carmelite reform",
+      "Levitation witnessed during intense prayer",
+      "Appeared in visions to guide souls in the mystical life",
+      "His writings continue to guide countless souls to mystical union"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/2231434db5cb7323d196bd4221d31480",
-    orderByDate: 1582
+    orderByDate: 1591
   },
   {
     id: "st-therese-lisieux",
@@ -510,7 +514,7 @@ Thérèse contracted tuberculosis and died at age 24, but not before her superio
       "Miraculous preservation of her autobiography manuscript",
       "Inspired countless vocations through her 'Little Way'"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/3f6f332083232f690c24f1386970e306",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/47c79eca1ad4365b3d257a21a1f6695f",
     orderByDate: 1897
   },
   {
