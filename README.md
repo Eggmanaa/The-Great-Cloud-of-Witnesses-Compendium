@@ -3,7 +3,7 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 31 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 32 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
@@ -16,15 +16,18 @@
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 31 pivotal Catholic figures
+- ✅ Interactive saints gallery with 32 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
 - ✅ Full biography modal with expanded information
 - ✅ **Full uncropped artwork in modal** - Complete saint portraits visible when clicked
 - ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
-- ✅ Chronologically sorted saints (from St. Gabriel the Archangel to St. Maximilian Kolbe 1941)
+- ✅ Chronologically sorted saints (from St. Gabriel the Archangel to St. John Paul II 2005)
 - ✅ **Updated St. Agnes portrait** - New classical artwork representation
+- ✅ **Updated St. Josephine Bakhita portrait** - New historical photograph
+- ✅ **Updated Sts. Anne and Joachim artwork** - New sacred painting
+- ✅ **Added St. Juan Diego** - Visionary of Our Lady of Guadalupe
 - ✅ Miracles and signs section for each saint
 - ✅ Elegant typography with serif and sans-serif combinations
 - ✅ Gold accent colors and sacred geometric patterns
@@ -43,13 +46,13 @@
 - `/api/saints/:id` - Get specific saint by ID
   - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
   - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
-  - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`
+  - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`, `st-juan-diego`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured (Chronologically Ordered) - 31 Total Saints
+## Saints Featured (Chronologically Ordered) - 32 Total Saints
 
 ### Original Collection
 1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
@@ -79,6 +82,7 @@
 21. **St. Cecilia** (c. 200-230) - Virgin and Martyr, Patron of Musicians
 22. **St. Vincent de Paul** (1581-1660) - Apostle of Charity, Father of the Poor
 23. **St. John Bosco** (1815-1888) - Don Bosco, Father and Teacher of Youth
+24. **St. Juan Diego** (1474-1548) - Visionary of Guadalupe, Indigenous Saint
 
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
@@ -186,7 +190,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: September 6, 2025
+- **Last Updated**: December 2024
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
