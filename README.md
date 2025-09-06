@@ -3,17 +3,18 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Interactive gallery of 10 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 10 Catholic saints with detailed biographies, miracles, and historical information
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://10690ea4.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://bdfdaccf.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
 - **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
 ### Currently Completed Features
+- ✅ **Hero banner featuring "Adoration of the Trinity"** - Majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
 - ✅ Interactive saints gallery with 10 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
@@ -23,6 +24,7 @@
 - ✅ **Full uncropped artwork in modal** - Complete saint portraits visible when clicked
 - ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
 - ✅ Chronologically sorted saints (from St. Agnes 304 AD to St. Carlo Acutis 2006)
+- ✅ **Updated St. Agnes portrait** - New classical artwork representation
 - ✅ Miracles and signs section for each saint
 - ✅ Elegant typography with serif and sans-serif combinations
 - ✅ Gold accent colors and sacred geometric patterns
