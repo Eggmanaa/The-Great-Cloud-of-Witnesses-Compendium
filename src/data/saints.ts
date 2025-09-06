@@ -543,6 +543,100 @@ After refusing German citizenship and sheltering refugees (including an estimate
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/72323679317687927f8df1bb1ab44056",
     orderByDate: 1941
+  },
+  {
+    id: "st-cecilia-virgin-martyr",
+    name: "St. Cecilia",
+    title: "Virgin and Martyr, Patron of Musicians",
+    knownFor: "Patron Saint of Music, Virgin Martyr of Rome",
+    feastDay: "November 22",
+    lifespan: "c. 200-230",
+    patronOf: "Musicians, Music, Organ Builders, Poets, Singers",
+    shortBio: "A noble Roman virgin who converted her husband and brother-in-law to Christianity. She is venerated as the patron saint of musicians for 'singing in her heart' to God during her wedding.",
+    fullBio: `According to the 5th-century Acts of St. Cecilia, she was born into a noble Roman family and from childhood had vowed her virginity to God. Against her will, she was given in marriage to a young pagan nobleman named Valerian.
+
+On their wedding night, Cecilia told Valerian that an angel of God watched over her and would punish him if he violated her vow of virginity. Valerian asked to see the angel, and Cecilia replied that he could only see the angel if he were baptized. After his baptism by Pope Urban I, Valerian returned to find Cecilia in prayer with the angel beside her, who placed crowns of roses and lilies on both their heads.
+
+Cecilia then converted Valerian's brother Tiburtius to Christianity. Both brothers dedicated themselves to burying the bodies of martyred Christians, until they were arrested and executed by the prefect Almachius. Cecilia was subsequently arrested and ordered to sacrifice to the Roman gods. When she refused, Almachius condemned her to death.
+
+The executioners attempted to suffocate her in her own bathroom by lighting fires and sealing the room, but she survived unharmed. They then tried to behead her, but after three blows she was still alive, lingering for three days before dying. During this time, she continued to preach and distribute her possessions to the poor.
+
+In 821, Pope Paschal I discovered her incorrupt body in the Catacomb of St. Praetextatus and translated her remains to the Church of Santa Cecilia in Trastevere, where they remain today.`,
+    miracles: [
+      "Survived being suffocated by fire and steam in her bathroom",
+      "Lived for three days after partial beheading, continuing to preach",
+      "Her body was found incorrupt in 821, nearly 600 years after her death",
+      "Converted her husband and brother-in-law through her witness",
+      "Angels appeared to place crowns on her and Valerian's heads",
+      "Countless conversions through her intercession and example"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/cfb8e2599fe07a2cdd7a9ac297251d1f",
+    orderByDate: 230
+  },
+  {
+    id: "st-vincent-de-paul-charity",
+    name: "St. Vincent de Paul",
+    title: "Apostle of Charity, Father of the Poor",
+    knownFor: "Champion of the Poor, Founder of Charitable Organizations",
+    feastDay: "September 27",
+    lifespan: "1581-1660",
+    patronOf: "Charitable Societies, Hospitals, Volunteers, Madagascar",
+    shortBio: "A French priest known as the 'Apostle of Charity' who revolutionized care for the poor and founded the Vincentians and Daughters of Charity. His name is synonymous with charitable work worldwide.",
+    fullBio: `Born to a peasant family in Pouy, Gascony, Vincent was ordained a priest at the unusually young age of 19 in 1600. After completing his studies at the University of Toulouse, he allegedly was captured by Barbary pirates and spent two years as a slave before escaping and making his way to Rome and then Paris.
+
+In Paris, Vincent came under the spiritual direction of Cardinal Pierre de Bérulle and was appointed to the parish of Clichy. His conversion from a career-focused young priest to a servant of the poor began around 1617 during his service as tutor to the Gondi family. Moved by the spiritual neglect of peasants on their estates, he began preaching missions in rural areas.
+
+This experience led Vincent to found the Congregation of the Mission (Vincentians/Lazarists) in 1625, dedicated to evangelizing the rural poor and training clergy for parish ministry. The congregation emphasized practical charity alongside spiritual care, revolutionizing seminary education and pastoral formation.
+
+Working with St. Louise de Marillac, Vincent cofounded the Daughters of Charity in 1633, the first non-cloistered religious community of women devoted to active service. These sisters worked directly with the poor, sick, and abandoned rather than living in enclosed convents.
+
+Vincent organized the Ladies of Charity, wealthy women who funded and personally served in hospitals, orphanages, and institutions for foundlings. His systematic approach to charity included visiting homes, providing medical care, education, and spiritual formation. He ransomed over 1,200 Christian slaves from North Africa and organized relief efforts during wars and famines.
+
+His influence extended to court, where he served as confessor to Queen Anne of Austria and advisor on ecclesiastical matters. He opposed Jansenism and worked for reform within the Church. Vincent died in 1660, leaving behind a vast network of charitable institutions that continues worldwide today.`,
+    miracles: [
+      "Numerous miraculous cures through his prayers and relics",
+      "Multiplied food for the poor during times of famine",
+      "Prophetic insights about people's spiritual conditions",
+      "Appeared in visions to guide the development of his congregations",
+      "Miraculous knowledge of distant events and hidden sins",
+      "His charitable works continue to multiply globally through his spiritual sons and daughters"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/3f6f332083232f690c24f1386970e306",
+    orderByDate: 1660
+  },
+  {
+    id: "st-john-bosco-youth",
+    name: "St. John Bosco",
+    title: "Don Bosco, Father and Teacher of Youth",
+    knownFor: "Educator of Youth, Founder of Salesians, Preventive System",
+    feastDay: "January 31",
+    lifespan: "1815-1888",
+    patronOf: "Youth, Apprentices, Editors, Publishers, Magicians, Students",
+    shortBio: "An Italian priest who devoted his life to educating poor and abandoned youth. He founded the Salesian religious order and developed the 'Preventive System' of education based on reason, religion, and loving-kindness.",
+    fullBio: `Born Giovanni Melchior Bosco during a time of drought and famine near Turin, John lost his father at age two and was raised in poverty by his devoted mother, Margaret. Despite their hardships, she instilled in him a deep faith and love for learning.
+
+As a boy, John taught himself acrobatics and magic tricks after seeing a traveling circus. He would gather other children, perform for them, and end each show with prayers or moral instruction - an early sign of his calling to reach youth through joy and attraction rather than fear.
+
+Determined to become a priest despite his family's poverty, John worked various jobs while pursuing his education. He came under the guidance of Fr. Joseph Cafasso, who introduced him to the spirituality of St. Francis de Sales and prepared him for ordination in 1841.
+
+In Turin's industrial boom, John witnessed the plight of young people who came from rural areas seeking work but found themselves homeless and exploited. Starting with just one boy in 1841, he began gathering street children in borrowed spaces, providing them with education, religious instruction, recreation, and job training.
+
+His approach, called the 'Preventive System,' was revolutionary. Instead of punishment after wrongdoing, he emphasized prevention through reason, religion, and loving-kindness (amorevolezza). He created an atmosphere where young people felt loved and valued, making discipline unnecessary.
+
+By 1847, John's work had grown into a large institution featuring schools, workshops for learning trades, and a church. In 1859, he founded the Society of St. Francis de Sales (Salesians) with 22 companions to continue this mission. In 1872, with St. Mary Mazzarello, he cofounded the Daughters of Our Lady Help of Christians (Salesian Sisters) for girls.
+
+John was also a gifted writer and publisher, producing educational and spiritual books for young people and adults. His congregation spread throughout Europe and to South America during his lifetime. He died in 1888, having transformed the lives of thousands of young people and established a worldwide movement of education and youth ministry.`,
+    miracles: [
+      "Prophetic dreams that guided major decisions throughout his life",
+      "Multiplication of food to feed hundreds of hungry boys",
+      "Predicted the deaths of several individuals and his own death",
+      "Healing of the sick through his prayers and blessing",
+      "Appeared in dreams and visions to guide his spiritual sons and daughters",
+      "The mysterious 'Grey One' (protective dog) that appeared when he was in danger",
+      "Bilocation reported by witnesses who saw him in multiple places simultaneously"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/05d385b7933554838318c44b996e3e89",
+    orderByDate: 1888
   }
 ];
 
