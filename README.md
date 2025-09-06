@@ -7,8 +7,9 @@
 
 ## URLs
 - **Development**: https://3000-iqqjcnv874dkq8bk1sz5v-6532622b.e2b.dev
-- **Production**: https://greatcloudofwitnessescompendium.pages.dev (pending deployment)
-- **GitHub**: https://github.com/[username]/GreatCloudOfWitnessesCompendium (pending)
+- **Production**: https://great-cloud-witnesses.pages.dev
+- **Deployment Preview**: https://04f94bf4.great-cloud-witnesses.pages.dev
+- **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
 
 ## Features
 
@@ -155,9 +156,10 @@ webapp/
 
 ## Deployment Status
 - **Platform**: Cloudflare Pages
-- **Status**: ✅ Ready for deployment
+- **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
 - **Last Updated**: September 6, 2025
+- **Project Name**: great-cloud-witnesses
 
 ## Credits
 - Saint biographical information from historical Catholic sources
