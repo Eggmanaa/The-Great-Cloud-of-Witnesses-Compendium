@@ -105,19 +105,24 @@
             animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         }
 
-        /* Portrait image styling */
+        /* Portrait image styling for gallery cards */
         .saint-portrait {
-            object-fit: contain;
-            object-position: center;
+            object-fit: cover;
+            object-position: top center;
         }
         
-        /* Full image container */
+        /* Full image container in modal */
         .image-container {
             background: #1e1e3f;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 300px;
+        }
+        
+        /* Aspect ratio utilities */
+        .aspect-3-4 {
+            aspect-ratio: 3/4;
         }
 
         /* Ornamental borders */

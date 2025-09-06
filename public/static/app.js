@@ -40,17 +40,16 @@ function createSaintCard(saint) {
     
     card.innerHTML = `
         <div class="relative">
-            <!-- Portrait Container - Changed to show full image -->
-            <div class="bg-gray-800 relative">
+            <!-- Portrait Container - Cropped for consistent gallery layout -->
+            <div class="aspect-[3/4] overflow-hidden bg-gray-800 relative">
                 <img src="${saint.imageUrl}" 
                      alt="${saint.name}" 
-                     class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+                     class="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
                      loading="lazy"
-                     style="max-height: 500px; object-fit: contain; object-position: center;"
                      onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 500%22%3E%3Crect fill=%22%232a2a4e%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%22200%22 y=%22250%22 font-family=%22Arial%22 font-size=%2224%22 fill=%22%236a6a8a%22 text-anchor=%22middle%22%3EImage Loading...%3C/text%3E%3C/svg%3E'">
                 
-                <!-- Subtle overlay gradient at bottom only -->
-                <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black via-black/50 to-transparent opacity-70"></div>
+                <!-- Overlay gradient -->
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                 
                 <!-- Feast Day Badge -->
                 <div class="absolute top-2 right-2 bg-black bg-opacity-70 px-2 py-1 rounded">
@@ -59,10 +58,10 @@ function createSaintCard(saint) {
                     </p>
                 </div>
                 
-                <!-- Click to View Full Image Indicator -->
+                <!-- Click to View Indicator -->
                 <div class="absolute top-2 left-2 bg-black bg-opacity-70 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
                     <p class="text-xs text-yellow-400 sans-text">
-                        <i class="fas fa-expand mr-1"></i>Click to view
+                        <i class="fas fa-eye mr-1"></i>View Details
                     </p>
                 </div>
             </div>
@@ -124,31 +123,38 @@ function openModal(saint) {
     modalContent.innerHTML = `
         <!-- Close Button -->
         <button onclick="closeModal()" 
-                class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-10 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center">
+                class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-20 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center">
             <i class="fas fa-times text-xl"></i>
         </button>
         
-        <!-- Modal Header with Full Image Display -->
-        <div class="relative bg-gray-800">
-            <!-- Full Image Container - Shows entire image -->
-            <div class="cursor-pointer relative group" onclick="showFullImage('${saint.imageUrl}', '${saint.name}')">
-                <img src="${saint.imageUrl}" 
-                     alt="${saint.name}" 
-                     class="w-full h-auto mx-auto"
-                     style="max-height: 70vh; object-fit: contain;">
-                
-                <!-- Hover overlay with expand message -->
-                <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                    <div class="bg-black bg-opacity-80 px-4 py-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                        <p class="text-yellow-400 sans-text text-sm">
-                            <i class="fas fa-expand mr-2"></i>Click for full screen view
-                        </p>
+        <!-- Modal Header with Full Uncropped Image Display -->
+        <div class="relative bg-gray-900">
+            <!-- Full Image Container - Shows ENTIRE uncropped image -->
+            <div class="bg-gray-800 p-4 flex items-center justify-center">
+                <div class="cursor-pointer relative group" onclick="showFullImage('${saint.imageUrl}', '${saint.name}')">
+                    <img src="${saint.imageUrl}" 
+                         alt="${saint.name}" 
+                         class="max-w-full h-auto mx-auto shadow-2xl"
+                         style="max-height: 75vh; object-fit: contain;">
+                    
+                    <!-- Hover overlay with expand message -->
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center">
+                        <div class="bg-black bg-opacity-90 px-6 py-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity transform scale-95 group-hover:scale-100">
+                            <p class="text-yellow-400 sans-text text-base font-medium">
+                                <i class="fas fa-expand-alt mr-2"></i>Click for full screen view
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Subtle hint at top of image -->
+                    <div class="absolute top-2 left-2 bg-black bg-opacity-70 px-3 py-1 rounded text-xs text-yellow-300 sans-text">
+                        <i class="fas fa-mouse-pointer mr-1"></i>Full artwork - Click to enlarge
                     </div>
                 </div>
             </div>
             
             <!-- Saint Information Bar -->
-            <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6">
+            <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 border-t border-gray-700">
                 <p class="text-sm text-yellow-400 sans-text uppercase tracking-wider mb-2">
                     ${saint.title}
                 </p>
