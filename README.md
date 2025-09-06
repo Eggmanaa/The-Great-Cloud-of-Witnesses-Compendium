@@ -7,9 +7,9 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://949fb7e2.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://6e188726.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://949fb7e2.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://6e188726.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
@@ -42,7 +42,7 @@
 - `/api/saints` - Get all saints data (JSON)
 - `/api/saints/:id` - Get specific saint by ID
   - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
-  - New Saints: `st-augustine-hippo`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-catherine-siena-mystic`, `st-joan-arc`, `st-ignatius-loyola-founder`, `st-teresa-avila-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
+  - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
@@ -64,13 +64,13 @@
 
 ### New Additions from "The Great Cloud of Witnesses" Document
 11. **St. Augustine of Hippo** (354-430) - Doctor of Grace, Theologian and Philosopher
-12. **St. Patrick** (c. 385-461) - Apostle of Ireland, Missionary Bishop
-13. **St. Hildegard von Bingen** (1098-1179) - Mystic, Composer, Natural Scientist
-14. **St. Thomas Aquinas** (c. 1225-1274) - Angelic Doctor, Scholastic Theologian
-15. **St. Catherine of Siena** (1347-1380) - Mystic, Stigmatist, Papal Advisor
+12. **St. Monica** (c. 331-387) - Mother of St. Augustine, Patron of Mothers
+13. **St. Patrick** (c. 385-461) - Apostle of Ireland, Missionary Bishop
+14. **St. Hildegard von Bingen** (1098-1179) - Mystic, Composer, Natural Scientist
+15. **St. Thomas Aquinas** (c. 1225-1274) - Angelic Doctor, Scholastic Theologian
 16. **St. Joan of Arc** (c. 1412-1431) - Maid of Orléans, Military Leader, Martyr
-17. **St. Ignatius of Loyola** (1491-1556) - Founder of Jesuits, Spiritual Exercises
-18. **St. Teresa of Ávila** (1515-1582) - Carmelite Reformer, Mystical Theologian
+17. **St. Francis Xavier** (1506-1552) - Apostle of the Indies and Japan, Great Missionary
+18. **St. John of the Cross** (1542-1591) - Mystic of the Dark Night, Carmelite Reformer
 19. **St. Thérèse of Lisieux** (1873-1897) - Little Flower, Little Way Spirituality
 20. **St. Maximilian Kolbe** (1894-1941) - Martyr of Charity, Auschwitz Hero
 
