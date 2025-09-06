@@ -7,7 +7,7 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://7c439dd7.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://10690ea4.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
 - **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
@@ -17,11 +17,11 @@
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
 - ✅ Interactive saints gallery with 10 pivotal Catholic figures
 - ✅ Responsive grid layout (1-4 columns based on screen size)
-- ✅ **Full uncropped saint portraits** - Complete artwork visible in gallery cards
+- ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
 - ✅ Full biography modal with expanded information
-- ✅ **Enhanced image viewing** - Large uncropped images in modal view
-- ✅ **Full-screen image viewer** - Click any portrait for immersive full-screen display
+- ✅ **Full uncropped artwork in modal** - Complete saint portraits visible when clicked
+- ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
 - ✅ Chronologically sorted saints (from St. Agnes 304 AD to St. Carlo Acutis 2006)
 - ✅ Miracles and signs section for each saint
 - ✅ Elegant typography with serif and sans-serif combinations
@@ -66,14 +66,17 @@
 ## User Guide
 
 ### Navigating the Gallery
-1. **Browse Saints**: Scroll through the gallery grid to see all 10 saints with full uncropped portraits
-2. **View Details**: Click on any saint card to open their full biography with large image
-3. **Full-Screen Images**: Click on any saint portrait to view in immersive full-screen mode
+1. **Browse Saints**: Scroll through the gallery grid with consistently sized portrait cards
+2. **View Details**: Click on any saint card to see the FULL uncropped artwork and biography
+3. **Full-Screen Images**: Click on the modal's saint portrait for immersive full-screen viewing
 4. **Read Biography**: Explore comprehensive life stories, miracles, and legacy
 5. **Navigation**: Use ESC key or click outside image to close full-screen view
 6. **Close Modal**: Click the X button or press ESC to return to the gallery
 
 ### Features in Detail
+- **Gallery Display**: Portrait cards maintain 3:4 aspect ratio for visual consistency
+- **Modal View**: Full uncropped artwork displayed when saint card is clicked
+- **Full-Screen Mode**: Click modal images to view artwork in immersive full-screen
 - **Feast Day Badges**: Each saint card shows their liturgical feast day
 - **Patronage Information**: Learn what each saint is the patron of
 - **Chronological Order**: Saints are arranged by their historical dates
