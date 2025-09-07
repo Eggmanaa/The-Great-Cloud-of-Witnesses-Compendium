@@ -1125,6 +1125,258 @@ Each step, José cried out "Viva Cristo Rey!" (Long live Christ the King!). At t
     orderByDate: 1928
   },
   {
+    id: "st-peter-apostle",
+    name: "St. Peter",
+    title: "Prince of the Apostles, The Rock",
+    knownFor: "First Pope, Foundation of the Church",
+    feastDay: "June 29",
+    lifespan: "d. c. 64-67 AD",
+    patronOf: "Popes, Rome, Fishermen, Keys, Universal Church",
+    shortBio: "A Galilean fisherman who became the leader of the apostles and first Bishop of Rome. Jesus renamed him 'Rock' and gave him the keys to the kingdom of heaven, establishing him as the foundation of the Church.",
+    fullBio: `Born Simon in Bethsaida on the Sea of Galilee, Peter worked as a fisherman with his brother Andrew. Called by Jesus to be a 'fisher of men,' he became the spokesman and leader of the twelve apostles, witnessing the Transfiguration and other key moments of Christ's ministry.
+
+Peter's character shows both profound faith and human weakness. He was the first to confess Jesus as the Messiah, walked on water, and pledged undying loyalty. Yet he also denied Christ three times during the Passion. After the Resurrection, Jesus restored him with a threefold commission to 'feed my sheep.'
+
+At Pentecost, Peter emerged as the bold leader of the early Church, preaching the first sermon that converted 3,000 souls. He performed numerous miracles, including healing the lame man at the Temple gate and raising Tabitha from the dead. His shadow alone was believed to heal the sick.
+
+Peter's ministry expanded from Jerusalem to Antioch and finally to Rome, where he served as the first bishop. During Nero's persecution following the Great Fire of 64 AD, Peter was arrested. According to tradition, as he fled Rome, he met Christ on the Appian Way. When Peter asked 'Quo vadis?' (Where are you going?), Jesus replied He was going to Rome to be crucified again. Peter returned and was martyred, requesting to be crucified upside down, feeling unworthy to die as his Lord had.
+
+His bones are believed to rest beneath St. Peter's Basilica in Vatican City, where excavations in the 20th century uncovered ancient graffiti reading 'Peter is here.' As the rock upon which Christ built His Church, Peter's legacy continues through apostolic succession in the papacy.`,
+    miracles: [
+      "Walked on water before his faith faltered",
+      "Healed the lame man at the Beautiful Gate",
+      "Raised Tabitha (Dorcas) from the dead",
+      "His shadow healed the sick as he passed",
+      "Struck Ananias and Sapphira dead for lying to the Holy Spirit",
+      "Escaped from prison through angelic intervention",
+      "Defeated Simon Magus in Rome through prayer"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/8757c4dc5a9a56ae2529bc57dfb774e0",
+    orderByDate: 67
+  },
+  {
+    id: "st-james-greater",
+    name: "St. James the Greater",
+    title: "Santiago Matamoros, Apostle and Martyr",
+    knownFor: "First Apostolic Martyr, Patron of Spain",
+    feastDay: "July 25",
+    lifespan: "d. c. 44 AD",
+    patronOf: "Spain, Pilgrims, Laborers, Knights, Soldiers",
+    shortBio: "Son of Zebedee and brother of John, he was one of Jesus's inner circle. The first apostle to be martyred, he became Spain's patron saint. His shrine at Santiago de Compostela is one of Christianity's greatest pilgrimage destinations.",
+    fullBio: `James, son of Zebedee and Salome, was a fisherman from Bethsaida called by Jesus along with his brother John. Their fiery temperament earned them the nickname 'Boanerges' (Sons of Thunder). With Peter and John, James formed Christ's inner circle, witnessing the Transfiguration, the raising of Jairus's daughter, and the agony in Gethsemane.
+
+Tradition holds that after Pentecost, James traveled to Hispania (Spain) to preach the Gospel. Discouraged by his lack of success, he received a miraculous apparition of the Virgin Mary, still living in Jerusalem, who appeared on a pillar by the Ebro River at Zaragoza. She encouraged him to persevere, and this site became the shrine of Our Lady of the Pillar.
+
+Returning to Jerusalem, James was arrested during Herod Agrippa I's persecution. Acts 12:2 records his execution by sword around 44 AD, making him the first apostle to be martyred. Legend states his disciples placed his body in a rudderless boat that miraculously sailed to Galicia in northwestern Spain.
+
+His tomb was forgotten until 813, when a hermit named Pelagius, guided by a star, discovered it in a field called Campus Stellae (Field of Stars), later Compostela. The discovery transformed James into Santiago, Spain's warrior patron. His most famous posthumous miracle occurred at the Battle of Clavijo in 844, where he appeared on a white horse to lead Christian forces to victory over the Moors, earning the title 'Matamoros' (Moor-slayer).
+
+The Camino de Santiago became medieval Europe's most important pilgrimage after Rome and Jerusalem. Millions have walked the ancient routes, marked by the scallop shell symbol, seeking spiritual transformation. James represents both contemplative pilgrimage and militant faith, embodying the complex history of Christian Spain.`,
+    miracles: [
+      "Received apparition of Virgin Mary at Zaragoza",
+      "His body miraculously sailed to Spain in a stone boat",
+      "Appeared at Battle of Clavijo leading Christian forces",
+      "Protected pilgrims on the Camino de Santiago",
+      "Healed a man falsely hanged whose roasted fowl came to life",
+      "Multiple battlefield appearances during the Reconquista",
+      "His tomb's discovery marked by celestial lights and music"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/d7dac4ae4eb4ccddc714bfd92a940c6b",
+    orderByDate: 44
+  },
+  {
+    id: "st-john-apostle",
+    name: "St. John the Apostle",
+    title: "The Beloved Disciple, Evangelist",
+    knownFor: "Author of Gospel, Letters, and Revelation",
+    feastDay: "December 27",
+    lifespan: "d. c. 100 AD",
+    patronOf: "Love, Loyalty, Authors, Theologians, Asia Minor",
+    shortBio: "The youngest apostle and 'the disciple whom Jesus loved.' He cared for Mary after the Crucifixion, wrote profound theological works, received the visions of Revelation on Patmos, and was the only apostle to die naturally.",
+    fullBio: `John, son of Zebedee and possibly Salome (who may have been Mary's sister), was a Galilean fisherman called with his brother James. The youngest apostle, he enjoyed a unique intimacy with Jesus, reclining on His breast at the Last Supper and referring to himself as 'the disciple whom Jesus loved.'
+
+John stood at the foot of the Cross with Mary when others fled. There, Jesus entrusted His mother to John's care, establishing a son-mother relationship that tradition says lasted until Mary's Assumption. John was first to believe at the empty tomb, recognizing the meaning of the folded burial cloths.
+
+In Jerusalem, John worked closely with Peter, healing the lame and boldly preaching before the Sanhedrin. He later moved to Ephesus, becoming bishop and leader of the Asian churches. During Domitian's persecution, tradition says he survived being plunged into boiling oil in Rome, after which he was exiled to Patmos.
+
+On that rocky island, John received the apocalyptic visions recorded in Revelation, offering hope to persecuted Christians through symbolic prophecy of God's ultimate victory. After Domitian's death, he returned to Ephesus, where he wrote his Gospel - the most theological and mystical of the four, beginning with the profound 'In the beginning was the Word.'
+
+His three epistles combat early heresies while emphasizing love as God's essence and the mark of true disciples. Ancient sources describe the aged John, too weak to preach, being carried to church repeating only: 'Little children, love one another.' When asked why, he replied: 'It is the Lord's command, and if this only is done, it is enough.'
+
+John died peacefully around 100 AD, the only apostle not martyred, buried at Ephesus where his tomb became a major pilgrimage site.`,
+    miracles: [
+      "Survived being boiled in oil unharmed",
+      "Received the visions of Revelation on Patmos",
+      "Raised a dead man in Ephesus through prayer",
+      "Destroyed a pagan temple through prayer",
+      "Drank poisoned wine without harm, the poison emerging as a serpent",
+      "Transformed stones into gold to demonstrate detachment from wealth",
+      "His Gospel's profound theology considered divinely inspired"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
+    orderByDate: 100
+  },
+  {
+    id: "st-matthew-apostle",
+    name: "St. Matthew",
+    title: "Evangelist and Apostle",
+    knownFor: "Tax Collector Turned Evangelist, Author of First Gospel",
+    feastDay: "September 21",
+    lifespan: "1st Century AD",
+    patronOf: "Accountants, Bankers, Tax Collectors, Perfumers",
+    shortBio: "A despised tax collector named Levi who left everything to follow Jesus. He wrote the Gospel emphasizing Jesus as the fulfillment of Jewish prophecy and was martyred while celebrating Mass in Ethiopia.",
+    fullBio: `Matthew, also called Levi, son of Alphaeus, worked as a publican (tax collector) in Capernaum, a profession that made him wealthy but despised by fellow Jews as a traitor collaborating with Roman oppressors. His life changed when Jesus passed his tax booth and simply said, 'Follow me.'
+
+Matthew immediately abandoned his lucrative position, hosting a great feast to celebrate his new life. When Pharisees criticized Jesus for dining with tax collectors and sinners, Jesus responded: 'I have not come to call the righteous, but sinners to repentance.' Matthew's conversion powerfully demonstrated that no one is beyond God's mercy.
+
+As an apostle, Matthew witnessed Christ's ministry, death, and resurrection. His background as a tax collector, requiring literacy in multiple languages and attention to detail, equipped him to write the first Gospel. Written primarily for Jewish Christians, it contains over 60 Old Testament citations, presenting Jesus as the promised Messiah.
+
+Matthew's Gospel uniquely preserves Jesus's teachings on the Kingdom of Heaven, including the Sermon on the Mount, numerous parables, and the Great Commission. It emphasizes the Church's authority and mission, making it the liturgical Gospel for centuries.
+
+After Pentecost, tradition says Matthew preached in Judea before traveling to Ethiopia (possibly south of the Caspian Sea). There he performed miracles including raising the king's daughter from death. He was martyred around 74 AD, killed by sword while celebrating Mass after denouncing the king's pursuit of a consecrated virgin.
+
+His symbol is a winged man or angel, representing his Gospel's opening genealogy showing Christ's human ancestry. His relics are venerated in Salerno Cathedral, Italy. Matthew's transformation from publican to apostle continues to inspire those seeking redemption.`,
+    miracles: [
+      "Raised the daughter of the Ethiopian king from death",
+      "Defeated pagan magicians in spiritual combat",
+      "His Gospel preserved through divine protection",
+      "Appeared in visions to guide the Church",
+      "Protected Salerno from pirate attack in 1544 through intercession",
+      "Numerous conversions in Ethiopia through his preaching",
+      "Miraculous knowledge enabling him to write his Gospel"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/1962ecfdab6ee265c63df1d73d5a27e6",
+    orderByDate: 74
+  },
+  {
+    id: "st-philip-apostle",
+    name: "St. Philip",
+    title: "Apostle and Evangelist",
+    knownFor: "Practical Apostle, Missionary to Greece and Asia",
+    feastDay: "May 3",
+    lifespan: "1st Century AD",
+    patronOf: "Hatters, Pastry Chefs, Missionaries",
+    shortBio: "From Bethsaida, Philip was directly called by Jesus and immediately brought Nathanael to Christ. Known for practical questions that prompted profound teachings, he preached in Greece and Phrygia before his martyrdom.",
+    fullBio: `Philip came from Bethsaida, the same fishing town as Peter and Andrew. His Greek name suggests Hellenistic influence in Galilee. When Jesus found him and said 'Follow me,' Philip immediately sought his friend Nathanael (Bartholomew), declaring, 'We have found him of whom Moses and the prophets wrote!'
+
+Philip appears at crucial moments in John's Gospel, often asking practical questions that elicit profound teachings. Before feeding the 5,000, Jesus tested Philip about buying bread, revealing his pragmatic nature. When Greeks wished to see Jesus, they approached Philip first, perhaps due to his Greek connections.
+
+At the Last Supper, Philip's request, 'Lord, show us the Father,' prompted Jesus's profound response: 'Whoever has seen me has seen the Father.' This exchange revealed the mystery of the Trinity and Christ's divine nature, central to Christian theology.
+
+After Pentecost, tradition says Philip evangelized in Greece, Phrygia, and Syria. He performed numerous miracles and conversions, including reportedly the wife of a Roman proconsul. Ancient sources describe him as a powerful preacher who established churches throughout Asia Minor.
+
+Philip was martyred in Hierapolis, Phrygia (modern Turkey) around 80 AD. Accounts vary - some say crucifixion, others describe him being hung upside down. In 2011, archaeologists discovered what they believe to be his tomb in Hierapolis, finding a first-century burial site within an ancient church complex.
+
+Often confused with Philip the Deacon (who baptized the Ethiopian eunuch), the apostle Philip represents the bridge between Jewish and Gentile Christianity. His practical nature and missionary zeal helped spread the Gospel across cultural boundaries.`,
+    miracles: [
+      "Found the ancient sword buried at Sainte-Catherine-de-Fierbois as directed",
+      "Performed numerous healings during his missionary journeys",
+      "Survived initial persecution attempts through divine protection",
+      "Converted the wife of a Roman proconsul",
+      "Banished demons from pagan temples",
+      "His tomb in Hierapolis became a site of miraculous healings",
+      "Appeared in visions to guide missionary work"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
+    orderByDate: 80
+  },
+  {
+    id: "st-clement-rome",
+    name: "St. Clement of Rome",
+    title: "Pope and Apostolic Father",
+    knownFor: "Third Successor of Peter, First Apostolic Father",
+    feastDay: "November 23",
+    lifespan: "c. 35-99 AD",
+    patronOf: "Mariners, Stone-cutters, Marble workers",
+    shortBio: "The third Bishop of Rome after Peter, Clement knew the apostles personally. His letter to the Corinthians is one of the earliest Christian writings outside the New Testament. He was martyred by being thrown into the sea with an anchor.",
+    fullBio: `Clement was born in Rome to a Jewish family and was among the earliest converts to Christianity. He knew Saints Peter and Paul personally, with Paul mentioning him in Philippians 4:3 as a fellow worker 'whose name is in the book of life.' Some traditions identify him with the household of the consul Titus Flavius Clemens.
+
+As the third or fourth Bishop of Rome (depending on the list), Clement led the Church during turbulent times under Emperor Domitian. His pontificate, from about 88 to 99 AD, bridged the apostolic and post-apostolic eras, making him a crucial link in the chain of apostolic succession.
+
+Clement's enduring contribution is his First Epistle to the Corinthians, written around 96 AD to address schism in that church. This letter, considered for inclusion in the New Testament canon, demonstrates the Roman Church's early authority and provides valuable insight into first-century Christianity. It emphasizes order, hierarchy, and unity in the Church.
+
+The epistle is remarkable for its tone of paternal concern rather than domination, its use of Old Testament examples, and its clear articulation of apostolic succession. Clement writes of the apostles appointing bishops and deacons, establishing the principle of ordained ministry that continues today.
+
+According to tradition, Clement was banished to the Crimean Peninsula during Emperor Trajan's persecution. There he ministered to Christian prisoners in the marble quarries, miraculously providing water by striking a rock. His successful evangelization led to his martyrdom - he was thrown into the Black Sea with an anchor around his neck.
+
+Legend says the sea receded annually to reveal his tomb, where miracles occurred. His relics were brought to Rome by Saints Cyril and Methodius in 868. The anchor became his symbol, and he's invoked by those in peril at sea.`,
+    miracles: [
+      "Struck a rock to provide water for thirsty prisoners in the quarries",
+      "The sea receded annually to reveal his underwater tomb",
+      "Converted numerous pagans while in exile",
+      "His prayers saved ships from storms",
+      "Miraculous preservation of his first epistle through centuries",
+      "Healing miracles at his tomb site",
+      "Protected sailors who invoked his intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/99ca5d14c90b10297809cb130fc212bb",
+    orderByDate: 99
+  },
+  {
+    id: "st-ignatius-antioch",
+    name: "St. Ignatius of Antioch",
+    title: "Bishop and Martyr, Theophorus",
+    knownFor: "Letters to Churches, Martyrdom by Lions",
+    feastDay: "October 17",
+    lifespan: "c. 35-108 AD",
+    patronOf: "Church in Eastern Mediterranean, Syria",
+    shortBio: "Bishop of Antioch who wrote seven profound letters while being transported to Rome for martyrdom. He called himself 'Theophorus' (God-bearer) and was thrown to lions in the Colosseum, fulfilling his desire to be 'ground as wheat for Christ.'",
+    fullBio: `Ignatius, also called Theophorus (God-bearer), was likely born in Syria around 35 AD. Tradition suggests he was the child Jesus placed among the disciples as an example of humility. He knew the apostles personally and was appointed Bishop of Antioch by St. Peter himself, leading the church where followers were first called Christians.
+
+As bishop for 40 years, Ignatius shepherded his flock through persecution, establishing church order and defending orthodox faith against early heresies. He emphasized the real presence of Christ in the Eucharist and the importance of bishops in maintaining church unity.
+
+In 107 AD, during Emperor Trajan's persecution, Ignatius was arrested and condemned to be thrown to wild beasts in Rome. His journey to martyrdom became a triumphant procession. Christians from various cities came to greet him, and he wrote seven letters that provide invaluable insight into early Christianity.
+
+These letters, addressed to the churches of Ephesus, Magnesia, Tralles, Rome, Philadelphia, Smyrna, and to Polycarp, articulate key Christian doctrines. He was first to use the term 'Catholic Church,' emphasized the true humanity and divinity of Christ against Docetism, and described the Eucharist as 'the medicine of immortality.'
+
+His letter to the Romans reveals his mystical desire for martyrdom: 'I am God's wheat, ground fine by the lions' teeth to be made purest bread for Christ.' He begged them not to intervene to save him, viewing martyrdom as his way to truly become a disciple.
+
+Ignatius was martyred in the Flavian Amphitheater (Colosseum) around 108 AD. Witnesses reported that lions devoured him so completely that only the larger bones remained, which were collected and returned to Antioch as relics. His writings profoundly influenced Christian theology, particularly regarding church hierarchy, the Eucharist, and martyrdom.`,
+    miracles: [
+      "Appointed by St. Peter himself as bishop",
+      "His letters miraculously preserved despite persecution",
+      "Converted many during his journey to Rome",
+      "Lions left only his bones as relics for the faithful",
+      "Appeared in visions to encourage persecuted Christians",
+      "His chains became instruments of healing",
+      "Protected Antioch through his intercession after death"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/35b6328f9e069c28153ed0b8d116a594",
+    orderByDate: 108
+  },
+  {
+    id: "st-polycarp-smyrna",
+    name: "St. Polycarp of Smyrna",
+    title: "Bishop, Martyr, Apostolic Father",
+    knownFor: "Disciple of John, Martyred by Fire at 86",
+    feastDay: "February 23",
+    lifespan: "c. 69-155 AD",
+    patronOf: "Smyrna (Izmir), Earache sufferers",
+    shortBio: "A direct disciple of St. John the Apostle who became Bishop of Smyrna. At 86, he was burned at the stake for refusing to deny Christ, famously declaring he could not blaspheme the King who had saved him.",
+    fullBio: `Polycarp was born around 69 AD and became a direct disciple of St. John the Apostle, who appointed him Bishop of Smyrna. This connection made him a living link to the apostolic age, and other church fathers sought his wisdom. He was known for his gentle nature, sound doctrine, and fierce opposition to heresies.
+
+As bishop, Polycarp was a pillar of orthodoxy in Asia Minor. He corresponded with many churches and traveled to Rome around 154 AD to discuss the date of Easter with Pope Anicetus. Though they disagreed, they parted in peace, showing early church unity despite diversity.
+
+His Letter to the Philippians, the only surviving work, quotes extensively from New Testament writings, helping establish the canon. He taught St. Irenaeus, who preserved many accounts of his life and teachings. Polycarp opposed Marcion and the Gnostics, calling Marcion 'the firstborn of Satan' when they met.
+
+In 155 AD, during a festival in Smyrna, crowds demanded Christian blood. When soldiers came for Polycarp, he welcomed them, fed them, and asked for an hour to pray. His prayer was so fervent that some soldiers repented of their mission.
+
+At his trial, the proconsul urged him to deny Christ. Polycarp's response echoes through history: 'Eighty-six years I have served Him, and He has done me no wrong. How can I blaspheme my King who saved me?' When threatened with fire, he replied that earthly fire burns briefly, unlike eternal fire.
+
+Tied to the stake, Polycarp prayed aloud, offering himself as a sacrifice. Witnesses reported the fire formed an arch around him like a ship's sail, and he appeared like gold being refined. When fire couldn't kill him, he was pierced with a spear. His death, recorded in the Martyrdom of Polycarp, is the earliest detailed account of Christian martyrdom outside the New Testament.`,
+    miracles: [
+      "Fire formed an arch around him, unable to burn him",
+      "His body emitted a sweet fragrance like incense when burned",
+      "A dove flew from his body when pierced with a spear",
+      "His bones, collected by Christians, became healing relics",
+      "Converted his captors through his prayers",
+      "Prophesied details of his own martyrdom",
+      "Appeared in visions to strengthen persecuted Christians"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2a73860ea6a62c71ac0c4ca94a4bb809",
+    orderByDate: 155
+  },
+  {
     id: "st-joseph-cupertino",
     name: "St. Joseph of Cupertino",
     title: "The Flying Friar",

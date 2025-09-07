@@ -16,7 +16,7 @@
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 44 pivotal Catholic figures (expanded from 32)
+- ✅ Interactive saints gallery with 52 pivotal Catholic figures (expanded from 44)
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -48,12 +48,15 @@
   - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
   - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`, `st-juan-diego`
   - Latest Additions: `st-margaret-mary-alacoque`, `st-rose-lima`, `st-rita-cascia`, `st-martin-de-porres`, `st-oscar-romero`, `st-peter-claver`, `st-toribio-mogrovejo`, `st-jose-sanchez-del-rio`, `st-joseph-cupertino`, `st-maria-goretti`, `st-clare-assisi`, `st-bonaventure`
+  - Apostles and Early Fathers: `st-peter-apostle`, `st-james-greater`, `st-john-apostle`, `st-matthew-apostle`, `st-philip-apostle`, `st-clement-rome`, `st-ignatius-antioch`, `st-polycarp-smyrna`
+  - Holy Family and Angels: `st-joseph`, `st-anne-joachim`, `st-raphael-archangel`, `st-michael-archangel`
+  - Modern Saints: `st-john-paul-ii`, `st-josemaria-escriva`, `st-josephine-bakhita`, `st-junipero-serra`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured (Chronologically Ordered) - 44 Total Saints
+## Saints Featured (Chronologically Ordered) - 52 Total Saints
 
 ### Original Collection
 1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
@@ -85,6 +88,16 @@
 23. **St. John Bosco** (1815-1888) - Don Bosco, Father and Teacher of Youth
 24. **St. Juan Diego** (1474-1548) - Visionary of Guadalupe, Indigenous Saint
 
+### Apostles and Early Church Fathers (January 2025)
+37. **St. James the Greater** (d. 44 AD) - Santiago Matamoros, First Apostolic Martyr, Patron of Spain
+38. **St. Peter** (d. 64-67 AD) - Prince of the Apostles, The Rock, First Pope
+39. **St. Matthew** (1st Century AD) - Evangelist, Tax Collector turned Apostle
+40. **St. Philip** (1st Century AD) - Apostle, Missionary to Greece and Asia
+41. **St. Clement of Rome** (c. 35-99 AD) - Third Successor of Peter, Apostolic Father
+42. **St. John the Apostle** (d. c. 100 AD) - The Beloved Disciple, Author of Gospel and Revelation
+43. **St. Ignatius of Antioch** (c. 35-108 AD) - Bishop and Martyr, Theophorus
+44. **St. Polycarp of Smyrna** (c. 69-155 AD) - Disciple of St. John, Martyred at 86
+
 ### Newly Added Saints (December 2024)
 25. **St. Clare of Assisi** (1194-1253) - Co-Founder of the Poor Clares, Mirror of Franciscan Poverty
 26. **St. Bonaventure** (c. 1217-1274) - The Seraphic Doctor, Franciscan Theologian
@@ -98,6 +111,14 @@
 34. **St. Maria Goretti** (1890-1902) - Virgin Martyr of Purity, Child Saint
 35. **St. José Sánchez del Río** (1913-1928) - Boy Martyr of the Cristero War
 36. **St. Oscar Romero** (1917-1980) - Voice for the Voiceless, Martyr Archbishop
+45. **St. Joseph** (1st Century BC/AD) - Foster Father of Jesus, Patron of Workers
+46. **Sts. Anne and Joachim** (1st Century BC) - Parents of Virgin Mary, Grandparents of Jesus
+47. **St. John Paul II** (1920-2005) - The Pilgrim Pope, Apostle of New Evangelization
+48. **St. Josemaria Escriva** (1902-1975) - Founder of Opus Dei, Apostle of Ordinary Life
+49. **St. Josephine Bakhita** (c. 1869-1947) - The Universal Sister, Former Slave
+50. **St. Junípero Serra** (1713-1784) - Apostle of California, Missionary
+51. **St. Raphael the Archangel** - Divine Healer, God's Medicine
+52. **St. Michael the Archangel** - Prince of the Heavenly Host, Defeater of Satan
 
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
@@ -205,7 +226,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Added 12 new saints)
+- **Last Updated**: January 2025 (Added 20 new saints including 8 Apostles and Early Church Fathers)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
