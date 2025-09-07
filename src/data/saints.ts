@@ -1061,7 +1061,7 @@ In his final years, he suffered from Parkinson's disease and was neglected by hi
       "Prophesied future events including his own death",
       "Supernatural knowledge of souls' spiritual states"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/e303a08bb4834a5c6238b40e9c0ea14c",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/92eb1cfdfd3aa9103938c57253b0cd17",
     orderByDate: 1654
   },
   {
@@ -1092,7 +1092,7 @@ He died on March 23, 1606, in Saña, while on a pastoral visit. His last words w
       "Prophesied future events including the date of his death",
       "Protected from wild animals and bandits during travels"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/64c4d50a1f938c7246f7269182386c5a",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/e303a08bb4834a5c6238b40e9c0ea14c",
     orderByDate: 1606
   },
   {
@@ -1239,7 +1239,7 @@ Created Cardinal-Bishop of Albano in 1273, he helped prepare the Second Council 
       "Prophesied future events including his own death",
       "Brought peace to the divided Franciscan Order"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/92eb1cfdfd3aa9103938c57253b0cd17",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/64c4d50a1f938c7246f7269182386c5a",
     orderByDate: 1274
   }
 ];
