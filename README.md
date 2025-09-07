@@ -16,7 +16,7 @@
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 32 pivotal Catholic figures
+- ✅ Interactive saints gallery with 44 pivotal Catholic figures (expanded from 32)
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -47,12 +47,13 @@
   - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
   - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
   - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`, `st-juan-diego`
+  - Latest Additions: `st-margaret-mary-alacoque`, `st-rose-lima`, `st-rita-cascia`, `st-martin-de-porres`, `st-oscar-romero`, `st-peter-claver`, `st-toribio-mogrovejo`, `st-jose-sanchez-del-rio`, `st-joseph-cupertino`, `st-maria-goretti`, `st-clare-assisi`, `st-bonaventure`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured (Chronologically Ordered) - 32 Total Saints
+## Saints Featured (Chronologically Ordered) - 44 Total Saints
 
 ### Original Collection
 1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
@@ -83,6 +84,20 @@
 22. **St. Vincent de Paul** (1581-1660) - Apostle of Charity, Father of the Poor
 23. **St. John Bosco** (1815-1888) - Don Bosco, Father and Teacher of Youth
 24. **St. Juan Diego** (1474-1548) - Visionary of Guadalupe, Indigenous Saint
+
+### Newly Added Saints (December 2024)
+25. **St. Clare of Assisi** (1194-1253) - Co-Founder of the Poor Clares, Mirror of Franciscan Poverty
+26. **St. Bonaventure** (c. 1217-1274) - The Seraphic Doctor, Franciscan Theologian
+27. **St. Rita of Cascia** (1381-1457) - Saint of Impossible Causes, Augustinian Nun
+28. **St. Toribio de Mogrovejo** (1538-1606) - Great Reformer Archbishop, Defender of Indigenous Rights
+29. **St. Rose of Lima** (1586-1617) - First Saint of the Americas, Mystic and Ascetic
+30. **St. Joseph of Cupertino** (1603-1663) - The Flying Friar, Mystic known for Levitation
+31. **St. Martin de Porres** (1579-1639) - Father of Charity, Advocate for Racial Harmony
+32. **St. Peter Claver** (1581-1654) - Slave of the Slaves, Apostle to African Slaves
+33. **St. Margaret Mary Alacoque** (1647-1690) - Apostle of the Sacred Heart
+34. **St. Maria Goretti** (1890-1902) - Virgin Martyr of Purity, Child Saint
+35. **St. José Sánchez del Río** (1913-1928) - Boy Martyr of the Cristero War
+36. **St. Oscar Romero** (1917-1980) - Voice for the Voiceless, Martyr Archbishop
 
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
@@ -190,7 +205,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: December 2024
+- **Last Updated**: January 2025 (Added 12 new saints)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
