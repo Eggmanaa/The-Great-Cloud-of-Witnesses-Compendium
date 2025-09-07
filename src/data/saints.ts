@@ -892,6 +892,355 @@ Juan Diego's humble obedience and the miraculous tilma led to the conversion of 
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/4b7b98c6bbe691612d9ca5778be91b06",
     orderByDate: 1548
+  },
+  {
+    id: "st-margaret-mary-alacoque",
+    name: "St. Margaret Mary Alacoque",
+    title: "Apostle of the Sacred Heart",
+    knownFor: "Revelations of the Sacred Heart of Jesus",
+    feastDay: "October 16",
+    lifespan: "1647-1690",
+    patronOf: "Devotees of the Sacred Heart, Polio Patients, Loss of Parents",
+    shortBio: "A French Visitation nun who received visions of Jesus revealing His Sacred Heart. Through her, Christ established the devotion to the Sacred Heart, including the Nine First Fridays and the Holy Hour.",
+    fullBio: `Born Marguerite Alacoque in Lhautecour, France, to Claude and Philiberte Alacoque, Margaret Mary experienced profound suffering from an early age. Her father died when she was eight, plunging the family into poverty. She was struck with rheumatic fever that left her paralyzed for four years.
+
+At age 15, after vowing herself to the Blessed Virgin Mary, she was miraculously healed. Despite pressure to marry, she entered the Visitation convent at Paray-le-Monial in 1671 at age 22, after a vision of Christ reproached her for worldliness.
+
+Between 1673 and 1675, she received a series of revelations from Jesus Christ. He showed her His Sacred Heart, wounded by humanity's ingratitude, and appointed her to spread devotion to His heart. Christ requested the establishment of the Nine First Fridays devotion, the Holy Hour of adoration, and a feast in honor of His Sacred Heart.
+
+Initially rejected by her community as delusional, she found support from her confessor, St. Claude La Colombière, who validated her visions. The devotion she promoted would eventually spread throughout the universal Church, though official approval came only 75 years after her death.
+
+She spent her final years in suffering and prayer, dying on October 17, 1690. Her body was found incorrupt when her tomb was opened in 1830, confirming her sanctity.`,
+    miracles: [
+      "Miraculous healing from paralysis at age 15 after prayer to the Virgin Mary",
+      "Received multiple visions of Christ revealing His Sacred Heart",
+      "Body found incorrupt 140 years after death",
+      "Two instantaneous cures occurred when her tomb was opened in 1830",
+      "The worldwide spread of Sacred Heart devotion from her private revelations"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/404f3933e7f66cd147ba7bfcc107dc28",
+    orderByDate: 1690
+  },
+  {
+    id: "st-rose-lima",
+    name: "St. Rose of Lima",
+    title: "First Saint of the Americas",
+    knownFor: "Mystic and Ascetic of Peru",
+    feastDay: "August 23",
+    lifespan: "1586-1617",
+    patronOf: "Peru, The Americas, Philippines, Florists, Gardeners",
+    shortBio: "The first person born in the Americas to be canonized. A Dominican tertiary who lived a life of extreme penance and mystical prayer in colonial Lima, becoming a model of holiness for the New World.",
+    fullBio: `Born Isabel Flores de Oliva in Lima, Peru, to Spanish colonial parents, she was nicknamed 'Rose' for her beauty. From childhood, she showed extraordinary devotion to God and practiced severe penances to preserve her soul's purity and reject worldly vanity.
+
+To avoid marriage, she deliberately marred her beauty and took a vow of virginity at age 20. She became a Dominican tertiary, taking St. Catherine of Siena as her model. Rose created a hermitage in her parents' garden where she spent long hours in prayer and mortification.
+
+She wore a silver crown with spikes on the inside to imitate Christ's crown of thorns, fasted extensively, and slept on a bed of broken glass and pottery. Despite these extreme practices, she maintained a cheerful disposition and cared for the sick and poor, turning a room in her home into an infirmary.
+
+Rose experienced profound mystical visions and spiritual ecstasies, including mystical marriage to Christ. She offered her sufferings for the conversion of sinners and the souls in purgatory. She supported her impoverished family through needlework and growing flowers.
+
+She died at age 31 after a painful final illness, her last words being "Jesus, Jesus, be with me." Her funeral was attended by vast crowds, and miracles were immediately reported at her tomb. She was canonized in 1671, becoming the first saint of the Americas.`,
+    miracles: [
+      "Experienced mystical marriage to Christ",
+      "Numerous miraculous healings attributed to her intercession",
+      "Flowers bloomed out of season at her touch",
+      "Levitated during prayer and experienced ecstatic visions",
+      "Protected Lima from earthquakes through her prayers",
+      "Appeared to sailors in visions to save them from shipwrecks"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c9d8d20e7339e2fda79ebf7b8c1a363f",
+    orderByDate: 1617
+  },
+  {
+    id: "st-rita-cascia",
+    name: "St. Rita of Cascia",
+    title: "Saint of Impossible Causes",
+    knownFor: "Patient Wife, Devoted Mother, Augustinian Nun",
+    feastDay: "May 22",
+    lifespan: "1381-1457",
+    patronOf: "Impossible Causes, Difficult Marriages, Abuse Victims, Widows",
+    shortBio: "An Italian saint who endured an abusive marriage, the loss of her husband and sons, and received a partial stigmata. Known as the 'Saint of the Impossible' for her powerful intercession in hopeless cases.",
+    fullBio: `Born Margherita Lotti in Roccaporena, Italy, to parents known as "Peacemakers of Christ," Rita desired religious life from childhood but was forced into marriage at age 12 to Paolo di Ferdinando, a violent nobleman.
+
+For 18 years, she endured her husband's abuse, infidelities, and violent temper with patience and prayer. Her virtuous example eventually softened his heart, but he was murdered in a family feud. Rita publicly forgave his murderers, but her two sons planned revenge. She prayed that God would take them rather than allow them to commit murder, and both died of illness within a year.
+
+After establishing peace between the feuding families, Rita was admitted to the Augustinian monastery in Cascia at age 36. She lived there for 40 years in contemplation and service. On Good Friday 1442, while praying before a crucifix, she received a wound on her forehead as if from a thorn of Christ's crown - a partial stigmata that remained for the rest of her life.
+
+Near death, she asked a cousin for a rose from her garden in winter. Miraculously, a rose was found blooming in the snow. She died on May 22, 1457, and her body remains incorrupt. She was canonized in 1900 by Pope Leo XIII.`,
+    miracles: [
+      "Received a partial stigmata - a thorn wound on her forehead",
+      "A rose bloomed in winter snow at her request",
+      "Two figs appeared on a tree in January when she asked for them",
+      "Her body remains incorrupt over 500 years after death",
+      "Healed Elizabeth Bergamini of smallpox and blindness",
+      "Numerous healings of impossible cases through her intercession"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c9d8d20e7339e2fda79ebf7b8c1a363f",
+    orderByDate: 1457
+  },
+  {
+    id: "st-martin-de-porres",
+    name: "St. Martin de Porres",
+    title: "Father of Charity",
+    knownFor: "Humble Healer and Advocate for Racial Harmony",
+    feastDay: "November 3",
+    lifespan: "1579-1639",
+    patronOf: "Social Justice, Racial Harmony, Mixed-Race People, Public Health",
+    shortBio: "A Dominican lay brother in Lima, Peru, known for his humility, miraculous healings, and care for the poor. The illegitimate son of a Spanish nobleman and a freed African slave, he became a powerful symbol of racial harmony.",
+    fullBio: `Born in Lima, Peru, to Don Juan de Porres, a Spanish nobleman, and Ana Velázquez, a freed African slave, Martin faced discrimination from birth due to his mixed race and illegitimate status. His father initially refused to acknowledge him.
+
+At age 12, he was apprenticed to a barber-surgeon, learning medical skills that would serve him throughout life. At 15, he sought to join the Dominicans but due to racial laws, could only enter as a servant. He was later admitted as a lay brother.
+
+Martin served as the monastery's barber, surgeon, wardrobe keeper, and infirmarian. He established an orphanage and a children's hospital, and distributed food to hundreds of poor people daily. He was known for his extraordinary care of all creatures, keeping a hospital for sick cats and dogs.
+
+He experienced mystical gifts including levitation, bilocation, miraculous knowledge, and instantaneous cures. He could pass through locked doors and was seen in multiple places simultaneously. His room often glowed with supernatural light during his ecstasies.
+
+Martin treated all people equally regardless of race or status, caring for African slaves, Spanish nobles, and indigenous peoples with the same love. He died in 1639 after a severe fever, and was canonized in 1962 by Pope John XXIII, becoming the first black saint of the Americas.`,
+    miracles: [
+      "Levitated during prayer and experienced ecstatic visions",
+      "Bilocated, appearing in multiple places simultaneously",
+      "Passed through locked doors to help the sick",
+      "Multiplied food to feed the poor and healed countless sick",
+      "Had miraculous knowledge of distant events",
+      "Tamed and communicated with animals"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/683253b0f58d56214ee9f99a917e9330",
+    orderByDate: 1639
+  },
+  {
+    id: "st-oscar-romero",
+    name: "St. Oscar Romero",
+    title: "Voice for the Voiceless",
+    knownFor: "Martyr Archbishop Who Defended the Poor",
+    feastDay: "March 24",
+    lifespan: "1917-1980",
+    patronOf: "The Americas, El Salvador, Persecuted Christians",
+    shortBio: "Archbishop of San Salvador who became a prophetic voice against oppression and violence. Assassinated while celebrating Mass for speaking out against injustice, he was canonized by Pope Francis in 2018.",
+    fullBio: `Born Oscar Arnulfo Romero y Galdámez in Ciudad Barrios, El Salvador, he felt called to priesthood from age 13. Ordained in Rome in 1942, he returned to El Salvador where he served in various pastoral and administrative roles.
+
+Appointed Archbishop of San Salvador in 1977, he was initially considered conservative. However, the assassination of his friend Fr. Rutilio Grande, who worked with the poor, transformed him. He became an outspoken advocate for human rights and social justice.
+
+During El Salvador's civil conflict, Romero used his Sunday homilies, broadcast nationally by radio, to report disappearances, tortures, and murders. He denounced violence from both the military government and leftist guerrillas, calling for dialogue and respect for human dignity.
+
+His famous quote, "When the Church hears the cry of the oppressed it cannot but denounce the social structures that give rise to and perpetuate the misery from which the cry arises," embodied his prophetic ministry.
+
+On March 23, 1980, he directly appealed to soldiers to stop killing civilians. The next day, March 24, while celebrating Mass at a hospital chapel, he was assassinated by a single bullet to the heart. His funeral drew 250,000 mourners despite government intimidation. He was beatified in 2015 and canonized in 2018, recognized as a martyr for the faith.`,
+    miracles: [
+      "Prophetic preaching that converted hearts and inspired justice",
+      "Miraculous cure of Cecilia Flores from life-threatening complications during pregnancy",
+      "His blood became a seed of peace in El Salvador",
+      "Intercessions for healing and protection widely reported",
+      "His witness inspired countless defenders of human rights worldwide",
+      "Appeared in visions to comfort the persecuted"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/762df8cede3a7f30adf55c464e1768cf",
+    orderByDate: 1980
+  },
+  {
+    id: "st-peter-claver",
+    name: "St. Peter Claver",
+    title: "Slave of the Slaves",
+    knownFor: "Apostle to African Slaves in Colombia",
+    feastDay: "September 9",
+    lifespan: "1581-1654",
+    patronOf: "Slaves, African Missions, Interracial Justice, Colombia",
+    shortBio: "A Spanish Jesuit priest who dedicated his life to serving enslaved Africans in Cartagena, Colombia. He baptized and cared for an estimated 300,000 slaves, declaring himself 'slave of the slaves forever.'",
+    fullBio: `Born in Verdú, Catalonia, Spain, to a devout farming family, Peter studied at the University of Barcelona before joining the Jesuits in 1602. Inspired by St. Alphonsus Rodriguez to evangelize in the Americas, he arrived in Cartagena, Colombia, in 1610.
+
+Cartagena was a major slave port where 10,000 enslaved Africans arrived annually in horrific conditions. Peter made his life's work ministering to these slaves. When slave ships arrived, he would board them with food, medicine, and water, entering the dark holds where people lay in chains.
+
+He learned African languages and used interpreters to communicate. He treated the slaves' wounds, fed them, and assured them of their human dignity and God's love. He insisted on baptizing them properly, ensuring they understood the faith. He followed up with continued catechesis and advocacy.
+
+Peter faced opposition from slave traders and even fellow clergy who considered Africans inferior. He persisted, making a vow as "slave of the slaves forever." He also ministered to prisoners and hospital patients, showing particular care for the most abandoned.
+
+In his final years, he suffered from Parkinson's disease and was neglected by his caregivers. He died on September 8, 1654, and was canonized in 1888 by Pope Leo XIII, along with his mentor St. Alphonsus Rodriguez.`,
+    miracles: [
+      "Converted and baptized an estimated 300,000 enslaved Africans",
+      "Gift of tongues - understood and was understood by slaves of various languages",
+      "Miraculous multiplication of food and supplies for the slaves",
+      "Healed many sick slaves through prayer and care",
+      "Prophesied future events including his own death",
+      "Supernatural knowledge of souls' spiritual states"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/e303a08bb4834a5c6238b40e9c0ea14c",
+    orderByDate: 1654
+  },
+  {
+    id: "st-toribio-mogrovejo",
+    name: "St. Toribio de Mogrovejo",
+    title: "Great Reformer Archbishop",
+    knownFor: "Defender of Indigenous Rights in Peru",
+    feastDay: "March 23",
+    lifespan: "1538-1606",
+    patronOf: "Latin American Bishops, Peru, Native Peoples' Rights",
+    shortBio: "Spanish-born Archbishop of Lima who reformed the Church in Peru, defended indigenous peoples against exploitation, and traveled thousands of miles on foot to evangelize remote communities.",
+    fullBio: `Born in Mayorga, Spain, to a noble family, Toribio was a brilliant student of law at Salamanca. Though a layman, King Philip II appointed him chief judge of the Inquisition at Granada due to his exceptional abilities.
+
+In 1579, despite not being ordained, he was chosen as Archbishop of Lima, Peru. He accepted reluctantly, was ordained, and arrived in Peru in 1581 to find a Church in disorder, with clergy exploiting indigenous peoples and living scandalously.
+
+Toribio immediately began reforms, celebrating three provincial councils and twelve diocesan synods. He established the first seminary in the Americas, mandated catechesis in native languages, and required priests to live among their flocks.
+
+He traveled over 25,000 miles on foot through his vast diocese, often through dangerous terrain, visiting every parish multiple times. He learned Quechua to communicate directly with indigenous peoples, confirmed nearly half a million people, and defended them against exploitation by colonizers.
+
+He lived simply, giving away his possessions to the poor. He established churches, schools, hospitals, and the first seminary in the Americas. Among those he confirmed was St. Rose of Lima and possibly St. Martin de Porres.
+
+He died on March 23, 1606, in Saña, while on a pastoral visit. His last words were from Psalm 121: "I was glad when they said unto me, Let us go into the house of the Lord." He was canonized in 1726.`,
+    miracles: [
+      "Traveled over 25,000 miles on foot through dangerous terrain without harm",
+      "Gift of tongues - learned indigenous languages miraculously quickly",
+      "Multiplied food to feed the poor during famines",
+      "Healed the sick through prayer and blessing",
+      "Prophesied future events including the date of his death",
+      "Protected from wild animals and bandits during travels"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/64c4d50a1f938c7246f7269182386c5a",
+    orderByDate: 1606
+  },
+  {
+    id: "st-jose-sanchez-del-rio",
+    name: "St. José Sánchez del Río",
+    title: "Boy Martyr of Christ the King",
+    knownFor: "Teenage Martyr of the Cristero War",
+    feastDay: "February 10",
+    lifespan: "1913-1928",
+    patronOf: "Persecuted Christians, Children, Adolescents",
+    shortBio: "A 14-year-old Mexican boy who was tortured and martyred during the Cristero War for refusing to renounce his faith. His courage inspired countless others and he was canonized by Pope Francis in 2016.",
+    fullBio: `Born in Sahuayo, Michoacán, Mexico, José grew up during the anti-Catholic persecutions of the Mexican government. When the Cristero War began in 1926, his brothers joined the Catholic resistance. José begged to join at age 13.
+
+Initially refused due to his age, he persisted until allowed to serve as flag bearer and bugler. His motto was "Never give in! Long live Christ the King and Our Lady of Guadalupe!" He showed remarkable bravery and faith despite his youth.
+
+On February 5, 1928, during a battle, José gave his horse to his commander General Guizar Morfin when the general's horse was killed, saying "My general, take my horse and save yourself. You are more needed than I." José was captured by government forces.
+
+In prison, he encouraged fellow prisoners and wrote touching letters to his mother. The soldiers tortured him to force him to renounce his faith. They cut the soles of his feet and forced him to walk on salt, then to the cemetery for execution.
+
+Each step, José cried out "Viva Cristo Rey!" (Long live Christ the King!). At the graveside, they stabbed him with bayonets. When asked to renounce Christ to save his life, he shouted louder "Viva Cristo Rey!" He was shot on February 10, 1928, at age 14. Before dying, he drew a cross in the dirt and kissed it.`,
+    miracles: [
+      "Showed supernatural courage and joy during torture",
+      "His witness converted several of his captors",
+      "Miraculous cure of Ximena Sánchez from tuberculosis through his intercession",
+      "His martyrdom strengthened the faith of countless Cristeros",
+      "Letters from prison showed wisdom beyond his years",
+      "His blood marked the ground where he died, unable to be washed away"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/0443dfd6fb7359f8cfed1fb3b8a5a7ed",
+    orderByDate: 1928
+  },
+  {
+    id: "st-joseph-cupertino",
+    name: "St. Joseph of Cupertino",
+    title: "The Flying Friar",
+    knownFor: "Levitation and Mystical Ecstasies",
+    feastDay: "September 18",
+    lifespan: "1603-1663",
+    patronOf: "Aviators, Air Travelers, Astronauts, Students, Test-Takers",
+    shortBio: "An Italian Franciscan friar famous for his supernatural levitations during prayer. Despite learning disabilities, he became a priest and mystic whose ecstasies were witnessed by thousands, including Pope Urban VIII.",
+    fullBio: `Born Giuseppe Desa in Cupertino, Italy, to a poor family, Joseph's father died before his birth, leaving the family destitute. His mother considered him a burden due to his learning disabilities and absent-mindedness, earning him the nickname "the Gaper."
+
+He struggled to join religious life, being dismissed by the Capuchins for incompetence. Finally accepted by Franciscans as a stable servant, his genuine holiness impressed the community. Despite barely being able to read, he was ordained after miraculously answering the one Gospel passage he had memorized.
+
+After ordination, Joseph's life became a succession of ecstasies and supernatural phenomena. He levitated during Mass, at the mention of God's name, or when seeing religious images. Over 70 levitations were documented by witnesses including cardinals, dukes, and Pope Urban VIII.
+
+These spectacular gifts became a cross - he was forbidden from public celebration of Mass, eating with his community, or participating in processions. He spent 35 years in virtual isolation, moved between friaries to avoid crowds. He was even investigated by the Inquisition.
+
+Despite this suffering, Joseph remained humble and obedient. He had remarkable rapport with animals and possessed infused knowledge, answering complex theological questions despite his learning disabilities. He died peacefully on September 18, 1663, and was canonized in 1767.`,
+    miracles: [
+      "Levitated over 70 documented times, often for extended periods",
+      "Flew to the altar and back during Mass witnessed by crowds",
+      "Lifted others into the air with him during ecstasies",
+      "Possessed infused knowledge despite learning disabilities",
+      "Healed many sick through prayer and touch",
+      "Had supernatural knowledge of distant events"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c2941fd73acf5c91bd9242cadbda2918",
+    orderByDate: 1663
+  },
+  {
+    id: "st-maria-goretti",
+    name: "St. Maria Goretti",
+    title: "Virgin Martyr of Purity",
+    knownFor: "Child Martyr Who Forgave Her Murderer",
+    feastDay: "July 6",
+    lifespan: "1890-1902",
+    patronOf: "Chastity, Young People, Victims of Rape, Children",
+    shortBio: "An 11-year-old Italian girl who chose death rather than submit to sexual assault. Her forgiveness of her attacker and concern for his soul led to his conversion and her canonization as a martyr for purity.",
+    fullBio: `Born in Corinaldo, Italy, to poor tenant farmers Luigi and Assunta Goretti, Maria was one of six children. After her father died of malaria when she was nine, she took over household duties while her mother worked in the fields.
+
+The Gorettis shared a house with the Serenelli family. Alessandro Serenelli, 20, became obsessed with Maria and made sexual advances which she rejected. On July 5, 1902, while alone sewing, Alessandro attempted to rape her.
+
+Maria fought fiercely, crying "No! It is a sin! God does not want it! You would go to hell!" Enraged, Alessandro stabbed her 14 times. Found bleeding, she was rushed to the hospital where she survived for 20 hours in agony.
+
+Before dying, Maria forgave Alessandro completely, saying she wanted him in Paradise with her. She died on July 6, holding a crucifix and medal of Our Lady.
+
+Alessandro was sentenced to 30 years in prison. After eight years, Maria appeared to him in a dream, offering him 14 white lilies. This vision converted him completely. Released after 27 years, his first act was to beg forgiveness from Maria's mother, who granted it.
+
+Alessandro became a Capuchin lay brother, living in penance. He attended Maria's canonization in 1950, where her mother was also present - the only time a parent attended their child's canonization. Maria's forgiveness had saved his soul.`,
+    miracles: [
+      "Appeared to Alessandro in prison, leading to his conversion",
+      "Her forgiveness transformed her murderer into a penitent religious",
+      "Numerous miraculous healings through her intercession",
+      "Her story has prevented countless sins against purity",
+      "Protection of young people in danger through her intercession",
+      "Her mother lived to attend her canonization - unique in Church history"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/dac33c0779dd71d8bae17d36b6b22316",
+    orderByDate: 1902
+  },
+  {
+    id: "st-clare-assisi",
+    name: "St. Clare of Assisi",
+    title: "Co-Founder of the Poor Clares",
+    knownFor: "Mirror of Franciscan Poverty",
+    feastDay: "August 11",
+    lifespan: "1194-1253",
+    patronOf: "Television, Eye Disease, Goldsmiths, Laundry",
+    shortBio: "Italian noblewoman who founded the Order of Poor Clares under St. Francis's guidance. First woman to write a religious rule approved by the Pope, she defended radical poverty and is patron of television for her miraculous vision.",
+    fullBio: `Born Chiara Offreduccio to a wealthy noble family in Assisi, Clare was known from childhood for her piety and charity. At 18, inspired by St. Francis's preaching, she secretly left her family on Palm Sunday 1212 to join his movement.
+
+At the Portiuncula, Francis cut her hair and clothed her in rough habit. Her family tried forcefully to retrieve her, but she clung to the altar, revealing her shorn head. Francis placed her at San Damiano, where she was soon joined by her sister Agnes and other women.
+
+Clare became abbess of what would become the Order of Saint Clare (Poor Clares). She insisted on absolute poverty, obtaining the "Privilege of Poverty" from Pope Innocent III - the right to own nothing. Her community lived in radical austerity: barefoot, sleeping on the ground, eating no meat, maintaining near-total silence.
+
+In 1240, when Saracen mercenaries threatened the convent, the bedridden Clare had the Blessed Sacrament brought to the gates. She prayed and heard a voice promising protection; the soldiers fled in fear. This miracle explains her portrayal with a monstrance.
+
+Clare was ill for 27 years but remained joyful. On Christmas Eve 1252, too sick to attend Mass, she miraculously saw and heard the entire liturgy on her cell wall - making her patron of television. She wrote the first religious rule by a woman, approved just before her death on August 11, 1253.`,
+    miracles: [
+      "Repelled Saracen invaders with the Blessed Sacrament",
+      "Miraculously saw and heard Mass from her sickbed (patron of television)",
+      "Multiplied food for her sisters during famine",
+      "Healed the sick with the sign of the cross",
+      "Oil in the monastery lamps miraculously replenished",
+      "Protected Assisi from attack through her prayers"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/f734681ff2408e75f325e2030619aeb7",
+    orderByDate: 1253
+  },
+  {
+    id: "st-bonaventure",
+    name: "St. Bonaventure",
+    title: "The Seraphic Doctor",
+    knownFor: "Franciscan Theologian and Mystic",
+    feastDay: "July 15",
+    lifespan: "c. 1217-1274",
+    patronOf: "Theologians, Bowel Disorders",
+    shortBio: "Italian Franciscan theologian who served as Minister General of the Order. A Doctor of the Church known for combining theological brilliance with mystical wisdom, he helped reconcile Aristotelian philosophy with Christian faith.",
+    fullBio: `Born Giovanni di Fidanza in Bagnoregio, Italy, he was gravely ill as a child. His mother prayed to St. Francis of Assisi for his healing. When he recovered, St. Francis reportedly exclaimed "O buona ventura" (O good fortune), giving him his religious name.
+
+Entering the Franciscans in 1243, Bonaventure studied under Alexander of Hales in Paris, becoming a master of theology. His brilliant synthesis of faith and reason, combining Augustinian tradition with Aristotelian philosophy, earned him recognition as one of the greatest medieval theologians.
+
+Elected Minister General of the Franciscans in 1257 at age 40, he found the Order divided between strict and moderate interpretations of poverty. Through wise governance and his biography of St. Francis, he unified the Order, earning the title "Second Founder."
+
+His theological works, especially "Journey of the Mind to God," blend intellectual rigor with mystical insight. He taught that all creation reflects God's glory and that contemplation leads through creation to the Creator. His Christocentric theology emphasized Christ as the center of all sciences.
+
+Created Cardinal-Bishop of Albano in 1273, he helped prepare the Second Council of Lyon, working for Church unity. He died suddenly during the Council on July 15, 1274. Thomas Aquinas called him "the wisest of men." He was canonized in 1482 and declared Doctor of the Church in 1588.`,
+    miracles: [
+      "Healed from childhood illness through St. Francis's intercession",
+      "Possessed extraordinary wisdom in resolving theological disputes",
+      "Experienced mystical visions and ecstasies during prayer",
+      "His writings miraculously survived various attempts at destruction",
+      "Prophesied future events including his own death",
+      "Brought peace to the divided Franciscan Order"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/92eb1cfdfd3aa9103938c57253b0cd17",
+    orderByDate: 1274
   }
 ];
 
