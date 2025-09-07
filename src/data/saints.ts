@@ -974,7 +974,7 @@ Near death, she asked a cousin for a rose from her garden in winter. Miraculousl
       "Healed Elizabeth Bergamini of smallpox and blindness",
       "Numerous healings of impossible cases through her intercession"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/c9d8d20e7339e2fda79ebf7b8c1a363f",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/a2ba24df9ec27c7f4907052556ab2394",
     orderByDate: 1457
   },
   {
@@ -1181,8 +1181,42 @@ The Camino de Santiago became medieval Europe's most important pilgrimage after 
       "Multiple battlefield appearances during the Reconquista",
       "His tomb's discovery marked by celestial lights and music"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/d7dac4ae4eb4ccddc714bfd92a940c6b",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
     orderByDate: 44
+  },
+  {
+    id: "st-james-moorslayer",
+    name: "Santiago Matamoros",
+    title: "Saint James the Moorslayer",
+    knownFor: "Legendary Warrior Saint of the Reconquista",
+    feastDay: "July 25",
+    lifespan: "Legendary apparition from 844 AD",
+    patronOf: "Spain, Spanish Military, Christian Warriors",
+    shortBio: "The legendary martial aspect of St. James the Greater who appeared at the Battle of Clavijo in 844 AD, leading Christian forces to victory. This warrior saint became the spiritual champion of the Reconquista.",
+    fullBio: `Santiago Matamoros represents the transformation of St. James the Greater from apostle and martyr into the legendary warrior saint of Spain. This metamorphosis occurred during the centuries-long Reconquista, when Christian kingdoms fought to reclaim the Iberian Peninsula from Muslim rule.
+
+The legend crystallized at the Battle of Clavijo in 844 AD, where King Ramiro I of Asturias faced overwhelming Moorish forces. According to tradition, St. James appeared on a white charger, sword in hand, leading the Christian army to miraculous victory. The battle cry '¡Santiago y cierra, España!' ('St. James and strike for Spain!') became the rallying call of Christian forces for centuries.
+
+This apparition transformed James from pilgrim saint to miles Christi (soldier of Christ). Iconographically, Santiago Matamoros is depicted as a knight in armor on a white horse, trampling Moorish soldiers beneath his mount's hooves, wielding both sword and the banner of the Cross. This image adorned churches, military standards, and coins throughout Christian Spain.
+
+The cult of Santiago Matamoros served crucial political and military functions during the Reconquista. Spanish military orders invoked his protection, and victories were attributed to his intercession. The legend justified and sanctified the territorial expansion and religious warfare that characterized medieval Iberia.
+
+In the Americas, conquistadors carried this warrior saint's image to the New World, where Santiago became the patron of Spanish colonial military expeditions. Indigenous peoples were taught to invoke 'Santiago' in battle, though the saint's meaning transformed in various colonial contexts.
+
+Modern Spain grapples with this controversial legacy. While Santiago Matamoros remains embedded in Spanish cultural identity, many churches have removed or modified depictions showing the saint trampling Muslims, recognizing the problematic nature of such imagery in contemporary multicultural society.
+
+The duality of St. James - both peaceful pilgrim and militant warrior - reflects the complex religious and cultural history of medieval Spain, where spiritual devotion and military conquest were often inseparable.`,
+    miracles: [
+      "Appeared at the Battle of Clavijo (844) leading to Christian victory",
+      "Multiple battlefield apparitions during the Reconquista",
+      "Miraculous interventions at the battles of Coimbra and Las Navas de Tolosa",
+      "Protected Christian armies from defeat when invoked",
+      "Inspired terror in opposing forces through supernatural appearances",
+      "Guided lost Christian soldiers to safety",
+      "His battle standard never fell in combat when carried into battle"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/d7dac4ae4eb4ccddc714bfd92a940c6b",
+    orderByDate: 844
   },
   {
     id: "st-john-apostle",
@@ -1213,7 +1247,7 @@ John died peacefully around 100 AD, the only apostle not martyred, buried at Eph
       "Transformed stones into gold to demonstrate detachment from wealth",
       "His Gospel's profound theology considered divinely inspired"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/629332d60c78f5fad95c1a56052ed80e",
     orderByDate: 100
   },
   {
@@ -1250,7 +1284,7 @@ His symbol is a winged man or angel, representing his Gospel's opening genealogy
   },
   {
     id: "st-philip-apostle",
-    name: "St. Philip",
+    name: "St. Philip the Apostle",
     title: "Apostle and Evangelist",
     knownFor: "Practical Apostle, Missionary to Greece and Asia",
     feastDay: "May 3",
@@ -1277,7 +1311,7 @@ Often confused with Philip the Deacon (who baptized the Ethiopian eunuch), the a
       "His tomb in Hierapolis became a site of miraculous healings",
       "Appeared in visions to guide missionary work"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/32494774608dc7e66e2518e4a7432925",
     orderByDate: 80
   },
   {
