@@ -1,9 +1,11 @@
 // Saints data will be fetched from the API
 let saintsData = [];
+let filteredSaints = [];
 
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', async () => {
     await loadSaints();
+    setupSearchHandler();
     hideLoading();
 });
 
@@ -13,6 +15,7 @@ async function loadSaints() {
         const response = await fetch('/api/saints');
         const data = await response.json();
         saintsData = data.saints;
+        filteredSaints = saintsData; // Initially show all saints
         renderSaintsGrid();
         updateSaintsCount();
     } catch (error) {
@@ -21,12 +24,66 @@ async function loadSaints() {
     }
 }
 
+// Setup search handler
+function setupSearchHandler() {
+    const searchInput = document.getElementById('saint-search');
+    const clearButton = document.getElementById('clear-search');
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase().trim();
+            
+            if (searchTerm) {
+                clearButton.classList.remove('hidden');
+                filteredSaints = saintsData.filter(saint => 
+                    saint.name.toLowerCase().includes(searchTerm) ||
+                    saint.title.toLowerCase().includes(searchTerm) ||
+                    saint.knownFor.toLowerCase().includes(searchTerm)
+                );
+            } else {
+                clearButton.classList.add('hidden');
+                filteredSaints = saintsData;
+            }
+            
+            renderSaintsGrid();
+            updateSaintsCount();
+        });
+    }
+}
+
+// Clear search
+function clearSearch() {
+    const searchInput = document.getElementById('saint-search');
+    const clearButton = document.getElementById('clear-search');
+    
+    if (searchInput) {
+        searchInput.value = '';
+        clearButton.classList.add('hidden');
+        filteredSaints = saintsData;
+        renderSaintsGrid();
+        updateSaintsCount();
+    }
+}
+
 // Render saints grid
 function renderSaintsGrid() {
     const grid = document.getElementById('saints-grid');
     grid.innerHTML = '';
     
-    saintsData.forEach(saint => {
+    if (filteredSaints.length === 0) {
+        grid.innerHTML = `
+            <div class="col-span-full text-center py-16">
+                <i class="fas fa-search text-6xl text-gray-600 mb-4"></i>
+                <p class="serif-text text-xl text-gray-400">No saints found matching your search.</p>
+                <button onclick="clearSearch()" class="mt-4 px-6 py-2 bg-yellow-600/20 hover:bg-yellow-600/30 text-yellow-400 rounded-lg transition-colors sans-text">
+                    Clear Search
+                </button>
+            </div>
+        `;
+        return;
+    }
+    
+    filteredSaints.forEach(saint => {
         const card = createSaintCard(saint);
         grid.appendChild(card);
     });
@@ -294,7 +351,10 @@ function showFullImage(imageUrl, altText) {
 
 // Update saints count
 function updateSaintsCount() {
-    document.getElementById('saints-count').textContent = saintsData.length;
+    const countElement = document.getElementById('saints-count');
+    if (countElement) {
+        countElement.textContent = filteredSaints.length;
+    }
 }
 
 // Hide loading screen

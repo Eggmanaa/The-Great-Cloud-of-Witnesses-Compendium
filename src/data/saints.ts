@@ -1527,6 +1527,366 @@ Created Cardinal-Bishop of Albano in 1273, he helped prepare the Second Council 
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/64c4d50a1f938c7246f7269182386c5a",
     orderByDate: 1274
+  },
+  {
+    id: "st-kateri-tekakwitha",
+    name: "St. Kateri Tekakwitha",
+    title: "Lily of the Mohawks",
+    knownFor: "First Native American Saint",
+    feastDay: "July 14",
+    lifespan: "1656-1680",
+    patronOf: "Environment, Ecology, Native Americans",
+    shortBio: "A Mohawk-Algonquin woman who converted to Christianity and lived a life of deep prayer, penance, and virginity. Known as the 'Lily of the Mohawks,' she was the first Native American to be canonized.",
+    fullBio: `Kateri Tekakwitha was born in 1656 in present-day New York to a Mohawk father and an Algonquin Christian mother. When she was four, a smallpox epidemic killed her parents and baby brother, leaving her with poor eyesight and a scarred face. She was raised by her anti-Christian uncle.
+
+At age 19, despite strong family opposition, she was baptized by Jesuit missionaries, taking the name Kateri (Catherine). Her conversion led to persecution from her tribe, including threats of torture and death. She fled 200 miles to a Christian mission near Montreal.
+
+At the mission, Kateri lived a life of extraordinary holiness. She took a private vow of virginity - unprecedented for a Native American woman. She practiced severe penances, including sleeping on thorns and fasting extensively. Her devotion to the Eucharist and the rosary was profound.
+
+Kateri's health, already fragile from childhood smallpox, deteriorated from her austere practices. She died on April 17, 1680, at age 24. Witnesses reported that within minutes of her death, the smallpox scars vanished from her face, leaving her radiantly beautiful.
+
+She was beatified by Pope John Paul II in 1980 and canonized by Pope Benedict XVI in 2012, becoming the first Native American saint. Her life bridges Native American spirituality and Catholic faith, showing how indigenous culture can embrace Christianity while maintaining its unique identity.`,
+    miracles: [
+      "Her smallpox scars miraculously vanished at the moment of death",
+      "Appeared to a Jesuit priest in 1680s, healing him of a dangerous fever",
+      "Miraculous healing of a young boy with flesh-eating bacteria in 2006",
+      "Jake Finkbonner's recovery from necrotizing fasciitis after prayers to her",
+      "Numerous healings and conversions among Native American communities",
+      "Protection of Christian Native Americans during times of persecution"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/e348a5266ae095af5235cddd01153ccd",
+    orderByDate: 1680
+  },
+  {
+    id: "st-margaret-antioch",
+    name: "St. Margaret of Antioch",
+    title: "Virgin and Martyr",
+    knownFor: "Dragon Slayer, One of the Fourteen Holy Helpers",
+    feastDay: "July 20",
+    lifespan: "c. 289-304",
+    patronOf: "Childbirth, Pregnant Women, Nurses",
+    shortBio: "A virgin martyr of the early Church who, according to legend, was swallowed by Satan in the form of a dragon but escaped unharmed. One of the most venerated saints of the Middle Ages.",
+    fullBio: `Margaret of Antioch, also known as Marina in the Eastern tradition, was born to a pagan priest in Antioch during the reign of Diocletian. Her mother died in childbirth, and she was raised by a Christian nurse who secretly baptized and instructed her in the faith.
+
+When her father discovered her Christianity, he disowned her. At age 15, she caught the eye of the Roman governor Olybrius while tending sheep. When she rejected his marriage proposal and refused to renounce Christ, she was subjected to horrible tortures.
+
+According to legend, while imprisoned, Satan appeared to her in the form of a dragon and swallowed her whole. She made the sign of the cross, causing the dragon to burst open, and she emerged unharmed. This story, though considered apocryphal, made her the patroness of childbirth.
+
+She endured various tortures including being burned with torches, bound and thrown into boiling water, and attempts at drowning. Each time, she was miraculously preserved. Finally, she was beheaded in 304 AD.
+
+Margaret's cult became extraordinarily popular in medieval Europe. She was included among the Fourteen Holy Helpers, saints believed to be particularly effective intercessors. Joan of Arc claimed St. Margaret as one of the saints who appeared to her. Though her historicity is debated, her spiritual significance as a model of virginal courage remains powerful.`,
+    miracles: [
+      "Emerged unharmed after being swallowed by a dragon",
+      "Converted thousands who witnessed her tortures and miraculous preservation",
+      "Torches used to burn her were extinguished by divine power",
+      "Boiling water she was thrown into became cool like a bath",
+      "Chains binding her miraculously broke during torture",
+      "Appeared to Joan of Arc providing guidance and courage"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/b1791043da9ff23c8181fbe4a422dad4",
+    orderByDate: 304.5
+  },
+  {
+    id: "st-ambrose",
+    name: "St. Ambrose",
+    title: "Doctor of the Church",
+    knownFor: "Bishop Who Baptized St. Augustine",
+    feastDay: "December 7",
+    lifespan: "c. 339-397",
+    patronOf: "Milan, Beekeepers, Bishops, Learning",
+    shortBio: "Roman governor who became Bishop of Milan by popular acclaim. He courageously confronted emperors, baptized St. Augustine, and introduced congregational singing to the Western Church.",
+    fullBio: `Aurelius Ambrosius was born around 339 in Trier to a Roman Christian family of high rank. His father was Praetorian Prefect of Gaul. After studying law in Rome, Ambrose became governor of Aemilia-Liguria, with headquarters in Milan.
+
+In 374, when the Bishop of Milan died, violent disputes arose between Arians and Catholics about the succession. Ambrose, still unbaptized, went to the cathedral to maintain order. A child's voice suddenly cried, "Ambrose for bishop!" The entire assembly took up the cry.
+
+Horrified, Ambrose fled and hid, but Emperor Valentinian confirmed the election. Within eight days, he was baptized, ordained, and consecrated bishop. He immediately gave his wealth to the poor and devoted himself to theological study.
+
+Ambrose became a fierce defender of orthodoxy against Arianism. When Empress Justina demanded a basilica for Arian worship, he and his congregation occupied the church, introducing antiphonal singing to maintain morale. He faced down Emperor Theodosius I, refusing him Communion until he did public penance for ordering a massacre in Thessalonica.
+
+His preaching was instrumental in the conversion of Augustine of Hippo, whom he baptized in 387. He discovered the relics of Saints Gervasius and Protasius, wrote influential hymns still sung today, and established principles of church-state relations that shaped medieval Christianity. He died on Good Friday, April 4, 397.`,
+    miracles: [
+      "A swarm of bees settled on his infant face, leaving honey without stinging",
+      "Discovery of martyrs' relics through a prophetic dream",
+      "Forced Emperor Theodosius to do public penance for his sins",
+      "His eloquent preaching converted St. Augustine",
+      "Healed a boy in Florence through prayer",
+      "Successfully defended churches against imperial seizure through prayer"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/fb9bb3ede0c51b00e0a3566bc7c921c0",
+    orderByDate: 397
+  },
+  {
+    id: "st-jerome",
+    name: "St. Jerome",
+    title: "Doctor of the Church",
+    knownFor: "Translator of the Bible (Vulgate)",
+    feastDay: "September 30",
+    lifespan: "c. 347-420",
+    patronOf: "Translators, Librarians, Biblical Scholars",
+    shortBio: "Brilliant but irascible scholar who translated the Bible into Latin, creating the Vulgate that served the Church for over 1000 years. Known for his ascetic life in the desert and fierce theological debates.",
+    fullBio: `Eusebius Hieronymus Sophronius, known as Jerome, was born around 347 in Stridon, Dalmatia. He received an excellent classical education in Rome, developing a love for pagan literature, especially Cicero.
+
+A dramatic vision during illness changed his life. He dreamt Christ condemned him as "a Ciceronian, not a Christian," and he was scourged. Upon waking, he found real welts on his body. This experience led him to dedicate himself entirely to Scripture.
+
+Jerome spent years as a hermit in the Syrian desert, where he learned Hebrew from a Jewish convert - a rare skill that proved essential for his life's work. Pope Damasus I commissioned him to revise the Latin translations of Scripture.
+
+In 386, he settled in Bethlehem with St. Paula and other followers, establishing a monastery. There he spent 34 years producing his monumental translation of the Bible directly from Hebrew and Greek - the Vulgate. This translation shaped Western Christianity for over a millennium.
+
+His fierce temperament made him many enemies. He engaged in bitter scholarly disputes, even with St. Augustine. Yet his dedication to Scripture was absolute. His famous saying, "Ignorance of Scripture is ignorance of Christ," encapsulates his life's mission. He died in Bethlehem on September 30, 420.`,
+    miracles: [
+      "Vision of Christ with physical scourge marks that remained on his body",
+      "A lion became his companion after he removed a thorn from its paw",
+      "Christ appeared to him on Christmas Eve asking for his sins, not his works",
+      "St. Peter appeared in a vision to correct his biblical translations",
+      "His mastery of Hebrew considered divinely granted",
+      "Extraordinary productivity despite poor health seen as miraculous"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/996c852876d9a6814600a64592313989",
+    orderByDate: 420
+  },
+  {
+    id: "st-lucy",
+    name: "St. Lucy",
+    title: "Virgin and Martyr",
+    knownFor: "Martyr of Syracuse, Light of Christ",
+    feastDay: "December 13",
+    lifespan: "c. 283-304",
+    patronOf: "The Blind, Eye Diseases, Syracuse",
+    shortBio: "A young Sicilian virgin who consecrated herself to Christ and was martyred during Diocletian's persecution. Her name means 'light' and she is invoked for eye problems.",
+    fullBio: `Lucy was born in Syracuse, Sicily, around 283 to a wealthy Christian family. Her father died when she was young, leaving her mother Eutychia to arrange a marriage for her. However, Lucy had secretly consecrated her virginity to Christ.
+
+When her mother suffered from a hemorrhage for four years, Lucy persuaded her to make a pilgrimage to the tomb of St. Agatha. There, Eutychia was miraculously healed, and Lucy revealed her vow of virginity and desire to give her dowry to the poor.
+
+Her rejected suitor denounced her as a Christian to the governor. When ordered to sacrifice to idols, she refused. The governor ordered her to be defiled in a brothel, but when guards tried to move her, she became immovable. Even a team of oxen could not budge her.
+
+They tried to burn her, but the flames did not harm her. According to legend, when the governor asked how she could resist, she replied that her strength came from Christ. Some accounts say her eyes were gouged out, but God restored them more beautiful than before.
+
+Finally, she was killed by a sword thrust through her throat. Before dying, she prophesied the end of Diocletian's persecution and the peace of the Church. She died on December 13, 304. Her feast day, once the shortest day of the year in the Julian calendar, associates her with light conquering darkness.`,
+    miracles: [
+      "Became supernaturally immovable when guards tried to take her to a brothel",
+      "Fire could not burn her when they tried to execute her",
+      "Her gouged-out eyes were miraculously restored",
+      "Prophesied the end of Diocletian's persecution",
+      "Her intercession healed her mother's hemorrhage",
+      "Light phenomena reported at her tomb and during her feast"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/929cdefd26acdff9fa5ef6821b8347c3",
+    orderByDate: 304.2
+  },
+  {
+    id: "st-john-chrysostom",
+    name: "St. John Chrysostom",
+    title: "Doctor of the Church",
+    knownFor: "The Golden-Mouthed Preacher",
+    feastDay: "September 13",
+    lifespan: "c. 347-407",
+    patronOf: "Preachers, Orators, Constantinople",
+    shortBio: "Archbishop of Constantinople whose eloquent preaching earned him the name 'Golden-Mouthed.' His calls for reform and criticism of imperial excess led to his exile and death.",
+    fullBio: `John was born in Antioch around 347 to a military officer and his devout wife Anthusa. After his father's early death, his mother ensured he received the finest education, studying under the famous orator Libanius.
+
+Initially pursuing law, John was drawn to religious life. He spent six years as a hermit in the Syrian mountains, practicing extreme asceticism and memorizing the entire Bible. His health broken, he returned to Antioch and was ordained a priest in 386.
+
+For twelve years, his brilliant preaching filled Antioch's cathedral. He spoke plainly, applying Scripture to daily life and advocating for the poor. His sermons were so popular that pickpockets worked the crowds of listeners.
+
+In 398, he was forcibly made Archbishop of Constantinople. He immediately reformed the clergy, redirected church wealth to the poor, and refused to participate in imperial luxury. His criticism of court excess, especially his denunciation of Empress Eudoxia, made powerful enemies.
+
+A rigged synod deposed him in 403. Though briefly recalled after an earthquake terrified the empress, he was permanently exiled in 404. Even from exile, his influence through letters was so great that he was ordered to a more remote location. He died during the forced march on September 14, 407, saying, "Glory to God for all things."
+
+The Divine Liturgy of St. John Chrysostom remains the most frequently celebrated Eucharistic service in the Byzantine Rite.`,
+    miracles: [
+      "Experienced heavenly visions during the Divine Liturgy",
+      "An earthquake shook Constantinople immediately after his unjust exile",
+      "Fire consumed Hagia Sophia cathedral after his final banishment",
+      "His eloquent preaching converted thousands and reformed cities",
+      "Survived multiple assassination attempts through divine protection",
+      "Appeared in visions after death to comfort the persecuted"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/ecc0e40543c7ae1f42812977a390bee2",
+    orderByDate: 407
+  },
+  {
+    id: "st-gregory-great",
+    name: "St. Gregory the Great",
+    title: "Pope and Doctor of the Church",
+    knownFor: "Father of the Medieval Papacy",
+    feastDay: "September 3",
+    lifespan: "c. 540-604",
+    patronOf: "Musicians, Teachers, Students, Popes",
+    shortBio: "From Roman prefect to reluctant pope, he laid foundations for medieval Christianity. Sent missionaries to England, reformed liturgy, and established the papacy's temporal power while serving the poor.",
+    fullBio: `Gregory was born around 540 to a wealthy Roman senatorial family. Several of his ancestors were popes. He received an excellent education and became Prefect of Rome at age 30, the city's highest civil office.
+
+After his father's death, Gregory underwent a spiritual transformation. He converted his family estates into monasteries and became a monk himself. This period of contemplative life was, he later said, the happiest of his life.
+
+His abilities made anonymity impossible. He was ordained deacon, served as papal ambassador to Constantinople, and in 590 was unanimously elected pope during a plague. He tried to flee but was forced to accept.
+
+As pope, Gregory proved a brilliant administrator. With imperial authority collapsed, he effectively became Rome's civil ruler. He organized food distribution, negotiated with invading Lombards, and ransomed prisoners. He initiated the conversion of England, sending Augustine of Canterbury to evangelize the Anglo-Saxons.
+
+Gregory reformed the liturgy (Gregorian chant bears his name), wrote extensively including his 'Pastoral Care' which became the handbook for medieval bishops, and popularized the title 'Servant of the servants of God' for popes.
+
+Despite constant illness and the burden of office, he maintained enormous correspondence, guiding the Church through one of history's most challenging transitions. He died on March 12, 604, having transformed the papacy into the spiritual and temporal power that would dominate medieval Europe.`,
+    miracles: [
+      "The Holy Spirit as a dove whispered in his ear as he preached",
+      "Delivered Rome from plague through penitential processions",
+      "Vision of Archangel Michael sheathing his sword, ending the plague",
+      "Freed a soul from purgatory through thirty Masses",
+      "His prayers caused bread to multiply during famine",
+      "Miraculous knowledge of distant events through divine revelation"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7f5c0a9d89ef7c5228d6bdca5451ef5d",
+    orderByDate: 604
+  },
+  {
+    id: "st-ephrem-syrian",
+    name: "St. Ephrem the Syrian",
+    title: "Doctor of the Church",
+    knownFor: "Harp of the Holy Spirit",
+    feastDay: "June 9",
+    lifespan: "c. 306-373",
+    patronOf: "Spiritual Directors, Deacons",
+    shortBio: "Syrian deacon, theologian, and hymnographer whose poetic works combated heresy and enriched liturgy. Known as the 'Harp of the Holy Spirit' for his beautiful theological poetry.",
+    fullBio: `Ephrem was born around 306 in Nisibis, Mesopotamia (modern Turkey). According to his own writings, his youth was troubled until a period of imprisonment led to his conversion. He was baptized at age 18 and joined the covenant community associated with Bishop James of Nisibis.
+
+He may have accompanied his bishop to the Council of Nicaea in 325. He served as a teacher and possibly headed the cathedral school in Nisibis. When the city was ceded to Persia in 363, he relocated to Edessa where he spent his final decade.
+
+In Edessa, Ephrem found various heretical groups using popular songs to spread their teachings. He responded by composing orthodox hymns set to the same popular tunes. His hymns, combining profound theology with beautiful poetry, were so successful that they not only countered heresy but enriched the Church's liturgy permanently.
+
+He lived simply as a deacon, refusing higher ordination out of humility. He established a school, taught, and wrote prolifically. His works include biblical commentaries, sermons, and especially hymns - over 400 survive. He organized choirs of women to sing his compositions, revolutionizing liturgical practice.
+
+During a famine in 372-373, Ephrem organized relief efforts and personally cared for the sick. He contracted the disease himself while nursing others and died in June 373. His theological poetry profoundly influenced both Eastern and Western Christianity. He was declared a Doctor of the Church in 1920.`,
+    miracles: [
+      "His hymns miraculously converted heretics who heard them",
+      "Prophesied future events including the fall of Nisibis",
+      "His prayers brought rain during severe drought",
+      "Healed the sick during his ministry to plague victims",
+      "Visions of heaven inspired his mystical poetry",
+      "His writings survived destruction attempts, seen as divine preservation"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/747f1983d234ecb180f9fd7baf69da03",
+    orderByDate: 373
+  },
+  {
+    id: "st-athanasius",
+    name: "St. Athanasius",
+    title: "Doctor of the Church",
+    knownFor: "Defender of Christ's Divinity",
+    feastDay: "May 2",
+    lifespan: "c. 296-373",
+    patronOf: "Theologians, Orthodoxy",
+    shortBio: "Bishop of Alexandria who spent 17 years in exile defending the divinity of Christ against Arianism. Known as 'Athanasius Against the World' for his solitary stand for orthodox faith.",
+    fullBio: `Athanasius was born around 296 in Alexandria, Egypt. As a young deacon, he accompanied Bishop Alexander to the Council of Nicaea in 325, where he played a crucial role in defending Christ's divinity against the Arian heresy.
+
+He became Bishop of Alexandria in 328, beginning a 45-year episcopate marked by fierce conflict. The Arians taught that Christ was created and subordinate to the Father. Athanasius insisted that only if Christ were truly God could He save humanity.
+
+His refusal to readmit Arians to communion brought imperial persecution. He was exiled five times by four emperors, spending 17 years away from his diocese. His enemies accused him of treason, murder, and sorcery. During exile, he hid among desert monks and continued writing.
+
+His theological works, especially 'On the Incarnation' and 'Against the Arians,' provided the intellectual framework for orthodox Christology. His central argument: "God became man so that man might become god" - salvation requires the Incarnation of the truly divine Word.
+
+He also popularized monasticism through his 'Life of Anthony,' which became a bestseller throughout the empire. Despite seeming to stand alone - "Athanasius contra mundum" - his theological vision ultimately triumphed.
+
+He spent his final years in peace in Alexandria, dying on May 2, 373. The Council of Constantinople in 381 vindicated his theology, definitively establishing Christ's full divinity as orthodox doctrine.`,
+    miracles: [
+      "As a child, his play baptisms were deemed valid by the bishop",
+      "A luminous cross appeared over Jerusalem confirming orthodox faith",
+      "Cast to sea in a small boat, he arrived safely through angelic protection",
+      "Prophesied Emperor Julian the Apostate's imminent death",
+      "Escaped numerous assassination attempts through divine warning",
+      "His writings survived multiple destruction attempts miraculously"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/349f4ea1c1b89ec65618d009c0c2f368",
+    orderByDate: 373.2
+  },
+  {
+    id: "st-basil-great",
+    name: "St. Basil the Great",
+    title: "Doctor of the Church",
+    knownFor: "Father of Eastern Monasticism",
+    feastDay: "January 2",
+    lifespan: "c. 329-379",
+    patronOf: "Hospital Administrators, Reformers, Russia",
+    shortBio: "Bishop of Caesarea who defended the Trinity, created the monastic rule for Eastern Christianity, and built the first hospital complex. One of the Three Holy Hierarchs of the Eastern Church.",
+    fullBio: `Basil was born around 329 in Caesarea, Cappadocia, into an extraordinarily holy family - his grandmother, parents, and four siblings are all venerated as saints. He received the finest education in Constantinople and Athens, where he formed a deep friendship with Gregory of Nazianzus.
+
+After beginning a promising career as a rhetorician, Basil experienced a spiritual conversion. He traveled through Egypt, Palestine, and Syria studying monastic life, then founded a monastic community on his family estate. His monastic rules, emphasizing community life over solitary asceticism, became the foundation for Eastern monasticism.
+
+Reluctantly ordained priest in 365, he became Archbishop of Caesarea in 370. As bishop, he courageously opposed the Arian Emperor Valens. When the emperor tried to force him to accept Arianism, Basil replied, "Perhaps you have never met a bishop before." His fearlessness so impressed Valens that he backed down.
+
+His greatest theological contribution was his work on the Holy Spirit, articulating the full divinity of the Third Person of the Trinity. This helped establish the orthodox doctrine of one God in three Persons.
+
+Basil's social vision was revolutionary. He preached against wealth inequality and built the "Basiliad" - a vast complex outside Caesarea with a hospital, hospice, orphanage, and trade schools. This was one of the world's first hospital complexes.
+
+Worn out by asceticism and tireless work, he died on January 1, 379, at age 49. His liturgy is still celebrated in Eastern Christianity, and his influence on monasticism, theology, and social justice remains profound.`,
+    miracles: [
+      "Healed the emperor's son, who died when baptized by Arians",
+      "Three pens broke when the emperor tried to sign his exile order",
+      "Church doors miraculously opened after prayer, converting Arians",
+      "Freed a young man from a written pact with Satan",
+      "A Jewish physician converted after Basil's miraculous recovery",
+      "The Holy Spirit appeared as a dove whispering in his ear while preaching"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/61492bf3f72b4c3b17d538b0ff5ddec0",
+    orderByDate: 379
+  },
+  {
+    id: "st-cyril-alexandria",
+    name: "St. Cyril of Alexandria",
+    title: "Doctor of the Church",
+    knownFor: "Defender of Mary as Theotokos",
+    feastDay: "June 27",
+    lifespan: "c. 376-444",
+    patronOf: "Alexandria",
+    shortBio: "Patriarch of Alexandria who championed the title 'Theotokos' (Mother of God) for Mary, affirming Christ's divine and human natures united in one person. Key figure at the Council of Ephesus.",
+    fullBio: `Cyril was born around 376 in Alexandria and succeeded his uncle Theophilus as Patriarch in 412. His early years as patriarch were marked by conflicts with various groups, but his lasting importance comes from his role in the Christological controversies of the 5th century.
+
+The crisis began when Nestorius, Patriarch of Constantinople, objected to calling Mary "Theotokos" (God-bearer/Mother of God), preferring "Christotokos" (Christ-bearer). Cyril recognized this as threatening the unity of Christ's person - if Mary wasn't the Mother of God, then Christ's humanity and divinity were separate.
+
+Cyril engaged in a fierce theological battle with Nestorius, writing letters and treatises defending the Incarnation. His famous formula was "One nature of the Word incarnate" - meaning Christ's divine and human natures were united in one person.
+
+At the Council of Ephesus in 431, which Cyril dominated, Nestorius was condemned and the title Theotokos was officially affirmed. The council's decision was celebrated with torchlight processions, as the people rejoiced that Mary's honor - and Christ's divinity - had been defended.
+
+Despite his theological brilliance, Cyril could be harsh with opponents. His methods were sometimes questionable, including political maneuvering and even bribery. Yet his theological insights were crucial for orthodox Christology.
+
+He died on June 27, 444. Despite his flaws, his passionate defense of the Incarnation and Mary's divine motherhood shaped Christian doctrine permanently. He was declared a Doctor of the Church in 1882.`,
+    miracles: [
+      "His theological arguments were seen as divinely inspired",
+      "Reported visions of the Virgin Mary confirming his teaching",
+      "His prayers allegedly healed the sick during epidemics",
+      "Enemies who opposed him suffered mysterious ailments",
+      "His writings survived multiple attempts at suppression",
+      "Churches dedicated after his victories experienced miraculous events"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7355eb611db6c36b1c045c88d48fe35a",
+    orderByDate: 444
+  },
+  {
+    id: "st-narcisa-jesus",
+    name: "St. Narcisa de Jesús",
+    title: "The Flower of Ecuador",
+    knownFor: "Mystic and Lay Dominican",
+    feastDay: "December 8",
+    lifespan: "1832-1869",
+    patronOf: "Ecuador, Lay Dominicans",
+    shortBio: "Ecuadorian laywoman who lived a hidden life of extraordinary penance and mystical prayer. Known for her devotion to the Eucharist and extreme mortifications, she was Ecuador's first native saint.",
+    fullBio: `Narcisa de Jesús Martillo Morán was born on October 29, 1832, in Nobol, Ecuador, to a poor farming family. The sixth of nine children, she was orphaned at age six and raised by her grandmother. Despite minimal formal education, she learned to read and developed a profound spiritual life.
+
+From childhood, Narcisa showed extraordinary piety. She worked as a seamstress to support herself while dedicating every free moment to prayer. She moved to Guayaquil, where she spent hours before the Blessed Sacrament, often throughout entire nights.
+
+Her penances were extreme even by the standards of her time. She slept only three hours nightly, often on a wooden cross or in a coffin she kept for meditation on death. She fasted rigorously, wore hair shirts, and practiced flagellation. She would stand with arms outstretched for hours, meditating on Christ's passion.
+
+In 1868, seeking greater solitude, she traveled to Lima, Peru. There she lived in the Dominican convent of Patrocinio as a lay member, intensifying her life of prayer and penance. Her mystical experiences included visions, ecstasies, and the gift of prophecy.
+
+She died on December 8, 1869, at age 37, worn out by her austere practices. Her last words were "Jesus, Mary, and Joseph." Initially buried in Lima, her remains were later transferred to Guayaquil.
+
+She was beatified in 1992 and canonized by Pope Benedict XVI in 2008, becoming Ecuador's first native saint. Her life demonstrates that extraordinary holiness can be achieved by laypeople living in the world.`,
+    miracles: [
+      "Experienced frequent ecstasies and visions during prayer",
+      "Possessed the gift of prophecy, foretelling future events",
+      "Her body remained incorrupt years after death",
+      "Miraculous healing of a paralyzed girl after prayers to her",
+      "Multiplication of food during times of need",
+      "Appeared in dreams to provide spiritual guidance after death"
+    ],
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/02571ddf85fcc7e7c0a84c7a6b2e63f8",
+    orderByDate: 1869
   }
 ];
 

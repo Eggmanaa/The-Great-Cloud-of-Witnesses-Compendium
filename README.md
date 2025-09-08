@@ -3,7 +3,7 @@
 ## Project Overview
 - **Name**: The Great Cloud of Witnesses Compendium
 - **Goal**: A sophisticated digital sanctuary presenting Christian saints through sacred art and comprehensive biographies
-- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 32 Catholic saints with detailed biographies, miracles, and historical information
+- **Features**: Hero banner with "Adoration of the Trinity" artwork, interactive gallery of 66 Catholic saints with detailed biographies, miracles, and historical information, real-time search functionality
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
@@ -16,7 +16,8 @@
 ### Currently Completed Features
 - ✅ **Full uncropped hero banner featuring "Adoration of the Trinity"** - Complete majestic artwork welcomes visitors
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
-- ✅ Interactive saints gallery with 53 pivotal Catholic figures (expanded from 52)
+- ✅ Interactive saints gallery with 66 pivotal Catholic figures (expanded with 12 new saints)
+- ✅ **Real-time search functionality** - Filter saints by name as you type
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -51,12 +52,13 @@
   - Apostles and Early Fathers: `st-peter-apostle`, `st-james-greater`, `st-james-moorslayer`, `st-john-apostle`, `st-matthew-apostle`, `st-philip-apostle`, `st-clement-rome`, `st-ignatius-antioch`, `st-polycarp-smyrna`
   - Holy Family and Angels: `st-joseph`, `st-anne-joachim`, `st-raphael-archangel`, `st-michael-archangel`
   - Modern Saints: `st-john-paul-ii`, `st-josemaria-escriva`, `st-josephine-bakhita`, `st-junipero-serra`
+  - New Additions (January 2025): `st-kateri-tekakwitha`, `st-margaret-antioch`, `st-ambrose`, `st-jerome`, `st-lucy`, `st-john-chrysostom`, `st-gregory-great`, `st-ephrem-syrian`, `st-athanasius`, `st-basil-great`, `st-cyril-alexandria`, `st-narcisa-jesus`
 
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
 
-## Saints Featured (Chronologically Ordered) - 53 Total Saints
+## Saints Featured (Chronologically Ordered) - 66 Total Saints
 
 ### Original Collection
 1. **St. Gabriel the Archangel** - Divine Messenger, Archangel
@@ -121,6 +123,20 @@
 52. **St. Raphael the Archangel** - Divine Healer, God's Medicine
 53. **St. Michael the Archangel** - Prince of the Heavenly Host, Defeater of Satan
 
+### Doctors and Martyrs of the Church (January 2025)
+54. **St. Kateri Tekakwitha** (1656-1680) - Lily of the Mohawks, First Native American Saint
+55. **St. Margaret of Antioch** (c. 289-304) - Dragon Slayer, One of the Fourteen Holy Helpers
+56. **St. Ambrose** (c. 339-397) - Bishop of Milan, Doctor of the Church
+57. **St. Jerome** (c. 347-420) - Translator of the Vulgate, Doctor of the Church
+58. **St. Lucy** (c. 283-304) - Virgin Martyr of Syracuse, Patron of the Blind
+59. **St. John Chrysostom** (c. 347-407) - Golden-Mouthed Preacher, Doctor of the Church
+60. **St. Gregory the Great** (c. 540-604) - Father of Medieval Papacy, Doctor of the Church
+61. **St. Ephrem the Syrian** (c. 306-373) - Harp of the Holy Spirit, Doctor of the Church
+62. **St. Athanasius** (c. 296-373) - Defender of Christ's Divinity, Doctor of the Church
+63. **St. Basil the Great** (c. 329-379) - Father of Eastern Monasticism, Doctor of the Church
+64. **St. Cyril of Alexandria** (c. 376-444) - Defender of Mary as Theotokos, Doctor of the Church
+65. **St. Narcisa de Jesús** (1832-1869) - The Flower of Ecuador, Mystic and Lay Dominican
+
 ## Data Architecture
 - **Data Models**: Saint interface with comprehensive biographical data
 - **Storage Services**: Static data served through Cloudflare Workers
@@ -129,8 +145,9 @@
 ## User Guide
 
 ### Navigating the Gallery
-1. **Browse Saints**: Scroll through the gallery grid with consistently sized portrait cards
-2. **View Details**: Click on any saint card to see the FULL uncropped artwork and biography
+1. **Search Saints**: Use the search bar to filter saints by name in real-time
+2. **Browse Saints**: Scroll through the gallery grid with consistently sized portrait cards
+3. **View Details**: Click on any saint card to see the FULL uncropped artwork and biography
 3. **Full-Screen Images**: Click on the modal's saint portrait for immersive full-screen viewing
 4. **Read Biography**: Explore comprehensive life stories, miracles, and legacy
 5. **Navigation**: Use ESC key or click outside image to close full-screen view
@@ -204,7 +221,7 @@ webapp/
 ```
 
 ## Features Not Yet Implemented
-- Search/filter functionality by era or attributes
+- Advanced filter functionality by era or attributes
 - Multi-language support
 - Audio narration of biographies
 - Prayer request submission system
@@ -214,8 +231,8 @@ webapp/
 - Liturgical calendar integration
 
 ## Recommended Next Steps
-1. Deploy to Cloudflare Pages for global CDN distribution
-2. Add search and filtering capabilities
+1. Continue maintaining deployment on Cloudflare Pages
+2. Add advanced filtering capabilities (by era, patronage, etc.)
 3. Implement progressive web app (PWA) features
 4. Add more saints to expand the collection
 5. Create saint feast day notifications
@@ -227,7 +244,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Added Santiago Matamoros and updated saint images)
+- **Last Updated**: January 2025 (Added 12 new saints and search functionality)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
