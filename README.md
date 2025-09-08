@@ -7,9 +7,9 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://5b3917b9.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://01afae4f.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://5b3917b9.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://01afae4f.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
@@ -18,6 +18,7 @@
 - ✅ Dark sanctuary theme with sophisticated religious aesthetic
 - ✅ Interactive saints gallery with 66 pivotal Catholic figures (expanded with 12 new saints)
 - ✅ **Real-time search functionality** - Filter saints by name as you type
+- ✅ **Three sorting options** - Sort by Historical Timeframe, Age at Death, or Feast Day
 - ✅ Responsive grid layout (1-4 columns based on screen size)
 - ✅ **Consistent gallery cards** - Portraits cropped to 3:4 aspect ratio for clean grid layout
 - ✅ Detailed saint cards with portraits, titles, and biographical previews
@@ -26,7 +27,7 @@
 - ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
 - ✅ **Complete image attributions for all 66 saints** - Professional artwork citations with artist, date, museum, and medium
 - ✅ **Fixed image assignments** - Corrected images for St. Cyril, St. Gregory the Great, and St. Ambrose
-- ✅ Chronologically sorted saints (from St. Gabriel the Archangel to St. John Paul II 2005)
+- ✅ **Intelligent sorting algorithms** - Handles special cases like angels, BC dates, and unknown values
 - ✅ **Updated St. Agnes portrait** - New classical artwork representation
 - ✅ **Updated St. Josephine Bakhita portrait** - New historical photograph
 - ✅ **Updated Sts. Anne and Joachim artwork** - New sacred painting
@@ -148,12 +149,16 @@
 
 ### Navigating the Gallery
 1. **Search Saints**: Use the search bar to filter saints by name in real-time
-2. **Browse Saints**: Scroll through the gallery grid with consistently sized portrait cards
-3. **View Details**: Click on any saint card to see the FULL uncropped artwork and biography
-3. **Full-Screen Images**: Click on the modal's saint portrait for immersive full-screen viewing
-4. **Read Biography**: Explore comprehensive life stories, miracles, and legacy
-5. **Navigation**: Use ESC key or click outside image to close full-screen view
-6. **Close Modal**: Click the X button or press ESC to return to the gallery
+2. **Sort Saints**: Choose between three sorting options:
+   - **Historical Timeframe**: Chronological order from earliest to most recent
+   - **Age at Death**: Sort by how long each saint lived
+   - **Feast Day**: Order by liturgical calendar (January to December)
+3. **Browse Saints**: Scroll through the gallery grid with consistently sized portrait cards
+4. **View Details**: Click on any saint card to see the FULL uncropped artwork and biography
+5. **Full-Screen Images**: Click on the modal's saint portrait for immersive full-screen viewing
+6. **Read Biography**: Explore comprehensive life stories, miracles, and legacy
+7. **Navigation**: Use ESC key or click outside image to close full-screen view
+8. **Close Modal**: Click the X button or press ESC to return to the gallery
 
 ### Features in Detail
 - **Gallery Display**: Portrait cards maintain 3:4 aspect ratio for visual consistency
@@ -223,7 +228,7 @@ webapp/
 ```
 
 ## Features Not Yet Implemented
-- Advanced filter functionality by era or attributes
+- Advanced filter functionality by patronage or attributes
 - Multi-language support
 - Audio narration of biographies
 - Prayer request submission system
@@ -231,6 +236,8 @@ webapp/
 - Print-friendly biography versions
 - Related saints suggestions
 - Liturgical calendar integration
+- Saints comparison tool
+- Bookmark/favorites system
 
 ## Recommended Next Steps
 1. Continue maintaining deployment on Cloudflare Pages
@@ -246,7 +253,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Updated St. James the Greater biography and attribution)
+- **Last Updated**: January 2025 (Added sorting functionality: Historical Timeframe, Age at Death, Feast Day)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
