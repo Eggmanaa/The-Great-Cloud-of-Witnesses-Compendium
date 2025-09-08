@@ -69,6 +69,13 @@
         .holy-glow {
             box-shadow: 0 0 30px rgba(191, 149, 63, 0.3);
         }
+        
+        /* Sort button active state */
+        .sort-button.active {
+            border-color: rgba(251, 191, 36, 0.5);
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
 
         /* Card hover effect */
         .saint-card {
@@ -264,6 +271,38 @@
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
+            </div>
+            
+            <!-- Sort Controls -->
+            <div class="max-w-4xl mx-auto mb-6 flex flex-wrap justify-center gap-3">
+                <label class="sans-text text-sm text-gray-400 flex items-center">
+                    <i class="fas fa-sort mr-2 text-yellow-400"></i>
+                    Sort by:
+                </label>
+                <button 
+                    id="sort-chronological" 
+                    onclick="sortSaints('chronological')"
+                    class="sort-button px-4 py-2 bg-black/50 backdrop-blur-sm border border-gray-600/50 rounded-lg text-gray-300 hover:border-yellow-400/50 hover:text-yellow-400 transition-all sans-text text-sm active"
+                >
+                    <i class="fas fa-hourglass-half mr-2"></i>
+                    Historical Timeframe
+                </button>
+                <button 
+                    id="sort-age" 
+                    onclick="sortSaints('age')"
+                    class="sort-button px-4 py-2 bg-black/50 backdrop-blur-sm border border-gray-600/50 rounded-lg text-gray-300 hover:border-yellow-400/50 hover:text-yellow-400 transition-all sans-text text-sm"
+                >
+                    <i class="fas fa-birthday-cake mr-2"></i>
+                    Age at Death
+                </button>
+                <button 
+                    id="sort-feast" 
+                    onclick="sortSaints('feast')"
+                    class="sort-button px-4 py-2 bg-black/50 backdrop-blur-sm border border-gray-600/50 rounded-lg text-gray-300 hover:border-yellow-400/50 hover:text-yellow-400 transition-all sans-text text-sm"
+                >
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    Feast Day
+                </button>
             </div>
             
             <!-- Saints Counter -->

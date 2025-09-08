@@ -15,8 +15,11 @@ async function loadSaints() {
         const response = await fetch('/api/saints');
         const data = await response.json();
         saintsData = data.saints;
-        filteredSaints = saintsData; // Initially show all saints
-        renderSaintsGrid();
+        filteredSaints = [...saintsData]; // Create a copy for filtering/sorting
+        
+        // Apply default sort (chronological)
+        sortSaints('chronological');
+        
         updateSaintsCount();
     } catch (error) {
         console.error('Error loading saints:', error);
@@ -42,11 +45,18 @@ function setupSearchHandler() {
                 );
             } else {
                 clearButton.classList.add('hidden');
-                filteredSaints = saintsData;
+                filteredSaints = [...saintsData];
             }
             
-            renderSaintsGrid();
-            updateSaintsCount();
+            // Reapply current sort
+            const activeButton = document.querySelector('.sort-button.active');
+            if (activeButton) {
+                const sortType = activeButton.id.replace('sort-', '');
+                sortSaints(sortType);
+            } else {
+                renderSaintsGrid();
+                updateSaintsCount();
+            }
         });
     }
 }
@@ -59,10 +69,143 @@ function clearSearch() {
     if (searchInput) {
         searchInput.value = '';
         clearButton.classList.add('hidden');
-        filteredSaints = saintsData;
-        renderSaintsGrid();
-        updateSaintsCount();
+        filteredSaints = [...saintsData];
+        
+        // Reapply current sort
+        const activeButton = document.querySelector('.sort-button.active');
+        if (activeButton) {
+            const sortType = activeButton.id.replace('sort-', '');
+            sortSaints(sortType);
+        } else {
+            renderSaintsGrid();
+            updateSaintsCount();
+        }
     }
+}
+
+// Sort saints by different criteria
+function sortSaints(sortType) {
+    // Update active button state
+    document.querySelectorAll('.sort-button').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.getElementById(`sort-${sortType}`).classList.add('active');
+    
+    // Sort the saints based on the selected criteria
+    switch(sortType) {
+        case 'chronological':
+            filteredSaints.sort((a, b) => {
+                // Use orderByDate if available, otherwise parse lifespan
+                if (a.orderByDate !== undefined && b.orderByDate !== undefined) {
+                    return a.orderByDate - b.orderByDate;
+                }
+                return getHistoricalOrder(a) - getHistoricalOrder(b);
+            });
+            break;
+            
+        case 'age':
+            filteredSaints.sort((a, b) => {
+                const ageA = getAgeAtDeath(a);
+                const ageB = getAgeAtDeath(b);
+                // Sort unknown ages to the end
+                if (ageA === null && ageB === null) return 0;
+                if (ageA === null) return 1;
+                if (ageB === null) return -1;
+                return ageA - ageB;
+            });
+            break;
+            
+        case 'feast':
+            filteredSaints.sort((a, b) => {
+                const dateA = parseFeastDay(a.feastDay);
+                const dateB = parseFeastDay(b.feastDay);
+                return dateA - dateB;
+            });
+            break;
+    }
+    
+    renderSaintsGrid();
+}
+
+// Helper function to get historical order from lifespan
+function getHistoricalOrder(saint) {
+    if (saint.orderByDate !== undefined) {
+        return saint.orderByDate;
+    }
+    
+    // Parse death year from lifespan
+    const lifespan = saint.lifespan;
+    
+    // Handle special cases
+    if (lifespan.includes('N/A')) return -1000; // Angels go first
+    if (lifespan.includes('BC')) {
+        const match = lifespan.match(/(\d+)\s*BC/);
+        return match ? -parseInt(match[1]) : 0;
+    }
+    
+    // Extract death year (last year mentioned)
+    const years = lifespan.match(/\d{3,4}/g);
+    if (years && years.length > 0) {
+        return parseInt(years[years.length - 1]);
+    }
+    
+    // Extract century if no specific year
+    const century = lifespan.match(/(\d+)(?:st|nd|rd|th)\s+[Cc]entury/);
+    if (century) {
+        return parseInt(century[1]) * 100;
+    }
+    
+    return 2000; // Default to recent if unparseable
+}
+
+// Helper function to calculate age at death
+function getAgeAtDeath(saint) {
+    const lifespan = saint.lifespan;
+    
+    // Handle special cases
+    if (lifespan.includes('N/A')) return null;
+    if (lifespan.includes('Unknown')) return null;
+    
+    // Try to extract birth and death years
+    const years = lifespan.match(/\d{3,4}/g);
+    if (years && years.length >= 2) {
+        const birth = parseInt(years[0]);
+        const death = parseInt(years[years.length - 1]);
+        return death - birth;
+    }
+    
+    // Check for explicitly mentioned age
+    const ageMatch = lifespan.match(/age\s+(\d+)/i);
+    if (ageMatch) {
+        return parseInt(ageMatch[1]);
+    }
+    
+    // Check for "d. at XX" pattern
+    const diedAtMatch = lifespan.match(/d\.\s+at\s+(\d+)/i);
+    if (diedAtMatch) {
+        return parseInt(diedAtMatch[1]);
+    }
+    
+    return null;
+}
+
+// Helper function to parse feast day into sortable value
+function parseFeastDay(feastDay) {
+    const months = {
+        'January': 1, 'February': 2, 'March': 3, 'April': 4,
+        'May': 5, 'June': 6, 'July': 7, 'August': 8,
+        'September': 9, 'October': 10, 'November': 11, 'December': 12
+    };
+    
+    // Parse "Month Day" format
+    const match = feastDay.match(/(\w+)\s+(\d+)/);
+    if (match) {
+        const month = months[match[1]] || 1;
+        const day = parseInt(match[2]);
+        return month * 100 + day; // Creates sortable number like 121 for Jan 21
+    }
+    
+    return 0;
 }
 
 // Render saints grid
