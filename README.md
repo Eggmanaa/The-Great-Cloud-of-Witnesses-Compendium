@@ -7,9 +7,9 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://d66f88ff.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://bf446861.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://d66f88ff.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://bf446861.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
@@ -24,6 +24,8 @@
 - ✅ Full biography modal with expanded information
 - ✅ **Full uncropped artwork in modal** - Complete saint portraits visible when clicked
 - ✅ **Full-screen image viewer** - Click modal image for immersive full-screen display
+- ✅ **Complete image attributions for all 66 saints** - Professional artwork citations with artist, date, museum, and medium
+- ✅ **Fixed image assignments** - Corrected images for St. Cyril, St. Gregory the Great, and St. Ambrose
 - ✅ Chronologically sorted saints (from St. Gabriel the Archangel to St. John Paul II 2005)
 - ✅ **Updated St. Agnes portrait** - New classical artwork representation
 - ✅ **Updated St. Josephine Bakhita portrait** - New historical photograph
@@ -244,7 +246,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Added 12 new saints and search functionality)
+- **Last Updated**: January 2025 (Added 12 new saints, search functionality, and complete image attributions for all 66 saints)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
