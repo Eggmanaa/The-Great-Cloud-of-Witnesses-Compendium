@@ -7,9 +7,9 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://bf446861.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://5b3917b9.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://bf446861.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://5b3917b9.great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
@@ -246,7 +246,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Added 12 new saints, search functionality, and complete image attributions for all 66 saints)
+- **Last Updated**: January 2025 (Updated St. James the Greater biography and attribution)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
