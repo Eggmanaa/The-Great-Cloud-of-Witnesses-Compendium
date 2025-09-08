@@ -7,9 +7,9 @@
 
 ## URLs
 - **Production**: https://great-cloud-witnesses.pages.dev
-- **Latest Deployment**: https://01afae4f.great-cloud-witnesses.pages.dev
+- **Latest Deployment**: https://6d93f6b1.great-cloud-witnesses.pages.dev
 - **GitHub**: https://github.com/Eggmanaa/The-Great-Cloud-of-Witnesses-Compendium
-- **API Health Check**: https://01afae4f.great-cloud-witnesses.pages.dev/api/health
+- **API Health Check**: https://great-cloud-witnesses.pages.dev/api/health
 
 ## Features
 
@@ -253,7 +253,7 @@ webapp/
 - **Platform**: Cloudflare Pages
 - **Status**: ✅ DEPLOYED and LIVE
 - **Tech Stack**: Hono + TypeScript + Tailwind CSS
-- **Last Updated**: January 2025 (Added sorting functionality: Historical Timeframe, Age at Death, Feast Day)
+- **Last Updated**: January 2025 (Latest deployment with all features active)
 - **Project Name**: great-cloud-witnesses
 
 ## Credits
