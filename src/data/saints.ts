@@ -1,3 +1,5 @@
+import { imageAttributions } from './attributions';
+
 export interface Saint {
   id: string;
   name: string;
@@ -10,6 +12,7 @@ export interface Saint {
   fullBio: string;
   miracles: string[];
   imageUrl: string;
+  imageAttribution?: string; // Attribution for the image
   orderByDate: number; // For chronological ordering
 }
 
@@ -35,6 +38,7 @@ Agnes appeared to the Emperor Constantine's daughter, curing her of leprosy, whi
       "Posthumously cured Emperor Constantine's daughter of leprosy"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/0d767881d312ac1fba21d3b64f2a2121",
+    imageAttribution: imageAttributions["st-agnes"],
     orderByDate: 304
   },
   {
@@ -60,6 +64,7 @@ Anthony died at age 36 in Padua and was canonized less than a year later - one o
       "His tongue was found incorrupt 30 years after death"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/a5c6a0206450a3701c75709b73e16469",
+    imageAttribution: imageAttributions["st-anthony-padua"],
     orderByDate: 1231
   },
   {
@@ -86,6 +91,7 @@ In 1224, while in prayer on Mount La Verna, he received the stigmata - the wound
       "Appeared in visions to save ships from storms"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/9820802aca447fe4412f2ede2e238c58",
+    imageAttribution: imageAttributions["st-francis-assisi"],
     orderByDate: 1226
   },
   {
@@ -113,6 +119,7 @@ Her spiritual writings, especially "The Dialogue," reveal profound theological i
       "Converted hardened criminals through conversation"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/c54cbc5e131aa154768fb86686cfc647",
+    imageAttribution: imageAttributions["st-catherine-siena"],
     orderByDate: 1380
   },
   {
@@ -139,6 +146,7 @@ Ignatius spent his final years in Rome, directing the rapidly growing order and 
       "Appeared to missionaries in visions after death"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/ad58dac60a57144a63e61f50984e678f",
+    imageAttribution: imageAttributions["st-ignatius-loyola"],
     orderByDate: 1556
   },
   {
@@ -166,6 +174,7 @@ Her spiritual writings, including "The Interior Castle" and "The Way of Perfecti
       "Fragrant oil flows from her relics"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/75c4fb81624b71c06a1e5d2f6065b040",
+    imageAttribution: imageAttributions["st-teresa-avila"],
     orderByDate: 1582
   },
   {
@@ -193,6 +202,7 @@ The tilma, made of cactus fiber that should deteriorate within 30 years, has sur
       "Stars on mantle match constellation of December 12, 1531"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/57d7dfe4deddfa9a1400ea88918d1f62",
+    imageAttribution: imageAttributions["our-lady-guadalupe"],
     orderByDate: 1531
   },
   {
@@ -220,6 +230,7 @@ Padre Pio founded the Casa Sollievo della Sofferenza (Home for Relief of Sufferi
       "Appeared to pilots during WWII, preventing bombing of his monastery"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/6d3d3a21f825f4381cd308071b8fc65f",
+    imageAttribution: imageAttributions["st-padre-pio"],
     orderByDate: 1968
   },
   {
@@ -247,6 +258,7 @@ Church tradition also attributes to Gabriel the appearance to St. Joseph in drea
       "Will blow the trumpet at the Last Judgment (tradition)"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/3028d2154ab0f8be4c4abd8ff3f9edc1",
+    imageAttribution: imageAttributions["st-gabriel-archangel"],
     orderByDate: 0 // Angelic being, no earthly date
   },
   {
@@ -275,6 +287,7 @@ His body, displayed in jeans and sneakers in Assisi, attracts young pilgrims wor
       "Multiple reported healings through his intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/5e60a61d61c01cf649e9baef66c50204",
+    imageAttribution: imageAttributions["st-carlo-acutis"],
     orderByDate: 2006
   },
   {
@@ -300,6 +313,7 @@ His major writings include the Confessions (the first spiritual autobiography), 
       "Posthumous miracles at his tomb and through his intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/d4aae9d9354b14d83842b99705bb34cc",
+    imageAttribution: imageAttributions["st-augustine-hippo"],
     orderByDate: 430
   },
   {
@@ -326,6 +340,7 @@ His missionary methods were revolutionary for the time. Rather than simply repla
       "Appeared to many after death to guide and protect Ireland"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/50c468d6b036dc95bc9aa7682967ded4",
+    imageAttribution: imageAttributions["st-patrick-ireland"],
     orderByDate: 461
   },
   {
@@ -352,6 +367,7 @@ Hildegard was a true polymath whose integrated worldview saw no division between
       "Her body remained incorrupt for centuries"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/4d0338933992558c191f5a4d884ac516",
+    imageAttribution: imageAttributions["st-hildegard-bingen"],
     orderByDate: 1179
   },
   {
@@ -378,6 +394,7 @@ His method was revolutionary: he fairly presented opposing viewpoints before off
       "Appeared to students after death to resolve theological questions"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/b084fb7a77562af74a1ec6a07a30c23a",
+    imageAttribution: imageAttributions["st-thomas-aquinas"],
     orderByDate: 1274
   },
   {
@@ -404,6 +421,7 @@ Monica died later that year at Ostia while preparing to return to Africa with Au
       "Countless conversions inspired by her example of maternal persistence"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/e64abde14b3451293db32ef11c6086ce",
+    imageAttribution: imageAttributions["st-monica-mother"],
     orderByDate: 387
   },
   {
@@ -430,6 +448,7 @@ Captured by Burgundian allies of the English in 1430, Joan was sold to the Engli
       "Her ashes were thrown into the Seine but reportedly would not sink"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/266aff4969e512854a8bf5600f02cba9",
+    imageAttribution: imageAttributions["st-joan-arc"],
     orderByDate: 1431
   },
   {
@@ -459,6 +478,7 @@ Francis died in 1552 on Shangchuan Island off the coast of China, within sight o
       "Miraculous healings at his tomb and through his relics"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/ba26a5b8318d5d23993bb55edb9ee901",
+    imageAttribution: imageAttributions["st-francis-xavier-missionary"],
     orderByDate: 1552
   },
   {
@@ -488,6 +508,7 @@ John's doctrine of the "dark night" describes the passive purifications God work
       "His writings continue to guide countless souls to mystical union"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/2231434db5cb7323d196bd4221d31480",
+    imageAttribution: imageAttributions["st-john-cross-mystic"],
     orderByDate: 1591
   },
   {
@@ -515,6 +536,7 @@ Thérèse contracted tuberculosis and died at age 24, but not before her superio
       "Inspired countless vocations through her 'Little Way'"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/47c79eca1ad4365b3d257a21a1f6695f",
+    imageAttribution: imageAttributions["st-therese-lisieux"],
     orderByDate: 1897
   },
   {
@@ -542,6 +564,7 @@ After refusing German citizenship and sheltering refugees (including an estimate
       "Inspired worldwide devotion to the Immaculate Virgin Mary"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/72323679317687927f8df1bb1ab44056",
+    imageAttribution: imageAttributions["st-maximilian-kolbe-martyr"],
     orderByDate: 1941
   },
   {
@@ -571,6 +594,7 @@ In 821, Pope Paschal I discovered her incorrupt body in the Catacomb of St. Prae
       "Countless conversions through her intercession and example"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/cfb8e2599fe07a2cdd7a9ac297251d1f",
+    imageAttribution: imageAttributions["st-cecilia-virgin-martyr"],
     orderByDate: 230
   },
   {
@@ -602,6 +626,7 @@ His influence extended to court, where he served as confessor to Queen Anne of A
       "His charitable works continue to multiply globally through his spiritual sons and daughters"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/3f6f332083232f690c24f1386970e306",
+    imageAttribution: imageAttributions["st-vincent-de-paul-charity"],
     orderByDate: 1660
   },
   {
@@ -636,6 +661,7 @@ John was also a gifted writer and publisher, producing educational and spiritual
       "Bilocation reported by witnesses who saw him in multiple places simultaneously"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/05d385b7933554838318c44b996e3e89",
+    imageAttribution: imageAttributions["st-john-bosco-youth"],
     orderByDate: 1888
   },
   {
@@ -662,6 +688,7 @@ Joseph is believed to have died before Jesus began his public ministry, having t
       "Countless answered prayers through his intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/5788b1c4e024c7086c233cea8ec1823c",
+    imageAttribution: imageAttributions["st-joseph"],
     orderByDate: 50
   },
   {
@@ -688,6 +715,7 @@ Anne and Joachim represent all who endure long periods of trial and unanswered p
       "Ongoing intercession for childless couples and families"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/190e43f9bba8a532ab5baec0ec1a55d6",
+    imageAttribution: imageAttributions["st-anne-joachim"],
     orderByDate: 40
   },
   {
@@ -716,6 +744,7 @@ His intellectual legacy includes 14 encyclicals and the revolutionary 'Theology 
       "Inspired countless conversions and vocations worldwide"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/d64f932dcd1a5201b686401b4d2a52fe",
+    imageAttribution: imageAttributions["st-john-paul-ii"],
     orderByDate: 2005
   },
   {
@@ -744,6 +773,7 @@ His spiritual classic 'The Way' has sold millions of copies worldwide, guiding c
       "Countless conversions through his writings and teaching"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/c52ecc7808981132f85d46d58217a114",
+    imageAttribution: imageAttributions["st-josemaria-escriva"],
     orderByDate: 1975
   },
   {
@@ -772,6 +802,7 @@ Entering the Canossian Sisters in 1896, she lived quietly for 42 years as cook, 
       "Ongoing intercession for trafficking victims and oppressed peoples"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/088e5ae7dcb8367a0ede197310b218f3",
+    imageAttribution: imageAttributions["st-josephine-bakhita"],
     orderByDate: 1947
   },
   {
@@ -802,6 +833,7 @@ He died at Mission San Carlos Borromeo in Carmel in 1784, having laid the founda
       "Enduring legacy of faith and culture in California"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/0f37beff6bcff25f16b6164e780f6407",
+    imageAttribution: imageAttributions["st-junipero-serra"],
     orderByDate: 1784
   },
   {
@@ -831,6 +863,7 @@ Raphael represents God's providential care for His people, showing how angels ar
       "Countless healing miracles attributed to his intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/aab30d84f6ac50d9864c5b14dcee9eaf",
+    imageAttribution: imageAttributions["st-raphael-archangel"],
     orderByDate: 1
   },
   {
@@ -862,6 +895,7 @@ As the defender of God's people and the Church, St. Michael continues his battle
       "Will lead the final battle against evil at the end of times"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/bafeffb5ed09489bccbfef5798bf4ce3",
+    imageAttribution: imageAttributions["st-michael-archangel"],
     orderByDate: 2
   },
   {
@@ -891,6 +925,7 @@ Juan Diego's humble obedience and the miraculous tilma led to the conversion of 
       "Catalyst for the conversion of millions of indigenous people"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/4b7b98c6bbe691612d9ca5778be91b06",
+    imageAttribution: imageAttributions["st-juan-diego"],
     orderByDate: 1548
   },
   {
@@ -919,6 +954,7 @@ She spent her final years in suffering and prayer, dying on October 17, 1690. He
       "The worldwide spread of Sacred Heart devotion from her private revelations"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/404f3933e7f66cd147ba7bfcc107dc28",
+    imageAttribution: imageAttributions["st-margaret-mary-alacoque"],
     orderByDate: 1690
   },
   {
@@ -948,6 +984,7 @@ She died at age 31 after a painful final illness, her last words being "Jesus, J
       "Appeared to sailors in visions to save them from shipwrecks"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/c9d8d20e7339e2fda79ebf7b8c1a363f",
+    imageAttribution: imageAttributions["st-rose-lima"],
     orderByDate: 1617
   },
   {
@@ -975,6 +1012,7 @@ Near death, she asked a cousin for a rose from her garden in winter. Miraculousl
       "Numerous healings of impossible cases through her intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/a2ba24df9ec27c7f4907052556ab2394",
+    imageAttribution: imageAttributions["st-rita-cascia"],
     orderByDate: 1457
   },
   {
@@ -1004,6 +1042,7 @@ Martin treated all people equally regardless of race or status, caring for Afric
       "Tamed and communicated with animals"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/683253b0f58d56214ee9f99a917e9330",
+    imageAttribution: imageAttributions["st-martin-de-porres"],
     orderByDate: 1639
   },
   {
@@ -1033,6 +1072,7 @@ On March 23, 1980, he directly appealed to soldiers to stop killing civilians. T
       "Appeared in visions to comfort the persecuted"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/762df8cede3a7f30adf55c464e1768cf",
+    imageAttribution: imageAttributions["st-oscar-romero"],
     orderByDate: 1980
   },
   {
@@ -1062,6 +1102,7 @@ In his final years, he suffered from Parkinson's disease and was neglected by hi
       "Supernatural knowledge of souls' spiritual states"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/92eb1cfdfd3aa9103938c57253b0cd17",
+    imageAttribution: imageAttributions["st-peter-claver"],
     orderByDate: 1654
   },
   {
@@ -1093,6 +1134,7 @@ He died on March 23, 1606, in Saña, while on a pastoral visit. His last words w
       "Protected from wild animals and bandits during travels"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/e303a08bb4834a5c6238b40e9c0ea14c",
+    imageAttribution: imageAttributions["st-toribio-mogrovejo"],
     orderByDate: 1606
   },
   {
@@ -1122,6 +1164,7 @@ Each step, José cried out "Viva Cristo Rey!" (Long live Christ the King!). At t
       "His blood marked the ground where he died, unable to be washed away"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/0443dfd6fb7359f8cfed1fb3b8a5a7ed",
+    imageAttribution: imageAttributions["st-jose-sanchez-del-rio"],
     orderByDate: 1928
   },
   {
@@ -1152,6 +1195,7 @@ His bones are believed to rest beneath St. Peter's Basilica in Vatican City, whe
       "Defeated Simon Magus in Rome through prayer"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/8757c4dc5a9a56ae2529bc57dfb774e0",
+    imageAttribution: imageAttributions["st-peter-apostle"],
     orderByDate: 67
   },
   {
@@ -1182,6 +1226,7 @@ The Camino de Santiago became medieval Europe's most important pilgrimage after 
       "His tomb's discovery marked by celestial lights and music"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
+    imageAttribution: imageAttributions["st-james-greater"],
     orderByDate: 44
   },
   {
@@ -1216,6 +1261,7 @@ The duality of St. James - both peaceful pilgrim and militant warrior - reflects
       "His battle standard never fell in combat when carried into battle"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/d7dac4ae4eb4ccddc714bfd92a940c6b",
+    imageAttribution: imageAttributions["st-james-moorslayer"],
     orderByDate: 844
   },
   {
@@ -1248,6 +1294,7 @@ John died peacefully around 100 AD, the only apostle not martyred, buried at Eph
       "His Gospel's profound theology considered divinely inspired"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/629332d60c78f5fad95c1a56052ed80e",
+    imageAttribution: imageAttributions["st-john-apostle"],
     orderByDate: 100
   },
   {
@@ -1280,6 +1327,7 @@ His symbol is a winged man or angel, representing his Gospel's opening genealogy
       "Miraculous knowledge enabling him to write his Gospel"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/1962ecfdab6ee265c63df1d73d5a27e6",
+    imageAttribution: imageAttributions["st-matthew-apostle"],
     orderByDate: 74
   },
   {
@@ -1312,6 +1360,7 @@ Often confused with Philip the Deacon (who baptized the Ethiopian eunuch), the a
       "Appeared in visions to guide missionary work"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/32494774608dc7e66e2518e4a7432925",
+    imageAttribution: imageAttributions["st-philip-apostle"],
     orderByDate: 80
   },
   {
@@ -1344,6 +1393,7 @@ Legend says the sea receded annually to reveal his tomb, where miracles occurred
       "Protected sailors who invoked his intercession"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/99ca5d14c90b10297809cb130fc212bb",
+    imageAttribution: imageAttributions["st-clement-rome"],
     orderByDate: 99
   },
   {
@@ -1376,6 +1426,7 @@ Ignatius was martyred in the Flavian Amphitheater (Colosseum) around 108 AD. Wit
       "Protected Antioch through his intercession after death"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/35b6328f9e069c28153ed0b8d116a594",
+    imageAttribution: imageAttributions["st-ignatius-antioch"],
     orderByDate: 108
   },
   {
@@ -1408,6 +1459,7 @@ Tied to the stake, Polycarp prayed aloud, offering himself as a sacrifice. Witne
       "Appeared in visions to strengthen persecuted Christians"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/2a73860ea6a62c71ac0c4ca94a4bb809",
+    imageAttribution: imageAttributions["st-polycarp-smyrna"],
     orderByDate: 155
   },
   {
@@ -1437,6 +1489,7 @@ Despite this suffering, Joseph remained humble and obedient. He had remarkable r
       "Had supernatural knowledge of distant events"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/c2941fd73acf5c91bd9242cadbda2918",
+    imageAttribution: imageAttributions["st-joseph-cupertino"],
     orderByDate: 1663
   },
   {
@@ -1468,6 +1521,7 @@ Alessandro became a Capuchin lay brother, living in penance. He attended Maria's
       "Her mother lived to attend her canonization - unique in Church history"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/dac33c0779dd71d8bae17d36b6b22316",
+    imageAttribution: imageAttributions["st-maria-goretti"],
     orderByDate: 1902
   },
   {
@@ -1497,6 +1551,7 @@ Clare was ill for 27 years but remained joyful. On Christmas Eve 1252, too sick 
       "Protected Assisi from attack through her prayers"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/f734681ff2408e75f325e2030619aeb7",
+    imageAttribution: imageAttributions["st-clare-assisi"],
     orderByDate: 1253
   },
   {
@@ -1526,6 +1581,7 @@ Created Cardinal-Bishop of Albano in 1273, he helped prepare the Second Council 
       "Brought peace to the divided Franciscan Order"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/64c4d50a1f938c7246f7269182386c5a",
+    imageAttribution: imageAttributions["st-bonaventure"],
     orderByDate: 1274
   },
   {
@@ -1555,6 +1611,7 @@ She was beatified by Pope John Paul II in 1980 and canonized by Pope Benedict XV
       "Protection of Christian Native Americans during times of persecution"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/e348a5266ae095af5235cddd01153ccd",
+    imageAttribution: imageAttributions["st-kateri-tekakwitha"],
     orderByDate: 1680
   },
   {
@@ -1584,6 +1641,7 @@ Margaret's cult became extraordinarily popular in medieval Europe. She was inclu
       "Appeared to Joan of Arc providing guidance and courage"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/b1791043da9ff23c8181fbe4a422dad4",
+    imageAttribution: imageAttributions["st-margaret-antioch"],
     orderByDate: 304.5
   },
   {
@@ -1612,7 +1670,8 @@ His preaching was instrumental in the conversion of Augustine of Hippo, whom he 
       "Healed a boy in Florence through prayer",
       "Successfully defended churches against imperial seizure through prayer"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/fb9bb3ede0c51b00e0a3566bc7c921c0",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7355eb611db6c36b1c045c88d48fe35a",
+    imageAttribution: imageAttributions["st-ambrose"],
     orderByDate: 397
   },
   {
@@ -1642,6 +1701,7 @@ His fierce temperament made him many enemies. He engaged in bitter scholarly dis
       "Extraordinary productivity despite poor health seen as miraculous"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/996c852876d9a6814600a64592313989",
+    imageAttribution: imageAttributions["st-jerome"],
     orderByDate: 420
   },
   {
@@ -1671,6 +1731,7 @@ Finally, she was killed by a sword thrust through her throat. Before dying, she 
       "Light phenomena reported at her tomb and during her feast"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/929cdefd26acdff9fa5ef6821b8347c3",
+    imageAttribution: imageAttributions["st-lucy"],
     orderByDate: 304.2
   },
   {
@@ -1702,6 +1763,7 @@ The Divine Liturgy of St. John Chrysostom remains the most frequently celebrated
       "Appeared in visions after death to comfort the persecuted"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/ecc0e40543c7ae1f42812977a390bee2",
+    imageAttribution: imageAttributions["st-john-chrysostom"],
     orderByDate: 407
   },
   {
@@ -1732,7 +1794,8 @@ Despite constant illness and the burden of office, he maintained enormous corres
       "His prayers caused bread to multiply during famine",
       "Miraculous knowledge of distant events through divine revelation"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7f5c0a9d89ef7c5228d6bdca5451ef5d",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/fb9bb3ede0c51b00e0a3566bc7c921c0",
+    imageAttribution: imageAttributions["st-gregory-great"],
     orderByDate: 604
   },
   {
@@ -1762,6 +1825,7 @@ During a famine in 372-373, Ephrem organized relief efforts and personally cared
       "His writings survived destruction attempts, seen as divine preservation"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/747f1983d234ecb180f9fd7baf69da03",
+    imageAttribution: imageAttributions["st-ephrem-syrian"],
     orderByDate: 373
   },
   {
@@ -1793,6 +1857,7 @@ He spent his final years in peace in Alexandria, dying on May 2, 373. The Counci
       "His writings survived multiple destruction attempts miraculously"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/349f4ea1c1b89ec65618d009c0c2f368",
+    imageAttribution: imageAttributions["st-athanasius"],
     orderByDate: 373.2
   },
   {
@@ -1824,6 +1889,7 @@ Worn out by asceticism and tireless work, he died on January 1, 379, at age 49. 
       "The Holy Spirit appeared as a dove whispering in his ear while preaching"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/61492bf3f72b4c3b17d538b0ff5ddec0",
+    imageAttribution: imageAttributions["st-basil-great"],
     orderByDate: 379
   },
   {
@@ -1854,7 +1920,8 @@ He died on June 27, 444. Despite his flaws, his passionate defense of the Incarn
       "His writings survived multiple attempts at suppression",
       "Churches dedicated after his victories experienced miraculous events"
     ],
-    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7355eb611db6c36b1c045c88d48fe35a",
+    imageUrl: "https://page.gensparksite.com/v1/base64_upload/7f5c0a9d89ef7c5228d6bdca5451ef5d",
+    imageAttribution: imageAttributions["st-cyril-alexandria"],
     orderByDate: 444
   },
   {
@@ -1886,6 +1953,7 @@ She was beatified in 1992 and canonized by Pope Benedict XVI in 2008, becoming E
       "Appeared in dreams to provide spiritual guidance after death"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/02571ddf85fcc7e7c0a84c7a6b2e63f8",
+    imageAttribution: imageAttributions["st-narcisa-jesus"],
     orderByDate: 1869
   }
 ];

@@ -188,7 +188,7 @@ function openModal(saint) {
         <div class="relative bg-gray-900">
             <!-- Full Image Container - Shows ENTIRE uncropped image -->
             <div class="bg-gray-800 p-4 flex items-center justify-center">
-                <div class="cursor-pointer relative group" onclick="showFullImage('${saint.imageUrl}', '${saint.name}')">
+                <div class="cursor-pointer relative group" onclick="showFullImage('${saint.imageUrl}', '${saint.name}', \`${saint.imageAttribution || ''}\`)">
                     <img src="${saint.imageUrl}" 
                          alt="${saint.name}" 
                          class="max-w-full h-auto mx-auto shadow-2xl"
@@ -209,6 +209,18 @@ function openModal(saint) {
                     </div>
                 </div>
             </div>
+            
+            <!-- Image Attribution -->
+            ${saint.imageAttribution ? `
+                <div class="bg-gray-800 px-4 pb-3 -mt-1">
+                    <div class="text-center">
+                        <p class="text-xs text-gray-400 sans-text italic">
+                            <i class="fas fa-palette mr-1 text-yellow-500 opacity-60"></i>
+                            ${saint.imageAttribution}
+                        </p>
+                    </div>
+                </div>
+            ` : ''}
             
             <!-- Saint Information Bar -->
             <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 border-t border-gray-700">
@@ -296,7 +308,7 @@ function closeModal() {
 }
 
 // Show full size image
-function showFullImage(imageUrl, altText) {
+function showFullImage(imageUrl, altText, attribution) {
     // Create fullscreen image overlay with better styling
     const overlay = document.createElement('div');
     overlay.className = 'fixed inset-0 z-[60] bg-black bg-opacity-95 flex items-center justify-center cursor-zoom-out';
@@ -320,11 +332,19 @@ function showFullImage(imageUrl, altText) {
                 <i class="fas fa-times text-xl"></i>
             </button>
             
-            <!-- Image title -->
+            <!-- Image title and attribution -->
             <div class="absolute bottom-4 left-4 right-4 text-center">
-                <p class="text-white text-lg serif-text bg-black bg-opacity-70 px-4 py-2 rounded-lg inline-block">
-                    ${altText}
-                </p>
+                <div class="bg-black bg-opacity-80 px-6 py-3 rounded-lg inline-block max-w-4xl">
+                    <p class="text-white text-lg serif-text mb-1">
+                        ${altText}
+                    </p>
+                    ${attribution ? `
+                        <p class="text-gray-300 text-xs sans-text italic">
+                            <i class="fas fa-palette mr-1 text-yellow-500 opacity-60"></i>
+                            ${attribution}
+                        </p>
+                    ` : ''}
+                </div>
             </div>
             
             <!-- Instructions -->
