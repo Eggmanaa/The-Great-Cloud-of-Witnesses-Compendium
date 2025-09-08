@@ -34,7 +34,7 @@ export const imageAttributions: Record<string, string> = {
   "st-juan-diego": "The Miracle of Guadalupe by Unknown (19th/20th Century). Unknown Church (Likely in Mexico). Painting",
   
   // Apostles and Early Church Fathers
-  "st-james-greater": "The Battle of Clavijo (Santiago Matamoros) by José Casado del Alisal (1885). Basilica of San Francisco el Grande, Madrid, Spain. Oil on canvas",
+  "st-james-greater": "Saint James the Greater by Jusepe de Ribera (c. 1631). Museo Nacional del Prado, Madrid, Spain. Oil on canvas",
   "st-james-moorslayer": "The Battle of Clavijo (Santiago Matamoros) by José Casado del Alisal (1885). Basilica of San Francisco el Grande, Madrid, Spain. Oil on canvas",
   "st-peter-apostle": "Christ Handing the Keys to St. Peter by Pietro Perugino (1481–1482). Sistine Chapel, Vatican City. Fresco",
   "st-matthew-apostle": "The Inspiration of Saint Matthew by Caravaggio (1602). Contarelli Chapel, Rome, Italy. Oil on canvas",

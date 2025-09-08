@@ -1201,29 +1201,27 @@ His bones are believed to rest beneath St. Peter's Basilica in Vatican City, whe
   {
     id: "st-james-greater",
     name: "St. James the Greater",
-    title: "Santiago Matamoros, Apostle and Martyr",
-    knownFor: "First Apostolic Martyr, Patron of Spain",
+    title: "Son of Thunder, First Apostle-Martyr",
+    knownFor: "Apostle of Jesus Christ, Pillar of the Church, Patron of Spain, Brother of St. John",
     feastDay: "July 25",
-    lifespan: "d. c. 44 AD",
-    patronOf: "Spain, Pilgrims, Laborers, Knights, Soldiers",
-    shortBio: "Son of Zebedee and brother of John, he was one of Jesus's inner circle. The first apostle to be martyred, he became Spain's patron saint. His shrine at Santiago de Compostela is one of Christianity's greatest pilgrimage destinations.",
-    fullBio: `James, son of Zebedee and Salome, was a fisherman from Bethsaida called by Jesus along with his brother John. Their fiery temperament earned them the nickname 'Boanerges' (Sons of Thunder). With Peter and John, James formed Christ's inner circle, witnessing the Transfiguration, the raising of Jairus's daughter, and the agony in Gethsemane.
+    lifespan: "Early 1st century AD – 44 AD",
+    patronOf: "Spain, Pilgrims, Laborers, Soldiers, Veterinarians, Equestrians",
+    shortBio: "One of the Twelve Apostles of Jesus Christ and part of His innermost circle, along with his brother, St. John the Evangelist, and St. Peter. A fisherman from Galilee who immediately left everything to follow Christ.",
+    fullBio: `St. James the Greater was one of the Twelve Apostles of Jesus Christ and part of His innermost circle, along with his brother, St. John the Evangelist, and St. Peter. A fisherman from Galilee and the son of Zebedee, James was called by Jesus along with John while they were mending their nets. He immediately left his boat and father to follow Christ, demonstrating an immediate and total commitment to his new calling.
 
-Tradition holds that after Pentecost, James traveled to Hispania (Spain) to preach the Gospel. Discouraged by his lack of success, he received a miraculous apparition of the Virgin Mary, still living in Jerusalem, who appeared on a pillar by the Ebro River at Zaragoza. She encouraged him to persevere, and this site became the shrine of Our Lady of the Pillar.
+Jesus gave James and John the Aramaic nickname Boanerges, meaning "Sons of Thunder," likely due to their zealous, fiery, and sometimes impetuous personalities. This was evident when they wished to call down fire from heaven upon a Samaritan village that would not welcome Jesus. Despite this impulsiveness, James's passion was channeled into profound loyalty. He was one of only three apostles chosen to witness the Transfiguration, the raising of Jairus's daughter, and Jesus's Agony in the Garden of Gethsemane.
 
-Returning to Jerusalem, James was arrested during Herod Agrippa I's persecution. Acts 12:2 records his execution by sword around 44 AD, making him the first apostle to be martyred. Legend states his disciples placed his body in a rudderless boat that miraculously sailed to Galicia in northwestern Spain.
+After Christ's Ascension, James became a powerful leader in the early Church in Jerusalem. His unwavering proclamation of the Gospel drew the ire of King Herod Agrippa, who sought to suppress the growing Christian movement. As recorded in the Acts of the Apostles (12:2), Herod had James executed by the sword in 44 AD, making him the first of the apostles to be martyred for the faith.
 
-His tomb was forgotten until 813, when a hermit named Pelagius, guided by a star, discovered it in a field called Campus Stellae (Field of Stars), later Compostela. The discovery transformed James into Santiago, Spain's warrior patron. His most famous posthumous miracle occurred at the Battle of Clavijo in 844, where he appeared on a white horse to lead Christian forces to victory over the Moors, earning the title 'Matamoros' (Moor-slayer).
+A strong and ancient tradition holds that before his martyrdom, St. James traveled to the Roman province of Hispania (modern-day Spain) to preach the Gospel. Though he met with little success initially, his mission laid the foundation for one of the most vibrant Catholic cultures in history. According to tradition, his disciples carried his body by sea back to Spain and buried it in Galicia.
 
-The Camino de Santiago became medieval Europe's most important pilgrimage after Rome and Jerusalem. Millions have walked the ancient routes, marked by the scallop shell symbol, seeking spiritual transformation. James represents both contemplative pilgrimage and militant faith, embodying the complex history of Christian Spain.`,
+For centuries, the tomb's location was lost. In the 9th century, a hermit named Pelagius was guided by a star to a field where the long-forgotten tomb was rediscovered. A great cathedral was built on the site, which became known as Santiago de Compostela ("St. James of the Starry Field"). This shrine grew to become one of the most important pilgrimage sites in Christendom, with the "Camino de Santiago" or "The Way of St. James" drawing millions of pilgrims over the centuries on a spiritual journey of faith and endurance. St. James thus represents the ultimate witness—one who followed Christ intimately, preached His word to distant lands, and sealed his testimony with his own blood.`,
     miracles: [
-      "Received apparition of Virgin Mary at Zaragoza",
-      "His body miraculously sailed to Spain in a stone boat",
-      "Appeared at Battle of Clavijo leading Christian forces",
-      "Protected pilgrims on the Camino de Santiago",
-      "Healed a man falsely hanged whose roasted fowl came to life",
-      "Multiple battlefield appearances during the Reconquista",
-      "His tomb's discovery marked by celestial lights and music"
+      "Witnessed the raising of Jairus's daughter from the dead",
+      "Witnessed the Transfiguration of Jesus on Mount Tabor",
+      "According to tradition, received an apparition of the Virgin Mary atop a pillar in Zaragoza, Spain",
+      "His tomb was miraculously rediscovered nearly 800 years after his death",
+      "Numerous miracles and conversions are attributed to his intercession along the Camino de Santiago"
     ],
     imageUrl: "https://page.gensparksite.com/v1/base64_upload/2b7a95ac58f72977e7577da6291f1a36",
     imageAttribution: imageAttributions["st-james-greater"],
