@@ -16,6 +16,7 @@
 ### Search Engine Optimization
 - ✅ **Google Search Console Verified** - Site ready for Google indexing
 - ✅ **Bing Webmaster Tools Verified** - Site ready for Bing indexing
+- ✅ **IndexNow Integration** - Instant notification to Bing and Yandex when content changes
 - ✅ **XML Sitemap** - Complete sitemap with 68 URLs at /sitemap.xml
 - ✅ **Robots.txt** - Search engine crawl instructions at /robots.txt
 - ✅ **Text Sitemap** - Alternative format at /sitemap.txt
@@ -57,6 +58,8 @@
 - `/api/health` - Health check endpoint
 - `/api/saints` - Get all saints data (JSON)
 - `/api/saints/:id` - Get specific saint by ID
+- `/api/indexnow/submit` - Submit URLs to IndexNow (POST)
+- `/api/indexnow/submit-all` - Submit all saint URLs to IndexNow (GET)
   - Original Saints: `st-agnes`, `st-anthony-padua`, `st-francis-assisi`, `st-catherine-siena`, `st-ignatius-loyola`, `st-teresa-avila`, `our-lady-guadalupe`, `st-padre-pio`, `st-gabriel-archangel`, `st-carlo-acutis`
   - New Saints: `st-augustine-hippo`, `st-monica-mother`, `st-patrick-ireland`, `st-hildegard-bingen`, `st-thomas-aquinas`, `st-joan-arc`, `st-francis-xavier-missionary`, `st-john-cross-mystic`, `st-therese-lisieux`, `st-maximilian-kolbe-martyr`
   - Additional Saints: `st-cecilia-virgin-martyr`, `st-vincent-de-paul-charity`, `st-john-bosco-youth`, `st-juan-diego`
@@ -69,6 +72,8 @@
 #### Static Resources
 - `/static/app.js` - Main JavaScript application
 - `/static/style.css` - Additional styles
+- `/indexnow-admin.html` - IndexNow submission admin interface
+- `/acbeeed8cc084b3a8c3b8050d533ada5.txt` - IndexNow verification key
 
 ## Saints Featured (Chronologically Ordered) - 66 Total Saints
 
