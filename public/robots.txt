@@ -1,0 +1,30 @@
+# Robots.txt for The Great Cloud of Witnesses Compendium
+# https://great-cloud-witnesses.pages.dev/
+
+User-agent: *
+Allow: /
+Disallow: /_worker.js
+Disallow: /_routes.json
+
+# Sitemaps
+Sitemap: https://great-cloud-witnesses.pages.dev/sitemap.xml
+
+# Crawl-delay (in seconds) - be respectful to the server
+Crawl-delay: 1
+
+# Search Engine Specific Rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
