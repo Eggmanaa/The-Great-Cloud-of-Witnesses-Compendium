@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexNow Admin - The Great Cloud of Witnesses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-yellow-400">
+            <i class="fas fa-paper-plane mr-2"></i>
+            IndexNow Submission Tool
+        </h1>
+        
+        <div class="bg-gray-800 rounded-lg p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4 text-yellow-300">
+                <i class="fas fa-info-circle mr-2"></i>
+                IndexNow Status
+            </h2>
+            <div class="space-y-2 text-sm">
+                <p><strong>API Key:</strong> <code class="bg-gray-700 px-2 py-1 rounded">acbeeed8cc084b3a8c3b8050d533ada5</code></p>
+                <p><strong>Key Location:</strong> <a href="/acbeeed8cc084b3a8c3b8050d533ada5.txt" class="text-blue-400 hover:underline" target="_blank">https://great-cloud-witnesses.pages.dev/acbeeed8cc084b3a8c3b8050d533ada5.txt</a></p>
+                <p><strong>Host:</strong> great-cloud-witnesses.pages.dev</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4 text-yellow-300">
+                <i class="fas fa-rocket mr-2"></i>
+                Quick Actions
+            </h2>
+            
+            <button onclick="submitAllUrls()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mb-4 w-full">
+                <i class="fas fa-globe mr-2"></i>
+                Submit All Saint URLs to IndexNow
+            </button>
+            
+            <button onclick="submitHomepage()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mb-4 w-full">
+                <i class="fas fa-home mr-2"></i>
+                Submit Homepage Only
+            </button>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4 text-yellow-300">
+                <i class="fas fa-list mr-2"></i>
+                Custom URL Submission
+            </h2>
+            
+            <textarea 
+                id="customUrls" 
+                class="w-full h-32 p-3 bg-gray-700 rounded-lg text-gray-100 font-mono text-sm"
+                placeholder="Enter URLs to submit (one per line)...&#10;Example:&#10;https://great-cloud-witnesses.pages.dev/&#10;https://great-cloud-witnesses.pages.dev/api/saints/st-agnes"
+            ></textarea>
+            
+            <button onclick="submitCustomUrls()" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mt-4 w-full">
+                <i class="fas fa-upload mr-2"></i>
+                Submit Custom URLs
+            </button>
+        </div>
+        
+        <div id="results" class="bg-gray-800 rounded-lg p-6 hidden">
+            <h2 class="text-xl font-semibold mb-4 text-yellow-300">
+                <i class="fas fa-check-circle mr-2"></i>
+                Submission Results
+            </h2>
+            <pre id="resultsContent" class="bg-gray-700 p-4 rounded-lg overflow-x-auto text-sm"></pre>
+        </div>
+    </div>
+    
+    <script>
+        async function submitAllUrls() {
+            showLoading();
+            try {
+                const response = await fetch('/api/indexnow/submit-all');
+                const data = await response.json();
+                showResults(data);
+            } catch (error) {
+                showError(error);
+            }
+        }
+        
+        async function submitHomepage() {
+            showLoading();
+            try {
+                const response = await fetch('/api/indexnow/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        urls: ['https://great-cloud-witnesses.pages.dev/']
+                    })
+                });
+                const data = await response.json();
+                showResults(data);
+            } catch (error) {
+                showError(error);
+            }
+        }
+        
+        async function submitCustomUrls() {
+            const textarea = document.getElementById('customUrls');
+            const urls = textarea.value
+                .split('\n')
+                .map(url => url.trim())
+                .filter(url => url.length > 0);
+            
+            if (urls.length === 0) {
+                alert('Please enter at least one URL');
+                return;
+            }
+            
+            showLoading();
+            try {
+                const response = await fetch('/api/indexnow/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ urls })
+                });
+                const data = await response.json();
+                showResults(data);
+            } catch (error) {
+                showError(error);
+            }
+        }
+        
+        function showLoading() {
+            const results = document.getElementById('results');
+            const content = document.getElementById('resultsContent');
+            results.classList.remove('hidden');
+            content.textContent = 'Submitting URLs to IndexNow...';
+        }
+        
+        function showResults(data) {
+            const results = document.getElementById('results');
+            const content = document.getElementById('resultsContent');
+            results.classList.remove('hidden');
+            content.textContent = JSON.stringify(data, null, 2);
+        }
+        
+        function showError(error) {
+            const results = document.getElementById('results');
+            const content = document.getElementById('resultsContent');
+            results.classList.remove('hidden');
+            content.textContent = 'Error: ' + error.message;
+        }
+    </script>
+</body>
+</html>
