@@ -8,6 +8,9 @@ Disallow: /_routes.json
 
 # Sitemaps
 Sitemap: https://great-cloud-witnesses.pages.dev/sitemap.xml
+Sitemap: https://great-cloud-witnesses.pages.dev/sitemap-simple.xml
+Sitemap: https://great-cloud-witnesses.pages.dev/sitemap-index.xml
+Sitemap: https://great-cloud-witnesses.pages.dev/sitemap.txt
 
 # Crawl-delay (in seconds) - be respectful to the server
 Crawl-delay: 1
